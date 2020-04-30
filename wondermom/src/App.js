@@ -35,7 +35,7 @@ class App extends Component {
         <main style={{marginTop: '64px'}}>
           <p>Hello im page one</p>
         </main>
-        
+
       </div>
     );
   }  
