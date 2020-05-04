@@ -36,7 +36,42 @@
 .side-drawer a:active {
     color: white;
 }
+  
+li.dropdown {
+    display: inline-block;
+  }
 
+li a, .dropbtn {
+    display: inline-block;
+    color:transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#86a3b5 ;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c8d9eb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.dropdown-content a:hover {background-color: #d67fa1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 @media (min-width: 769px){
     .side-drawer{

@@ -49,6 +49,18 @@ height: 56px;
     color: white;
 
 }
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#86a3b5 ;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:yellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
 
 @media (max-width: 768px) {
     .toolbar_navigation-items {
