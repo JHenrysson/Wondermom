@@ -1,11 +1,13 @@
 import React from 'react';
+import './Programs.css';
 
-function Programs() {
-    return (
-      <div>
-        <h2>Programs</h2>
-      </div>
-    );
-  }
+const programs = props => (
+    <div id = "main">
+        <div id = "headline">
+            <h2> 6 Week Program </h2>
 
-  export default Programs;
+         </div>
+    </div>
+);
+
+export default programs;
