@@ -3,6 +3,7 @@ import './App.css';
 import Toolbar from './components/cak/Toolbar/Toolbar';
 import SideDrawer from './components/cak/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+//import Nutrition from './pages/Nutrition';
 
 
 class App extends Component {
