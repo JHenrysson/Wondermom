@@ -14,12 +14,12 @@ const toolbar = props => (
             <div className="spacer" />
             <div className="toolbar_navigation-items">
                 <ul>
-                    <li><a href="/">Offers</a></li>
+                    <li><a href="/">Offers<i class=""></i></a></li>
 
                     <li><a href="/">About</a></li>
 
                     <li className="dropdown">
-                        <a href="/">Programs</a>
+                        <a href="/">Programs<i class="fa fa-chevron-down"></i></a>
                     <div className="dropdown-content">
                         <a href="/">6 week program</a>
                         <a href="/">Program 2</a>
