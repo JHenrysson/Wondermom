@@ -14,11 +14,11 @@ const sideDrawer = props => {
                 <a href="/">About</a>
             </li>
             <li>
-                <a href="/"><i class=""></i>Offers</a>
+                <a href="/"><i className=""></i>Offers</a>
             </li>
 
             <li className="dropdown">
-                <a href="/">Programs<i class="fa fa-chevron-down"></i></a>
+                <a href="/">Programs<i className="fa fa-chevron-down"></i></a>
                 <div className="dropdown-content">
 
                     <a href="/">6 week program</a>
