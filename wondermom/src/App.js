@@ -4,8 +4,13 @@ import Toolbar from './components/cak/Toolbar/Toolbar';
 import SideDrawer from './components/cak/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
-//Pages
-import Nutrition from './pages/Nutrition';
+// Pages
+//import Nutrition from './pages/Nutrition';
+// style
+//import { makeStyles } from "@material-ui/core";
+//import { Grid, Paper } from "@material-ui/core";
+
+ 
 class App extends Component {
     state = {
       sideDrawerOpen: false
@@ -39,7 +44,8 @@ class App extends Component {
 
       </div>
     );
-  }  
+  }
 }
+
 
 export default App;

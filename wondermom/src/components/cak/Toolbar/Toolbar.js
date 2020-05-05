@@ -1,38 +1,54 @@
 import React from 'react';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const toolbar = props => (
-    <header className="toolbar">
-        <nav className="toolbar_navigation">
-            <div className="toolbar_toggle-button">
+    <Router>
+        <header className="toolbar">
+            <nav className="toolbar_navigation">
+                <div className="toolbar_toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler}/>
-            </div>
-            <div className="toolbar_logo"><a href="/">Wonder Mom</a>
-            </div>
-            <div className="spacer" />
-            <div className="toolbar_navigation-items">
-                <ul>
-                    <li><a href="./Nutrition">Offers<i className=""></i></a></li>
+                </div>
 
-                    <li><a href="/">About</a></li>
+                <div className="toolbar_logo"><a href="/">Wonder Mom</a>
+                </div>
 
-                    <li className="dropdown">
-                        <a href="/">Programs<i className="fa fa-chevron-down"></i></a>
-                    <div className="dropdown-content">
-                        <a href="/">6 week program</a>
-                        <a href="/">Program 2</a>
-                        <a href="/">Program 3</a>
-                    </div>
-                    </li>
+                <div className="spacer" />
+                <div className="toolbar_navigation-items">
+                    <ul>
+                        <li>
+                            <Link to="/Offers">Offers<i className=""></i></Link>
+                        </li>
+                        <li>
+                            <Link to ="/About">About</Link>
+                        </li>
 
-                    <li><a href="/pages/Nutrition">Nutrition</a></li>
+                        <li className="dropdown">
+                            <Link to="/Program">Programs<i className="fa fa-chevron-down"></i></Link>
+                <div className="dropdown-content">
+                            <Link to="/">6 week program</Link>
+                            <Link to="/">Program 2</Link>
+                            <Link to="/">Program 3</Link>
+                </div>
+                        </li>
+                        <li>
+                            <Link to="/Nutrition">Nutrition</Link>
+                        </li>
 
-                    <li><a href="/">Profile</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+                        <li>
+                            <Link to="/">Profile</Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </Router>
 );
 
 export default toolbar;

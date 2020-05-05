@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Nutrtion = () => {
-    return(
+ 
+function Nutrition() {
+    return (
         <div>
-            <p>WELCOME TO NUTRITION PLANER</p>
+            <p>Nutrition</p>
         </div>
-    );
+    );   
 }
 export default Nutrtion;
