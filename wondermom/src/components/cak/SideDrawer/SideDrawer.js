@@ -1,11 +1,6 @@
 import React from 'react';
 import './SideDrawer.css';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+
 //import drawerToggleButton from './DrawerToggleButton';
 
 const sideDrawer = props => {
@@ -14,7 +9,6 @@ const sideDrawer = props => {
         drawerClasses= 'side-drawer open';
     }
     return (
-    <Router>
     <nav className={drawerClasses}>
         <ul>
             <li>
@@ -44,7 +38,7 @@ const sideDrawer = props => {
             <li><a href="/">Login</a></li>
         </ul>
     </nav>
-</Router>
+
 );
 };
 
