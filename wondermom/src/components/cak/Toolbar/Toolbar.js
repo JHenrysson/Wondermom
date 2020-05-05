@@ -14,29 +14,29 @@ const toolbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler}/>
                 </div>
 
-                <div className="toolbar_logo"><a href="/">Wonder Mom</a>
+                <div className="toolbar_logo"><Link to="/">Wonder Mom</Link>
                 </div>
 
                 <div className="spacer" />
                 <div className="toolbar_navigation-items">
                     <ul>
                         <li>
-                            <Link to="/Offers">Offers<i className=""></i></Link>
+                            <Link href="/offers" to="/offers">Offers<i className=""></i></Link>
                         </li>
                         <li>
-                            <Link to ="/About">About</Link>
+                            <Link href="about" to ="/about" >About</Link>
                         </li>
 
                         <li className="dropdown">
-                            <Link to="/Program">Programs<i className="fa fa-chevron-down"></i></Link>
-                <div className="dropdown-content">
+                            <Link to="/orogram">Programs<i className="fa fa-chevron-down"></i></Link>
+                                <div className="dropdown-content">
                             <Link to="/">6 week program</Link>
                             <Link to="/">Program 2</Link>
                             <Link to="/">Program 3</Link>
-                </div>
+                                </div>
                         </li>
                         <li>
-                            <Link to="/Nutrition">Nutrition</Link>
+                            <Link href="/nutrition" to="/nutrition">Nutrition</Link>
                         </li>
 
                         <li>

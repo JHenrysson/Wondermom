@@ -1,11 +1,13 @@
 import React from 'react';
 
- 
+
 function Nutrition() {
     return (
-        <div>
-            <p>Nutrition</p>
-        </div>
-    );   
-}
-export default Nutrtion;
+      <div>
+        <h2>About</h2>
+        <p>Nutrition Page</p>
+      </div>
+    );
+  }
+
+  export default Nutrition;

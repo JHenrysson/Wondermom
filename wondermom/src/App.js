@@ -5,10 +5,12 @@ import SideDrawer from './components/cak/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
 // Pages
-//import Nutrition from './pages/Nutrition';
-// style
-//import { makeStyles } from "@material-ui/core";
-//import { Grid, Paper } from "@material-ui/core";
+import Nutrition from './pages/Nutrition';
+import About from './pages/About';
+import Home from './pages/Home';
+
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+
 
  
 class App extends Component {
@@ -34,18 +36,24 @@ class App extends Component {
     }
 
     return (
-      <div style={{height: '100%'}}>
-        <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
-        <SideDrawer show={this.state.sideDrawerOpen}/>
-        {backdrop}
-        <main style={{marginTop: '64px'}}>
-          <p>Hello im page one</p>
-        </main>
+      <Router>
+        <div>
+          <Route exact path="/home" component = {Home}/>
+          <Route path ="/nutrition" component ={Nutrition}/>
+          <Route path ="/about" component ={About}/>
 
-      </div>
-    );
+            <div style={{height: '100%'}}>
+              <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
+              <SideDrawer show={this.state.sideDrawerOpen}/>
+              {backdrop}
+                <main style={{marginTop: '64px'}}>
+                  <p>Hello im page one</p>
+                </main>
+              </div>
+          </div>
+        </Router>
+      );
+    }
   }
-}
-
 
 export default App;
