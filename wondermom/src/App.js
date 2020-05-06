@@ -8,6 +8,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Nutrition from './pages/Nutrition';
 import About from './pages/About';
 import Home from './pages/Home';
+import Programs from './pages/Programs';
 
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
@@ -41,6 +42,7 @@ class App extends Component {
           <Route exact path="/home" component = {Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/about" component ={About}/>
+          <Route path ="/programs" component ={Programs}/>
 
             <div style={{height: '100%'}}>
               <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
