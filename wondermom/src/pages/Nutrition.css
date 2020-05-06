@@ -1,3 +1,21 @@
+
+.btn1{
+    background-color:#D67FA1;
+    color: black;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#button{
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
 .container {
     margin-top: 8%;
 }
