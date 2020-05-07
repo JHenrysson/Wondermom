@@ -40,11 +40,13 @@ class App extends Component {
     return (
       <Router>
         <div>
+          <div style={{marginTop: '56px'}}>
           <Route exact path="/home" component = {Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/about" component ={About}/>
           <Route path ="/offers" component ={Offers}/>
           <Route path ="/programs" component ={Programs}/>
+          </div>
 
             <div style={{height: '100%'}}>
               <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
