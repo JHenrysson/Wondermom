@@ -1,5 +1,9 @@
+//Basic stuff that is important for things to work
 import React, { Component } from 'react';
 import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+
+// Navbar Components
 import Toolbar from './components/cak/Toolbar/Toolbar';
 import SideDrawer from './components/cak/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
@@ -11,21 +15,21 @@ import Home from './pages/Home';
 import Programs from './pages/Programs';
 import Offers from './pages/Offers';
 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
-
-
 // This is the animation of the navbar
 class App extends Component {
     state = {
       sideDrawerOpen: false
     };
+
 //This is the hamburgerbutton
   drawerToogleClickHandler = () => {
     this.setState((prevState)=> {
       return{sideDrawerOpen: !prevState.sideDrawerOpen};
     });
   };
-
+  
+//This is a backdrop for the sidedrawer like a shadow over the background in the browser.
+//control by click on site.
   backdropClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   };
@@ -36,7 +40,9 @@ class App extends Component {
     if (this.state.sideDrawerOpen){
       backdrop = <Backdrop click = {this.backdropClickHandler}/>
     }
-//here is the pages 
+
+//here is the pages//navbar linking.
+//the router is linking the pages to the link to="/example" 
     return (
       <Router>
         <div>

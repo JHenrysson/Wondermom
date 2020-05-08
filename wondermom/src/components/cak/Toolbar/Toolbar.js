@@ -3,6 +3,7 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 import {Link} from "react-router-dom";
 
+//navbar for the browser
 const toolbar = props => (
         <header className="toolbar">
             <nav className="toolbar_navigation">

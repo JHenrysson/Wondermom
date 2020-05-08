@@ -12,7 +12,12 @@ function Nutrition() {
         <button className="btn1">Join now!</button>
     </div>
 
+    <div className="spaceing">
+        <h3>spaceing</h3>
+    </div>
+
       <div className="container">
+          <h2>Breakfast</h2>
           <div className="row justify-content-center">
               <div className="col-md">
                   <div className="card shadow">

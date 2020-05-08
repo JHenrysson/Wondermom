@@ -46,7 +46,7 @@ height: 56px;
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active{
-    color: white;
+    color:#f8ecec;
 
 }
 li a:hover, .dropdown:hover .dropbtn {
@@ -55,7 +55,6 @@ li a:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:yellow;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
