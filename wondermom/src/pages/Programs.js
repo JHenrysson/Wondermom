@@ -1,11 +1,16 @@
 import React from 'react';
+import './Programs.css';
 
-function Programs() {
-    return (
-      <div>
-        <h2>Programs</h2>
-      </div>
-    );
-  }
+const programs = props => (
+    <div id = "main">
+        <div id = "headline">
+            <p>  6 Week Program </p>
+        </div>
+        <div id= "button">
+            <a href="www.facebook.com" className="button">Join Now!</a>
+        </div>
 
-  export default Programs;
+    </div>
+);
+
+export default programs;
