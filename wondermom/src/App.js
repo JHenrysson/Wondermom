@@ -12,12 +12,12 @@ import Home from './pages/Home';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
- 
+// This is the animation of the navbar
 class App extends Component {
     state = {
       sideDrawerOpen: false
     };
-
+//This is the hamburgerbutton
   drawerToogleClickHandler = () => {
     this.setState((prevState)=> {
       return{sideDrawerOpen: !prevState.sideDrawerOpen};
@@ -34,13 +34,15 @@ class App extends Component {
     if (this.state.sideDrawerOpen){
       backdrop = <Backdrop click = {this.backdropClickHandler}/>
     }
-
+//here is the pages 
     return (
       <Router>
         <div>
           <Route exact path="/home" component = {Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/about" component ={About}/>
+          <Route path ="/offers" component ={About}/>
+          <Route path ="/programs" component ={About}/>
 
             <div style={{height: '100%'}}>
               <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
