@@ -10,20 +10,20 @@ const toolbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler}/>
                 </div>
 
-                <div className="toolbar_logo"><Link to="/">Wonder Mom</Link>
+                <div className="toolbar_logo"><Link to="/home">Wonder Mom</Link>
                 </div>
 
                 <div className="spacer" />
                 <div className="toolbar_navigation-items">
                     <ul>
                         <li>
-                            <Link href="/home" to="/home">Home</Link>
+                            <Link to="/home">Home</Link>
                         </li>
                         <li>
-                            <Link href="/offers" to="/offers">Offers</Link>
+                            <Link to="/offers">Offers</Link>
                         </li>
                         <li>
-                            <Link href="/about" to ="/about" >About</Link>
+                            <Link to="/about">About</Link>
                         </li>
 
                         <li className="dropdown">
@@ -35,7 +35,7 @@ const toolbar = props => (
                                 </div>
                         </li>
                         <li>
-                            <Link href="/nutrition" to="/nutrition">Nutrition</Link>
+                            <Link to="/nutrition">Nutrition</Link>
                         </li>
                     </ul>
                 </div>
