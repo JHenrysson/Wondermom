@@ -27,6 +27,9 @@ h2{
     margin: 1px;
     padding: 1px;
 }
+h4{
+    font-size: 24px;
+}
 
 img {
     height: 15rem;
