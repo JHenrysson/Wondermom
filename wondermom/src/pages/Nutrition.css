@@ -35,7 +35,7 @@ img {
 
 @media (max-width: 768px) {
     .container{
-        width: 50%;
+        width: 70%;
     }
     h2{
         font-size: 32px;
