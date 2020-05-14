@@ -8,7 +8,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Nutrition from './pages/Nutrition';
 import About from './pages/About';
 import Home from './pages/Home';
-import Programs from './pages/Programs';
+import Programs from './pages/SixWeekProgram';
 import Offers from './pages/Offers';
 
 import {BrowserRouter as Router, Route} from 'react-router-dom';
@@ -45,7 +45,7 @@ class App extends Component {
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/about" component ={About}/>
           <Route path ="/offers" component ={Offers}/>
-          <Route path ="/programs" component ={Programs}/>
+          <Route path ="/sixWeekProgram" component ={Programs}/>
           <Route path ="/dayOne" component={DayOne}/>
           </div>
 

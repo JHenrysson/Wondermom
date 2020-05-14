@@ -1,7 +1,7 @@
 import React from 'react';
-import './Programs.css';
+import './SixWeekProgram.css';
 
-const programs = props => (
+const sixWeekProgram = props => (
     <div id = "main">
         <div id = "headline">
             <p>  6 Week Program </p>
@@ -45,4 +45,4 @@ const programs = props => (
     </div>
 );
 
-export default programs;
+export default sixWeekProgram;
