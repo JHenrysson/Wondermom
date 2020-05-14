@@ -15,10 +15,10 @@
     background-color:#E1A1BA;
 }
 
-#button{
+#headline2{
     display: block;
     text-align: center;
-    margin: 1%;
+    margin: 5%;
 }
 
 h2{
@@ -29,7 +29,7 @@ h2{
 }
 
 img {
-    height: 20rem;
+    height: 15rem;
     width: 100%;
 }
 
@@ -51,5 +51,6 @@ img {
     .container{
         width: 100%;
     }
+
 
 }
