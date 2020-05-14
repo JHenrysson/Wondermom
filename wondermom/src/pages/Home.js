@@ -1,9 +1,12 @@
 import React from 'react';
+import './Home.css'
 
 function Home() {
     return (
-      <div>
-        <img src="/images/workouthug.jpg" alt="workoutfriends"/>
+      <div className="jumbotron">
+        <div className="container">
+          
+        </div>
       </div>
     );
   }
