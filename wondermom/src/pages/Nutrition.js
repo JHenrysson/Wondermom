@@ -29,6 +29,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
+                    <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -44,6 +45,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
+                        <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -59,6 +61,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
+                    <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -73,6 +76,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
+                        <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -96,6 +100,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
+                    <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -111,6 +116,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
+                        <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -126,6 +132,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
+                    <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -140,6 +147,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
+                        <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -163,6 +171,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
+                    <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -178,6 +187,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
+                        <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -193,6 +203,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
+                    <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>
@@ -207,6 +218,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
+                        <a href="#" class="card-link">Read more</a>
                     </div>
                 </div>
             </div>

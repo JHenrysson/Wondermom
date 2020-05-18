@@ -1,3 +1,20 @@
+
 body{
-    background-color:#c8d9eb;
+    background-image:linear-gradient(#4b086d,#acc0fe);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+    font-size: 44px;
+    margin: 1px;
+    padding: 1px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+    font-size: 24px;
 }

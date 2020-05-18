@@ -5,7 +5,7 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-background: #86a3b5;
+background: #4b086d;
 height: 56px;
 }
 
@@ -19,7 +19,7 @@ height: 56px;
 
 /* Logo color */
 .toolbar_logo a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.5rem;
     margin-left: 1rem;
@@ -40,7 +40,7 @@ height: 56px;
     padding:0 0.5rem;
 }
 .toolbar_navigation-items a {
-    color: black;
+    color:white;
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ height: 56px;
 
 }
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:#86a3b5 ;
+    background-color:#4b086d ;
   }
 .dropdown-content {
     display: none;

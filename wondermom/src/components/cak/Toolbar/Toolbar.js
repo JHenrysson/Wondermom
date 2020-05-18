@@ -12,7 +12,7 @@ const toolbar = props => (
                 </div>
 
                 <div className="toolbar_logo">
-                    <Link to="/home">Wonder Mom</Link>
+                    <Link to="/home"></Link>
                 </div>
 
                 <div className="spacer" />
