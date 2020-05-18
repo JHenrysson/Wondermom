@@ -1,5 +1,5 @@
 #main{
-    background-color: #86a3b5;
+    background-color: #c8d9eb;
 }
 #headline{
     text-align: center;
@@ -18,11 +18,11 @@
     margin:0 auto;
     border-style:none;
     display:table;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .button{
     border-style: solid;
-    background-color: #d67fa1;
+    background-color: #E1A1BA;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -31,4 +31,23 @@
     border-radius: 25px;
     cursor: pointer;
     text-underline: none;
+}
+#dayChart{
+    margin-top: 8%;
+}
+#cardContainer{
+    margin-right: 5%;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+#progressBar{
+    align-content: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-style: solid;
+    background-color: lightgray;
+
+
 }
