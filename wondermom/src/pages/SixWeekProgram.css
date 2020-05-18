@@ -18,7 +18,7 @@
     margin:0 auto;
     border-style:none;
     display:table;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .button{
     border-style: solid;
@@ -34,4 +34,20 @@
 }
 #dayChart{
     margin-top: 8%;
+}
+#cardContainer{
+    margin-right: 5%;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+#progressBar{
+    align-content: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-style: solid;
+    background-color: lightgray;
+
+
 }
