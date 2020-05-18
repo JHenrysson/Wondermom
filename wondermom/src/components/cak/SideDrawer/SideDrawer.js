@@ -16,9 +16,6 @@ const sideDrawer = props => {
                 <Link href="/home">Home</Link>
             </li>
             <li>
-                <Link to="/offers">Offers</Link>
-            </li>
-            <li>
                 <Link to="/about">About</Link>
             </li>
             <li className="dropdown">
@@ -34,12 +31,15 @@ const sideDrawer = props => {
             <li>
                 <Link to="/nutrition">Nutrition</Link>
             </li>
+
+            <div className="profile">
             <li>
                 <Link to="/">Sign Up</Link>
             </li>
             <li>
                 <Link to="/">Login</Link>
             </li>
+            </div>
         </ul>
     </nav>
     

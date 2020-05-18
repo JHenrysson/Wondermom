@@ -13,7 +13,6 @@ import Nutrition from './pages/Nutrition';
 import About from './pages/About';
 import Home from './pages/Home';
 import Programs from './pages/Programs';
-import Offers from './pages/Offers';
 
 // This is the animation of the navbar
 class App extends Component {
@@ -49,7 +48,6 @@ class App extends Component {
           <Route exact path="/home" component = {Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/about" component ={About}/>
-          <Route path ="/offers" component ={Offers}/>
           <Route path ="/programs" component ={Programs}/>
 
             <div style={{height: '100%'}}>
