@@ -3,6 +3,8 @@ export class BootstrapCarousel extends Component {
 
     render() {  
 
+    return (
+        
     <div>  
         <div class='container-fluid' >  
             <div className="row title" style={{ marginBottom: "20px" }} >  
@@ -51,8 +53,9 @@ export class BootstrapCarousel extends Component {
             </Carousel>  
         </div>  
     </div>  
-                  
-        }  
+            
+    )
+    }  
 }  
 
 export default BootstrapCarousel  
