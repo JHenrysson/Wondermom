@@ -76,6 +76,10 @@ li a:hover, .dropdown:hover .dropbtn {
   display: block;
 }
 
+.profile{
+  margin-top: 10rem;
+}
+
 @media (min-width: 769px){
     .side-drawer{
         display: none;

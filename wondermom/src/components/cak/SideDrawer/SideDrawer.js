@@ -31,12 +31,15 @@ const sideDrawer = props => {
             <li>
                 <Link to="/nutrition">Nutrition</Link>
             </li>
+
+            <div className="profile">
             <li>
                 <Link to="/">Sign Up</Link>
             </li>
             <li>
                 <Link to="/">Login</Link>
             </li>
+            </div>
         </ul>
     </nav>
     
