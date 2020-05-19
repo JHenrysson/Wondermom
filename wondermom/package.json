@@ -3,14 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+    "@react-navigation/native": "^5.2.3",
+=======
     "@material-ui/core": "^4.9.13",
+>>>>>>> b2674d3a618ca36e0dddccef6a9fc3b0a3a92e21
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
+<<<<<<< HEAD
+    "react-navigation-drawer": "^2.4.13",
+    "react-navigation-tabs": "^2.8.13",
+=======
     "react-router-dom": "^5.1.2",
+>>>>>>> b2674d3a618ca36e0dddccef6a9fc3b0a3a92e21
     "react-scripts": "3.4.1"
   },
   "scripts": {
