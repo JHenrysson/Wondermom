@@ -30,9 +30,10 @@
 
 /* color for text in App navbar */
 .side-drawer a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1rem;
+    font-family: 'Open Sans', sans-serif ;
 }
 
 .side-drawer a:hover,
@@ -52,7 +53,7 @@ li a, .dropbtn {
     text-decoration: none;
   }
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:#acc0fe ;
+    background-color:#4b086d ;
   }
 .dropdown-content {
     display: none;

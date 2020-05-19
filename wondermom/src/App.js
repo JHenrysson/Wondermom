@@ -13,6 +13,9 @@ import Nutrition from './pages/Nutrition';
 import About from './pages/About';
 import Home from './pages/Home';
 import Programs from './pages/Programs';
+import DayOne from "./pages/DayOne";
+import SixWeekProgram from "./pages/SixWeekProgram";
+ 
 
 // This is the animation of the navbar
 class App extends Component {
@@ -45,10 +48,14 @@ class App extends Component {
     return (
       <Router>
         <div>
+          <div style={{marginTop: '56px'}}>  {/* Added to fix spacing between nav bar */}
           <Route exact path="/home" component = {Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/about" component ={About}/>
           <Route path ="/programs" component ={Programs}/>
+          <Route path ="/dayOne" component={DayOne}/>
+          <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
+          </div>
 
             <div style={{height: '100%'}}>
               <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
