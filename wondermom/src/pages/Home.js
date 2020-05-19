@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import { BootstrapCarousel } from './BootstrapCarousel'
   
 function Home() {
     return (
@@ -28,7 +29,7 @@ function Home() {
           </p>
       </div>
 
-    {/*Carousel will go here once i figure out how to do it*/}  
+      <BootstrapCarousel></BootstrapCarousel>  
 
       </div>
 
