@@ -12,9 +12,11 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Nutrition from './pages/Nutrition';
 import About from './pages/About';
 import Home from './pages/Home';
-import Programs from './pages/SixWeekProgram';
+import Programs from './pages/Programs';
 import Offers from './pages/Offers';
 import DayOne from "./pages/DayOne";
+import SixWeekProgram from "./pages/SixWeekProgram";
+ 
 
 // This is the animation of the navbar
 class App extends Component {
@@ -52,8 +54,9 @@ class App extends Component {
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/about" component ={About}/>
           <Route path ="/offers" component ={Offers}/>
-          <Route path ="/sixWeekProgram" component ={Programs}/>
+          <Route path ="/programs" component ={Programs}/>
           <Route path ="/dayOne" component={DayOne}/>
+          <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
           </div>
 
             <div style={{height: '100%'}}>

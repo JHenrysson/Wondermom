@@ -16,17 +16,14 @@ const sideDrawer = props => {
                 <Link href="/home">Home</Link>
             </li>
             <li>
-                <Link to="/offers">Offers</Link>
-            </li>
-            <li>
                 <Link to="/about">About</Link>
             </li>
             <li className="dropdown">
                 <Link to="/programs">Programs<i className="fa fa-chevron-down"></i></Link>
                 <div className="dropdown-content">
 
-                    <Link to="/">6 week program</Link>
-                    <Link to="/">Program 2</Link>
+                    <Link to="/sixWeekProgram">6 week program</Link>
+                    <Link to="/dayOne">Day 1</Link>
                     <Link to="/">Program 3</Link>
                     </div>
             </li>

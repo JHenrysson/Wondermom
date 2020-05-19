@@ -1,4 +1,4 @@
-
+/* Background */
 body{
     background-image:linear-gradient(#4b086d,#acc0fe);
     background-size: cover;
@@ -6,6 +6,7 @@ body{
     background-attachment: fixed;
 }
 
+/* Healine */
 h2{
     text-align: center;
     font-size: 44px;
@@ -15,6 +16,8 @@ h2{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* headline 2 */
 h4{
     font-size: 24px;
+    font-family: 'Open Sans', sans-serif ;
 }
