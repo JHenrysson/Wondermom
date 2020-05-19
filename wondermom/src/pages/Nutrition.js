@@ -8,7 +8,7 @@ function Nutrition() {
         
     <>
     <div id="headline2">
-        <h2>Nutrition</h2>
+        <h1>Nutrition</h1>
         <button className="btn1">Join now!</button>
     </div>
 
@@ -29,7 +29,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="card-link">Read more</a>
+                    <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <a href="#" class="card-link">Read more</a>
+                        <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="card-link">Read more</a>
+                    <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,11 @@ function Nutrition() {
                           </div>
 
                         <div className="card-body text-left">
-                        <h4 className="card-title">title</h4>
+                        <h4 className="card-title">Title</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <a href="#" class="card-link">Read more</a>
+                        <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="card-link">Read more</a>
+                    <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <a href="#" class="card-link">Read more</a>
+                        <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="card-link">Read more</a>
+                    <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <a href="#" class="card-link">Read more</a>
+                        <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="card-link">Read more</a>
+                    <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <a href="#" class="card-link">Read more</a>
+                        <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -203,7 +203,7 @@ function Nutrition() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="card-link">Read more</a>
+                    <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@ function Nutrition() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <a href="#" class="card-link">Read more</a>
+                        <a href="/" className="card-link">View Recipe</a>
                     </div>
                 </div>
             </div>

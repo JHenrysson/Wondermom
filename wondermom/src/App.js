@@ -13,7 +13,6 @@ import Nutrition from './pages/Nutrition';
 import About from './pages/About';
 import Home from './pages/Home';
 import Programs from './pages/Programs';
-import Offers from './pages/Offers';
 import DayOne from "./pages/DayOne";
 import SixWeekProgram from "./pages/SixWeekProgram";
  

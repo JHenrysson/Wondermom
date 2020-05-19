@@ -7,17 +7,36 @@ body{
 }
 
 /* Healine */
-h2{
+h1{
     text-align: center;
-    font-size: 44px;
+    font-size: 4rem;
     margin: 1px;
     padding: 1px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
-/* headline 2 */
-h4{
-    font-size: 24px;
+/* Title */
+h2{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
     font-family: 'Open Sans', sans-serif ;
 }
+
+/* card title */
+h4{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif ;
+}
+
+a{
+    font-family:'Open Sans', sans-serif;
+    color: black;
+}
+
