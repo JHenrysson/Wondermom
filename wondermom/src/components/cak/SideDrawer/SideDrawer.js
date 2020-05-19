@@ -2,7 +2,7 @@ import React from 'react';
 import './SideDrawer.css';
 import { Link } from 'react-router-dom';
 
-//import drawerToggleButton from './DrawerToggleButton';
+//navbar for the app as a sidedrawer
 
 const sideDrawer = props => {
     let drawerClasses = 'side-drawer';
@@ -42,6 +42,7 @@ const sideDrawer = props => {
             </li>
         </ul>
     </nav>
+    
 
 );
 };
