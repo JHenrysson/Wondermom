@@ -42,7 +42,7 @@ function Nutrition() {
 
                         <div className="card-body text-left">
                         <h4 className="card-title">Title</h4>
-                        <p className="card-text">
+                        <p className="card-text"><i class="far fa-clock"></i>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                         <a href="#" class="card-link">Read more</a>
@@ -72,7 +72,7 @@ function Nutrition() {
                           </div>
 
                         <div className="card-body text-left">
-                        <h4 className="card-title">title</h4>
+                        <h4 className="card-title">Title</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
