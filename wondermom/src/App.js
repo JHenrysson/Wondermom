@@ -14,6 +14,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Programs from './pages/SixWeekProgram';
 import Offers from './pages/Offers';
+import DayOne from "./pages/DayOne";
 
 // This is the animation of the navbar
 class App extends Component {
