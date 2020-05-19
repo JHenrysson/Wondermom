@@ -3,14 +3,23 @@ import './App.css';
 import Toolbar from './components/cak/Toolbar/Toolbar';
 import SideDrawer from './components/cak/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-//import Nutrition from './pages/Nutrition';
 
+// Pages
+import Nutrition from './pages/Nutrition';
+import About from './pages/About';
+import Home from './pages/Home';
+import Programs from './pages/SixWeekProgram';
+import Offers from './pages/Offers';
 
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import DayOne from "./pages/DayOne";
+
+// This is the animation of the navbar
 class App extends Component {
     state = {
       sideDrawerOpen: false
     };
-
+//This is the hamburgerbutton
   drawerToogleClickHandler = () => {
     this.setState((prevState)=> {
       return{sideDrawerOpen: !prevState.sideDrawerOpen};
@@ -27,19 +36,30 @@ class App extends Component {
     if (this.state.sideDrawerOpen){
       backdrop = <Backdrop click = {this.backdropClickHandler}/>
     }
-
+//here is the pages 
     return (
-      <div style={{height: '100%'}}>
-        <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
-        <SideDrawer show={this.state.sideDrawerOpen}/>
-        {backdrop}
-        <main style={{marginTop: '64px'}}>
-          <p>Hello im page one</p>
-        </main>
+      <Router>
+        <div>
+          <div style={{marginTop: '56px'}}>  {/* Added to fix spacing between nav bar */}
+          <Route exact path="/home" component = {Home}/>
+          <Route path ="/nutrition" component ={Nutrition}/>
+          <Route path ="/about" component ={About}/>
+          <Route path ="/offers" component ={Offers}/>
+          <Route path ="/sixWeekProgram" component ={Programs}/>
+          <Route path ="/dayOne" component={DayOne}/>
+          </div>
 
-      </div>
-    );
-  }  
-}
+            <div style={{height: '100%'}}>
+              <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
+              <SideDrawer show={this.state.sideDrawerOpen}/>
+              {backdrop}
+                <main style={{marginTop: '64px'}}>
+                </main>
+              </div>
+          </div>
+        </Router>
+      );
+    }
+  }
 
 export default App;
