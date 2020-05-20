@@ -15,7 +15,8 @@ function Nutrition() {
     <div className="spaceing">
         <h2>Breakfast</h2>
     </div>
-<div className="card-deck">
+
+    <div className="card-deck">
       <div className="container">
           <div className="row jusify-content-center">
               <div className="col-md">
@@ -88,7 +89,7 @@ function Nutrition() {
     <div className="spaceing">
         <h2>Lunch</h2>
     </div>
-
+    <div className="card-deck">
       <div className="container">
           <div className="row justify-content-center">
               <div className="col-md">
@@ -155,11 +156,12 @@ function Nutrition() {
             </div>
         </div>
     </div>
+</div>
 
     <div className="spaceing">
         <h2>Dinner</h2>
     </div>
-
+    <div className="card-deck">
       <div className="container">
           <div className="row justify-content-center">
               <div className="col-md">
@@ -225,6 +227,7 @@ function Nutrition() {
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </>
     );
