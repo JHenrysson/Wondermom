@@ -9,6 +9,7 @@ function Nutrition() {
     <>
     <div id="headline2">
         <h1>Nutrition</h1>
+        <h3>Lorem ipsum dolor sit amet,iaisi ut aure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
         <button className="btn-join">Join now!</button>
     </div>
 

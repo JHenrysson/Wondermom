@@ -23,6 +23,12 @@ h2{
     color: white;
     font-family: 'Open Sans', sans-serif ;
 }
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* card title */
 h4{
@@ -40,6 +46,7 @@ a{
     font-family:'Open Sans', sans-serif;
     color: black;
 }
+
 /*size when app/small window*/
 @media (max-width: 768px) {
     h1{
