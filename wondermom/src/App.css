@@ -40,7 +40,7 @@ a{
     font-family:'Open Sans', sans-serif;
     color: black;
 }
-
+/*size when app/small window*/
 @media (max-width: 768px) {
     h1{
         font-size: 3rem;
@@ -55,6 +55,6 @@ a{
         font-size: 0.8rem;
     }
 }
-
+/* size when big browser window*/
 @media (min-width: 769px){
 }
