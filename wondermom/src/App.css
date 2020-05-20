@@ -26,12 +26,13 @@ h2{
 
 /* card title */
 h4{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: black;
     font-family: 'Open Sans', sans-serif ;
 }
 
 p{
+    font-size: 0.9rem;
     font-family: 'Open Sans', sans-serif ;
 }
 
@@ -40,3 +41,20 @@ a{
     color: black;
 }
 
+@media (max-width: 768px) {
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+    font-size: 2rem;
+    }
+    a{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 769px){
+}

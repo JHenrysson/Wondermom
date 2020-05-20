@@ -42,13 +42,12 @@ img {
         column-count: 2;
         margin-bottom: initial;
     }
-    h2{
-        font-size: 32px;
-    }
 }
 
 @media (min-width: 769px){
     .container{
         width: 100%;
+        column-count: 4;
+        margin-bottom: initial;
     }
 }
