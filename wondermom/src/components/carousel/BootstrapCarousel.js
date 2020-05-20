@@ -1,4 +1,5 @@
 import React, { Component } from 'react';  
+import Carousel from 'react-bootstrap/Carousel' 
 class BootstrapCarousel extends Component {  
 
     render() {  
@@ -20,7 +21,7 @@ class BootstrapCarousel extends Component {
                 <Carousel.Item style={{'height':"300px"}} > 
                     <img style={{'height':"300px"}} 
                         className="d-block w-100"
-                        src={'assets/img/img2.jpg'}  />  
+                        src={'/images/workoutabs.jpg'}  />  
 
                             <Carousel.Caption>  
                                 <h3>First Demo </h3>  
@@ -31,7 +32,7 @@ class BootstrapCarousel extends Component {
                 <Carousel.Item style={{'height':"300px"}}>  
                     <img style={{'height':"300px"}}  
                     className="d-block w-100"  
-                    src={'assets/img/img1.jpg'}    />  
+                    src={'/images/workoutbutt.jpg'}    />  
 
                         <Carousel.Caption>  
                             <h3>Second Demo</h3>  
@@ -42,7 +43,7 @@ class BootstrapCarousel extends Component {
                 <Carousel.Item style={{'height':"300px"}}>  
                     <img style={{'height':"300px"}}  
                     className="d-block w-100"  
-                    src={'assets/img/img3.jpg'}   />  
+                    src={'images/workouthug.jpg'}   />  
 
                         <Carousel.Caption>  
                             <h3>Third Demo</h3>  

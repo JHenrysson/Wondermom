@@ -1,6 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';   
 import './Home.css'
-import BootstrapCarousel from './components/BootstrapCarousel'
+import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
   
 function Home() {
     return (
