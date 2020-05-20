@@ -1,7 +1,8 @@
 #imageHeader{
     border-style: solid;
-    padding-bottom: 15%;
     text-align: center;
+    width: auto;
+    height:auto;
 }
 #headerOne{
     border-style: solid;
@@ -13,5 +14,10 @@
     padding-top: 1%;
     margin:0 auto;
 
-
 }
+.media {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
