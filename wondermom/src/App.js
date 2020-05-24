@@ -15,6 +15,7 @@ import Home from './pages/Home';
 import Programs from './pages/Programs';
 import DayOne from "./pages/DayOne";
 import SixWeekProgram from "./pages/SixWeekProgram";
+import Footer from "./pages/Footer";
  
 
 // This is the animation of the navbar
@@ -63,6 +64,7 @@ class App extends Component {
               {backdrop}
                 <main style={{marginTop: '64px'}}>
                 </main>
+                <Footer></Footer>
               </div>
           </div>
         </Router>
