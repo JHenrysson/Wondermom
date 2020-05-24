@@ -28,9 +28,10 @@ const toolbar = props => (
                         <li className="dropdown">
                             <Link to="/programs">Programs<i className="fa fa-chevron-down"></i></Link>
                                 <div className="dropdown-content">
-                            <Link to="/sixWeekProgram">6 week program</Link>
+                            <Link to="/sixWeekProgram">6 Week program</Link>
                             <Link to="/dayOne">Day 1</Link>
                             <Link to="/">Program 3</Link>
+                            <Link to="/weekOne">Week One </Link>
                                 </div>
                         </li>
                         <li>
