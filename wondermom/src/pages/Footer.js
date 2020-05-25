@@ -26,7 +26,7 @@ const footer = props => (
                             <a href="/about">About</a>
                         </li>
                         <li>
-                            <a href="#!">Home</a>
+                            <a href="/home">Home</a>
                         </li>
                     </ul>
 
@@ -43,10 +43,10 @@ const footer = props => (
                             <a href="/Nutrition">Breakfast</a>
                         </li>
                         <li>
-                            <a href="">Lunch</a>
+                            <a href="/Nutrition">Lunch</a>
                         </li>
                         <li>
-                            <a href="">Dinner</a>
+                            <a href="/Nutrition">Dinner</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@ const footer = props => (
                 <h5 className="mb-1">Monthly Newsletter </h5>
             </li>
             <li className="list-inline-item">
-                <a href="#!" class="btn btn-outline-light ">Sign up!</a>
+                <a href="/" className="btn btn-outline-light ">Sign up!</a>
             </li>
         </ul>
 

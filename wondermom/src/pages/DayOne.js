@@ -4,8 +4,8 @@ import './DayOne.css';
 
 const dayOne = props => (
     <div id= "main">
-    <div id = "imageHeader">
-    <img id= "banner1" src="https://static.spacecrafted.com/fc7241510ec245c5b42e95561258cdcc/i/c8bc969d313842a4bbe2fcdf95ce7421/1/GCuCv726gZycFxatknDdac/home%20page%20header.jpg"/>
+    <div id= "imageHeader">
+    <img id= "banner1" src="https://static.spacecrafted.com/fc7241510ec245c5b42e95561258cdcc/i/c8bc969d313842a4bbe2fcdf95ce7421/1/GCuCv726gZycFxatknDdac/home%20page%20header.jpg" alt=""/>
     </div>
 
         <div id = "headerOne">
