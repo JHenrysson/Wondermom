@@ -2,7 +2,7 @@ import React from 'react';
 import './SideDrawer.css';
 import { Link } from 'react-router-dom';
 
-//import drawerToggleButton from './DrawerToggleButton';
+//navbar for the app as a sidedrawer
 
 const sideDrawer = props => {
     let drawerClasses = 'side-drawer';
@@ -13,10 +13,7 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
         <ul>
             <li>
-                <Link href="/home">Home</Link>
-            </li>
-            <li>
-                <Link to="/offers">Offers</Link>
+                <Link to="/home">Home</Link>
             </li>
             <li>
                 <Link to="/about">About</Link>
@@ -25,9 +22,9 @@ const sideDrawer = props => {
                 <Link to="/programs">Programs<i className="fa fa-chevron-down"></i></Link>
                 <div className="dropdown-content">
 
-                    <Link to="/">6 week program</Link>
-                    <Link to="/">Program 2</Link>
-                    <Link to="/">Program 3</Link>
+                    <Link to="/sixWeekProgram">6 week program</Link>
+                    <Link to="/dayOne">Day 1</Link>
+                    <Link to= "/">Week One</Link>
                     </div>
             </li>
 
@@ -35,14 +32,11 @@ const sideDrawer = props => {
                 <Link to="/nutrition">Nutrition</Link>
             </li>
             <li>
-                <Link to="/">Sign Up</Link>
+                <Link to="/">Login <i class="fa fa-sign-in" aria-hidden="true"></i></Link>
             </li>
-            <li>
-                <Link to="/">Login</Link>
-            </li>
+
         </ul>
     </nav>
-
 );
 };
 

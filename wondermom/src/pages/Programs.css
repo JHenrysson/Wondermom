@@ -1,34 +1,12 @@
-#main{
-    background-color: #86a3b5;
-}
+
 #headline{
     text-align: center;
-    font-size: 40px;
+    font-size: 150%;
     border-style: solid;
-    margin:0 auto;
-    display: table;
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: #d67fa1;
     padding-top: 2%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     border-radius: 25px;
-    padding-right: 3%;
-    padding-left: 3%;
-}
-#button{
-    margin:0 auto;
-    border-style:none;
-    display:table;
-    margin-top: 5%;
-}
-.button{
-    border-style: solid;
-    background-color: #d67fa1;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 25px;
-    cursor: pointer;
-    text-underline: none;
 }

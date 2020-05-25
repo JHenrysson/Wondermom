@@ -3,6 +3,7 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 import {Link} from "react-router-dom";
 
+//navbar for the browser
 const toolbar = props => (
         <header className="toolbar">
             <nav className="toolbar_navigation">
@@ -10,7 +11,8 @@ const toolbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler}/>
                 </div>
 
-                <div className="toolbar_logo"><Link to="/home">Wonder Mom</Link>
+                <div className="toolbar_logo">
+                    <Link to="/home"></Link>
                 </div>
 
                 <div className="spacer" />
@@ -20,22 +22,22 @@ const toolbar = props => (
                             <Link to="/home">Home</Link>
                         </li>
                         <li>
-                            <Link to="/offers">Offers</Link>
-                        </li>
-                        <li>
                             <Link to="/about">About</Link>
                         </li>
 
                         <li className="dropdown">
                             <Link to="/programs">Programs<i className="fa fa-chevron-down"></i></Link>
                                 <div className="dropdown-content">
-                            <Link to="/">6 week program</Link>
-                            <Link to="/">Program 2</Link>
-                            <Link to="/">Program 3</Link>
+                            <Link to="/sixWeekProgram">6 Week program</Link>
+                            <Link to="/dayOne">Day 1</Link>
+                            <Link to="/weekOne">Week One </Link>
                                 </div>
                         </li>
                         <li>
                             <Link to="/nutrition">Nutrition</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Login<i class="fa fa-sign-in" aria-hidden="true"></i></Link>
                         </li>
                     </ul>
                 </div>
