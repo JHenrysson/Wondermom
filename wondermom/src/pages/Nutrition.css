@@ -30,9 +30,11 @@ img {
 
 .card-link{
     color: white;
-    border-radius: 10px;
-    background-color:#4b086d;
-    font-size: 1rem;
+    border-radius: 4px;
+    background-color:#18a5a7;
+    font-size: 0.9rem;
+    border: none;
+    padding: 3px 40px;;
     font-family:'Open Sans', sans-serif;
 }
 

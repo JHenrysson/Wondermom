@@ -1,7 +1,7 @@
 /* background color of app navbar */
 .side-drawer {
     height: 100%;
-    background-image:linear-gradient(#4b086d,#acc0fe);
+    background-image:linear-gradient(#18a5a7,#d9ecc7);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,12 +53,12 @@ li a, .dropbtn {
     text-decoration: none;
   }
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:#4b086d ;
+    background-color:#18a5a7;
   }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #acc0fe;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -71,7 +71,7 @@ li a:hover, .dropdown:hover .dropbtn {
     display: block;
     text-align: left;
   }
-.dropdown-content a:hover {background-color: #4b086d;}
+.dropdown-content a:hover {background-color: #18a5a7;}
 
 .dropdown:hover .dropdown-content {
   display: block;

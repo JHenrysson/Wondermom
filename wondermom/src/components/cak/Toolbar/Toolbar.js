@@ -30,12 +30,14 @@ const toolbar = props => (
                                 <div className="dropdown-content">
                             <Link to="/sixWeekProgram">6 Week program</Link>
                             <Link to="/dayOne">Day 1</Link>
-                            <Link to="/">Program 3</Link>
                             <Link to="/weekOne">Week One </Link>
                                 </div>
                         </li>
                         <li>
                             <Link to="/nutrition">Nutrition</Link>
+                        </li>
+                        <li>
+                            <Link to="/">Login<i class="fa fa-sign-in" aria-hidden="true"></i></Link>
                         </li>
                     </ul>
                 </div>

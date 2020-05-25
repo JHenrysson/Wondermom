@@ -24,7 +24,6 @@ const sideDrawer = props => {
 
                     <Link to="/sixWeekProgram">6 week program</Link>
                     <Link to="/dayOne">Day 1</Link>
-                    <Link to="/">Program 3</Link>
                     <Link to= "/">Week One</Link>
                     </div>
             </li>
@@ -32,19 +31,12 @@ const sideDrawer = props => {
             <li>
                 <Link to="/nutrition">Nutrition</Link>
             </li>
+            <li>
+                <Link to="/">Login <i class="fa fa-sign-in" aria-hidden="true"></i></Link>
+            </li>
 
-            <div className="profile">
-            <li>
-                <Link to="/">Sign Up</Link>
-            </li>
-            <li>
-                <Link to="/">Login</Link>
-            </li>
-            </div>
         </ul>
     </nav>
-    
-
 );
 };
 

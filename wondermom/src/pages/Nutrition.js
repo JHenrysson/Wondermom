@@ -75,7 +75,7 @@ function Nutrition() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Scrambled Eggs</h4>
+                        <h4 className="card-title text-center">Scrambled Egg</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>

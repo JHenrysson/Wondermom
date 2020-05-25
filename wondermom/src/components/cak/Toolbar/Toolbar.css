@@ -5,7 +5,7 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-background: #4b086d;
+background: #18a5a7;
 height: 56px;
 
 }
@@ -52,7 +52,7 @@ height: 56px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:#4b086d ;
+    background-color:#18a5a7;
   }
 .dropdown-content {
     display: none;
