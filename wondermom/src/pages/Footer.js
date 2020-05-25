@@ -12,7 +12,7 @@ const footer = props => (
 
                     <h5 className="font-weight-bold mt-3 mb-4">Wondermom</h5>
                     <p>The logo will go here or information about the site??? TBD @ meeting lol</p>
-                    <img src ="./images/logo1.png" alt={"logo"}/>
+                    <img src ="/images/logo1.png" alt={"logo"}/>
                 </div>
 
                 <hr className="clearfix w-100 d-md-none"/>
@@ -23,10 +23,10 @@ const footer = props => (
 
                     <ul className="list-unstyled">
                         <li>
-                            <a href="/about">About</a>
+                            <a href="/">About</a>
                         </li>
                         <li>
-                            <a href="/home">Home</a>
+                            <a href="/">Home</a>
                         </li>
                     </ul>
 
@@ -40,13 +40,13 @@ const footer = props => (
 
                     <ul className="list-unstyled">
                         <li>
-                            <a href="/Nutrition">Breakfast</a>
+                            <a href="/">Breakfast</a>
                         </li>
                         <li>
-                            <a href="/Nutrition">Lunch</a>
+                            <a href="/">Lunch</a>
                         </li>
                         <li>
-                            <a href="/Nutrition">Dinner</a>
+                            <a href="/">Dinner</a>
                         </li>
                     </ul>
                 </div>
@@ -81,22 +81,22 @@ const footer = props => (
 
         <ul className="list-unstyled list-inline text-center">
             <li className="list-inline-item">
-                <a className="btn-floating btn-fb mx-1">
+                <a href="/" className="btn-floating btn-fb mx-1">
                     <i className="fab fa-facebook-f"> </i>
                 </a>
             </li>
             <li className="list-inline-item">
-                <a className="btn-floating btn-tw mx-1">
+                <a href="/" className="btn-floating btn-tw mx-1">
                     <i className="fab fa-twitter"> </i>
                 </a>
             </li>
             <li className="list-inline-item">
-                <a className="btn-floating btn-gplus mx-1">
+                <a href="/" className="btn-floating btn-gplus mx-1">
                     <i className="fab fa-google-plus-g"> </i>
                 </a>
             </li>
             <li className="list-inline-item">
-                <a className="btn-floating btn-li mx-1">
+                <a href="/" className="btn-floating btn-li mx-1">
                     <i className="fab fa-linkedin-in"> </i>
                 </a>
             </li>
