@@ -15,6 +15,8 @@ import Home from './pages/Home';
 import Programs from './pages/Programs';
 import DayOne from "./pages/DayOne";
 import SixWeekProgram from "./pages/SixWeekProgram";
+import Footer from "./pages/Footer";
+import WeekOne from "./pages/WeekOne";
  
 
 // This is the animation of the navbar
@@ -55,6 +57,8 @@ class App extends Component {
           <Route path ="/programs" component ={Programs}/>
           <Route path ="/dayOne" component={DayOne}/>
           <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
+          <Route path ="/weekOne" component={WeekOne}/>
+
           </div>
 
             <div style={{height: '100%'}}>
@@ -63,6 +67,7 @@ class App extends Component {
               {backdrop}
                 <main style={{marginTop: '64px'}}>
                 </main>
+                <Footer></Footer>
               </div>
           </div>
         </Router>
