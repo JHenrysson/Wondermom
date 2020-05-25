@@ -12,7 +12,7 @@ const footer = props => (
 
                     <h5 className="font-weight-bold mt-3 mb-4">Wondermom</h5>
                     <p>The logo will go here or information about the site??? TBD @ meeting lol</p>
-                    <img src ="?" alt={"logo"}/>
+                    <img src ="./images/logo1.png" alt={"logo"}/>
                 </div>
 
                 <hr className="clearfix w-100 d-md-none"/>

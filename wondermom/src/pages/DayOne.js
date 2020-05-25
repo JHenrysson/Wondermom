@@ -32,7 +32,8 @@ const dayOne = props => (
                 <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
                     penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
-        </div><div className="media">
+        </div>
+        <div className="media">
         <img style={{width: 25 + '%'}} className="align-self-start mr-3" src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/50/3200x3200/square-1449857371-sev1211097b.jpg?resize=320:*" alt="Generic placeholder image"/>
         <div className="media-body">
             <h5 className="mt-0">Exercise Three</h5>
@@ -42,7 +43,8 @@ const dayOne = props => (
             <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
                 penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </div>
-    </div><div className="media">
+    </div>
+        <div className="media">
         <img style={{width: 25 + '%'}} className="align-self-start mr-3" src="https://i0.wp.com/thumbs.gfycat.com/UncomfortableElementaryIberianbarbel-size_restricted.gif?w=1155&h=840" alt="Generic placeholder image"/>
         <div className="media-body">
             <h5 className="mt-0">Exercise Four </h5>
