@@ -1,6 +1,6 @@
 
 
-.btn1{
+.btn-join{
     background-color:white;
     color: black;
     border-radius: 5px;
@@ -28,18 +28,28 @@ img {
     width: 100%;
 }
 
+.card-link{
+    color: white;
+    border-radius: 4px;
+    background-color:#18a5a7;
+    font-size: 0.9rem;
+    border: none;
+    padding: 3px 40px;;
+    font-family:'Open Sans', sans-serif;
+}
+
 @media (max-width: 768px) {
     .container{
         width: 100%;
         column-count: 2;
-    }
-    h2{
-        font-size: 32px;
+        margin-bottom: initial;
     }
 }
 
 @media (min-width: 769px){
     .container{
         width: 100%;
+        column-count: 4;
+        margin-bottom: initial;
     }
 }
