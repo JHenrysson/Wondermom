@@ -1,5 +1,13 @@
-#main {
-    margin: 2%;
+.main {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20%;
+
+}
+
+.card-deck {
+    margin-top: 3%;
 }
 
 #headline{
