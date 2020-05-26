@@ -82,12 +82,6 @@ const sixWeekProgram = props => (
                 </div>
             </div>
         </div>
-    <div id ={"progressBar"}>
-        <p> the progress bar will go here</p>
-    </div>
-
-
-
     </div>
 );
 
