@@ -37,7 +37,7 @@ const toolbar = props => (
                             <Link to="/nutrition">Nutrition</Link>
                         </li>
                         <li>
-                            <Link to="/">Login<i class="fa fa-sign-in" aria-hidden="true"></i></Link>
+                            <Link to="/">Login<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
                         </li>
                     </ul>
                 </div>
