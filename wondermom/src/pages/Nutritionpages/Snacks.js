@@ -1,18 +1,18 @@
 import React from 'react';
 import './Nutrition.css';
 
-function Breakfast() {
+function Snacks() {
     return (
         <>
         <div id="headline2">
-            <h1>Breakfast</h1>
+            <h1>Snacks</h1>
         </div>
     
         <div className="spaceing">
         </div>
-        
+    
+        <div className="card-deck">
           <div className="container">
-          <div className="card-deck">
               <div className="row jusify-content-center">
                   <div className="col-md">
                       <div className="card shadow">
@@ -21,7 +21,7 @@ function Breakfast() {
                               </div>
     
                         <div className="card-body text-center">
-                        <h4 className="card-title">Acai Bowl</h4>
+                        <h4 className="card-title">Title</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -38,7 +38,7 @@ function Breakfast() {
                               </div>
     
                             <div className="card-body text-center">
-                            <h4 className="card-title text-center">Peanut Bowl</h4>
+                            <h4 className="card-title text-center">Title</h4>
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
@@ -54,7 +54,7 @@ function Breakfast() {
                             </div>
     
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Sandwich</h4>
+                        <h4 className="card-title text-center">Title</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -69,7 +69,7 @@ function Breakfast() {
                               </div>
     
                             <div className="card-body text-center">
-                            <h4 className="card-title text-center">Scrambled Egg</h4>
+                            <h4 className="card-title text-center">Title</h4>
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
@@ -84,4 +84,4 @@ function Breakfast() {
         );
       }
 
-  export default Breakfast;
+  export default Snacks;

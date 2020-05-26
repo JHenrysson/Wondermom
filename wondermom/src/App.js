@@ -19,6 +19,7 @@ import Nutrition from './pages/Nutritionpages/Nutrition';
 import Breakfast from './pages/Nutritionpages/Breakfast';
 import Lunch from './pages/Nutritionpages/Lunch';
 import Dinner from './pages/Nutritionpages/Dinner';
+import Snacks from './pages/Nutritionpages/Snacks';
 import Footer from "./pages/Footer";
  
 
@@ -59,11 +60,13 @@ class App extends Component {
           <Route path ="/breakfast" component ={Breakfast}/>
           <Route path ="/lunch" component ={Lunch}/>
           <Route path ="/dinner" component ={Dinner}/>
+          <Route path ="/snacks" component ={Snacks}/>
           <Route path ="/about" component ={About}/>
           <Route path ="/programs" component ={Programs}/>
           <Route path ="/dayOne" component={DayOne}/>
           <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
           <Route path ="/weekOne" component={WeekOne}/>
+
 
           </div>
 

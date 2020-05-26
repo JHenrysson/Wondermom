@@ -10,8 +10,9 @@ function Lunch() {
     
         <div className="spaceing">
         </div>
-        <div className="card-deck">
+        
       <div className="container">
+        <div className="card-deck">   
           <div className="row justify-content-center">
               <div className="col-md">
                   <div className="card shadow">
