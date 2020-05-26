@@ -9,14 +9,18 @@ import SideDrawer from './components/cak/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
 // Pages
-import Nutrition from './pages/Nutrition';
-import About from './pages/About';
 import Home from './pages/Home';
+import About from './pages/About';
 import Programs from './pages/Programs';
 import DayOne from "./pages/DayOne";
 import SixWeekProgram from "./pages/SixWeekProgram";
-import Footer from "./pages/Footer";
 import WeekOne from "./pages/WeekOne";
+import Nutrition from './pages/Nutritionpages/Nutrition';
+import Breakfast from './pages/Nutritionpages/Breakfast';
+import Lunch from './pages/Nutritionpages/Lunch';
+import Dinner from './pages/Nutritionpages/Dinner';
+import Snacks from './pages/Nutritionpages/Snacks';
+import Footer from "./pages/Footer";
  
 
 // This is the animation of the navbar
@@ -53,11 +57,16 @@ class App extends Component {
           <div style={{marginTop: '56px'}}>  {/* Added to fix spacing between nav bar */}
           <Route exact path="/home" component = {Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
+          <Route path ="/breakfast" component ={Breakfast}/>
+          <Route path ="/lunch" component ={Lunch}/>
+          <Route path ="/dinner" component ={Dinner}/>
+          <Route path ="/snacks" component ={Snacks}/>
           <Route path ="/about" component ={About}/>
           <Route path ="/programs" component ={Programs}/>
           <Route path ="/dayOne" component={DayOne}/>
           <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
           <Route path ="/weekOne" component={WeekOne}/>
+
 
           </div>
 
