@@ -17,6 +17,7 @@ const sixWeekProgram = props => (
                             <h5 className="card-title">Week One</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+                            <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
                         </div>
                 </div>
             </div>
@@ -27,6 +28,7 @@ const sixWeekProgram = props => (
                             <h5 className="card-title">Week Two</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
                         </div>
                 </div>
             </div>
@@ -37,6 +39,7 @@ const sixWeekProgram = props => (
                             <h5 className="card-title">Week Three</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+                            <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
                         </div>
                 </div>
             </div>
@@ -47,6 +50,7 @@ const sixWeekProgram = props => (
                             <h5 className="card-title">Week Four</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
                         </div>
                 </div>
             </div>
@@ -57,6 +61,7 @@ const sixWeekProgram = props => (
                         <h5 className="card-title">Week Five</h5>
                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
@@ -67,6 +72,7 @@ const sixWeekProgram = props => (
                         <h5 className="card-title">Week Six</h5>
                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
