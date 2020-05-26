@@ -44,6 +44,11 @@ img {
         column-count: 2;
         margin-bottom: initial;
     }
+    .card-link{
+        font-size: 0.5rem;
+        padding: 3px 25px;
+    }
+   
 }
 
 @media (min-width: 769px){
