@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';   
 import './Home.css'
 import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
   
