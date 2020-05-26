@@ -1,0 +1,75 @@
+body {
+    background-color: #C8D9EB;
+}
+
+
+
+.jumbotron {
+    background-image: url('/images/workouthug.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    padding-top: 250px;
+    opacity: 70%;
+    position: relative;
+}
+
+
+#logohome{
+    width: 450px;
+    height: 220px;
+    left: 40%;
+    margin-left: -50px;
+    top: 20%;
+    margin-top: -50px;
+    position: absolute;
+    
+}
+
+@media (max-width: 2000px) {
+    #logohome{
+        width: 500px;
+        height: 220px;
+        left: 40%;
+        margin-left: -50px;
+        top: 20%;
+        margin-top: -50px;
+ 
+    }
+    .jumbotron {
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #logohome{
+        width: 225px;
+        height: 110px;
+        left: 43%;
+        margin-left: -50px;
+        top: 20%;
+        margin-top: -50px;
+
+    }
+    .jumbotron {
+        height: 300px;
+    }
+
+}
+
+
+@media (max-width: 414px) {
+    #logohome{
+        width: 225px;
+        height: 110px;
+        left: 35%;
+        margin-left: -50px;
+        top: 22%;
+        margin-top: -50px;
+
+    } 
+
+}
