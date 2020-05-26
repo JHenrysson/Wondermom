@@ -1,16 +1,9 @@
 
 #headline{
+    display: block;
     text-align: center;
-    font-size: 40px;
-    border-style: solid;
-    margin:0 auto;
-    display: table;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    border-radius: 25px;
-    padding-right: 3%;
-    padding-left: 3%;
-    background-color: lavender;
+    margin-top: 5%;
+    border-style: none;
 }
 #button{
     margin:0 auto;
