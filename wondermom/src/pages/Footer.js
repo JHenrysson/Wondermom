@@ -5,65 +5,6 @@ const footer = props => (
     <footer className="page-footer font-small stylish-color-dark pt-4 ">
         <hr></hr>
         <div className="container text-center text-md-left">
-
-            <div className="row">
-
-                <div className="col-md-4 mx-auto">
-
-                    <h5 className="font-weight-bold mt-3 mb-4">Wondermom</h5>
-                    <p>The logo will go here or information about the site??? TBD @ meeting lol</p>
-                    <img src ="/images/logo1.png" alt={"logo"}/>
-                </div>
-
-                <hr className="clearfix w-100 d-md-none"/>
-
-                <div className="col-md-2 mx-auto">
-
-                    <h5 className="font-weight-bold mt-3 mb-4">About</h5>
-
-                    <ul className="list-unstyled">
-                        <li>
-                            <a href="/">About</a>
-                        </li>
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <hr className="clearfix w-100 d-md-none"/>
-
-                <div className="col-md-2 mx-auto">
-
-                    <h5 className="font-weight-bold mt-3 mb-4">Nutrition</h5>
-
-                    <ul className="list-unstyled">
-                        <li>
-                            <a href="/">Breakfast</a>
-                        </li>
-                        <li>
-                            <a href="/">Lunch</a>
-                        </li>
-                        <li>
-                            <a href="/">Dinner</a>
-                        </li>
-                    </ul>
-                </div>
-                <hr className="clearfix w-100 d-md-none"/>
-
-                <div className="col-md-2 mx-auto">
-
-                    <h5 className="font-weight-bold mt-3 mb-4">Programs</h5>
-
-                    <ul className="list-unstyled">
-                        <li>
-                            <a href="/SixWeekProgram">Six Week</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
 
         <hr/>
