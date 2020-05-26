@@ -1,11 +1,13 @@
 /* Background color of navbar */
+
 .toolbar{
 position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-background: #86a3b5;
+background: #18a5a7;
 height: 56px;
+
 }
 
 .toolbar_navigation{
@@ -13,13 +15,13 @@ height: 56px;
     height: 100%;
     padding: 0 1rem;
     align-items: center;
-    padding: 0 1rem;
+    font-family: 'Open Sans', sans-serif ;;
 }
 
 
 /* Logo color */
 .toolbar_logo a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.5rem;
     margin-left: 1rem;
@@ -40,25 +42,24 @@ height: 56px;
     padding:0 0.5rem;
 }
 .toolbar_navigation-items a {
-    color: black;
+    color:white;
     text-decoration: none;
 }
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active{
-    color: white;
-
+    color:#f8ecec;
 }
+
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:#86a3b5 ;
+    background-color:#18a5a7;
   }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:yellow;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1px;
   }
   
 

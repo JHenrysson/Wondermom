@@ -1,7 +1,8 @@
 import React from 'react';
 import './SideDrawer.css';
+import { Link } from 'react-router-dom';
 
-//import drawerToggleButton from './DrawerToggleButton';
+//navbar for the app as a sidedrawer
 
 const sideDrawer = props => {
     let drawerClasses = 'side-drawer';
@@ -12,33 +13,30 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
         <ul>
             <li>
-                <a href="/">About</a>
+                <Link to="/home">Home</Link>
             </li>
             <li>
-                <a href="/"><i className=""></i>Offers</a>
+                <Link to="/about">About</Link>
             </li>
-
             <li className="dropdown">
-                <a href="/">Programs<i className="fa fa-chevron-down"></i></a>
+                <Link to="/programs">Programs<i className="fa fa-chevron-down"></i></Link>
                 <div className="dropdown-content">
 
-                    <a href="/">6 week program</a>
-                    <a href="/">Program 2</a>
-                    <a href="/">Program 3</a>
+                    <Link to="/sixWeekProgram">6 week program</Link>
+                    <Link to="/dayOne">Day 1</Link>
+                    <Link to= "/">Week One</Link>
                     </div>
             </li>
 
             <li>
-                <a href="/">Nutrition</a>
+                <Link to="/nutrition">Nutrition</Link>
             </li>
             <li>
-                <a href="/">Profile</a>
+                <Link to="/">Login <i class="fa fa-sign-in" aria-hidden="true"></i></Link>
             </li>
-            <li><a href="/">Sign Up</a></li>
-            <li><a href="/">Login</a></li>
+
         </ul>
     </nav>
-
 );
 };
 
