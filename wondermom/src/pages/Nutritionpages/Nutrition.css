@@ -1,4 +1,5 @@
-
+.card-deck{
+}
 
 .btn-join{
     background-color:white;
@@ -34,7 +35,7 @@ img {
     background-color:#18a5a7;
     font-size: 0.9rem;
     border: none;
-    padding: 3px 40px;;
+    padding: 3px 20px;;
     font-family:'Open Sans', sans-serif;
 }
 
