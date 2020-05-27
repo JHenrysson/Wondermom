@@ -12,7 +12,7 @@ function Programs() {
                         <div className="card-body">
                             <h5 className="card-title">6 week program</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <button className="card-link">Try this program</button>
+                            <a href="/SixWeekProgram" className="card-link justify-content-center">Try this program</a>
                         </div>
                     </div>
                     <div className="card">
