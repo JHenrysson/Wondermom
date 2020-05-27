@@ -1,5 +1,5 @@
 import React from 'react';
-import './DayOne.css';
+import './Programs/DayOne.css';
 
 
 const dayOne = props => (

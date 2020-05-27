@@ -1,16 +1,9 @@
 
 #headline{
+    display: block;
     text-align: center;
-    font-size: 40px;
-    border-style: solid;
-    margin:0 auto;
-    display: table;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    border-radius: 25px;
-    padding-right: 3%;
-    padding-left: 3%;
-    background-color: lavender;
+    margin-top: 5%;
+    border-style: none;
 }
 #button{
     margin:0 auto;
@@ -37,14 +30,8 @@
     margin-top: 6%;
     margin-left: 5%;
 }
-#progressBar{
-    align-content: center;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 5%;
-    border-style: solid;
-    background-color: lightgray;
 
-
+.centerButton {
+    display: table;
+    margin: 0 auto;
 }
