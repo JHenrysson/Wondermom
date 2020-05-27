@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeekOne.css';
+import './Programs/WeekOne.css';
 
 const weekOne = props => (
     <div id = "main">
