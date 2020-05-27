@@ -3,13 +3,14 @@ import './DayOne.css';
 
 
 const dayOne = props => (
-    <div id= "main">
-    <div id= "imageHeader">
-    <img id= "banner1" src="https://static.spacecrafted.com/fc7241510ec245c5b42e95561258cdcc/i/c8bc969d313842a4bbe2fcdf95ce7421/1/GCuCv726gZycFxatknDdac/home%20page%20header.jpg" alt=""/>
-    </div>
+    <div>
+        <div id="jumbotronDayOne" className="jumbotron jumbotron-fluid">
+                <div className="container">
 
-        <div id = "headerOne">
-            <p>Day One</p>
+                </div>
+
+
+
         </div>
         <div className="media">
             <img style={{width: 25 + '%'}} className="align-self-start mr-3" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/whm012320lavenderset-010-1586183286.jpg" alt="Generic placeholder image"/>

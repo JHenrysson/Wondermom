@@ -21,11 +21,12 @@
 }
 
 #jumbotronDayOne {
-    background-image: url("/images/dayOneBanner.jpg");
+    background-image: url("/images/dayOneHeaderYogaBall.jpg");
     opacity: 93%;
-    height: 800px;
-
+    height: 150px;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 
 
