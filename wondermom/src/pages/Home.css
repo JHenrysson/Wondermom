@@ -28,6 +28,11 @@ body {
     
 }
 
+.carouselsize {
+    width: 500px;
+    
+}
+
 @media (max-width: 2000px) {
     #logohome{
         width: 500px;
@@ -40,6 +45,15 @@ body {
     }
     .jumbotron {
         height: 500px;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+.carouselsize {
+        width: 500px;
+
     }
 
 }

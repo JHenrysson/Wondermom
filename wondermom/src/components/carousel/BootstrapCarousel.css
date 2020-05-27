@@ -1,4 +1,12 @@
 .d-block {
-    height: 100%;
+    height: 400px;
     
+}
+
+@media (max-width: 980px) {
+
+    .carouselsize {
+        height: 100px;
+    }
+
 }
