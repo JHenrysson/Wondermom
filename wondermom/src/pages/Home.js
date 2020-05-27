@@ -1,4 +1,5 @@
-import React from 'react';   
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';   
 import './Home.css'
 import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
   
@@ -26,6 +27,8 @@ function Home() {
             Tristique sollicitudin nibh sit amet commodo nulla facilisi. 
             Neque convallis a cras semper auctor neque vitae. Convallis
             posuere morbi leo urna molestie at elementum.
+            Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. 
+            Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. 
           </p>
       </div>
 
