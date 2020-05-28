@@ -20,3 +20,17 @@
     margin-left: 10%;
 }
 
+#jumbotronDayOne {
+    background-image: url("/images/dayOneHeaderYogaBall.jpg");
+    opacity: 93%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+
+
+
+}
