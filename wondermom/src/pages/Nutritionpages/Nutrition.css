@@ -1,3 +1,10 @@
+.card{
+    border:none;
+}
+.card shadow{
+    box-shadow: none;
+}
+
 #img-jumbo{
     background-image:url('/images/headnofont.png');
     opacity: 100%;
