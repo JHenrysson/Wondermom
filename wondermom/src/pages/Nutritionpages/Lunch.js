@@ -10,7 +10,7 @@ function Lunch() {
     
         <div className="spaceing">
         </div>
-        
+
       <div className="container">
         <div className="card-deck">   
           <div className="row justify-content-center">
@@ -25,7 +25,6 @@ function Lunch() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="/lunch" className="card-link justify-content-center">Read more</a>
                     </div>
                 </div>
             </div>
@@ -41,7 +40,73 @@ function Lunch() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-md">
+                <div className="card shadow">
+                    <div className="card-img-top">
+                    <img src="/images/lh3.jpg" alt="dinner"/> 
+                        </div>
+                    <div className="card-body text-center">
+                    <h4 className="card-title text-center">Title</h4>
+                    <p className="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col-md">
+                    <div className="card shadow">
+                      <div className="card-img-top">
+                      <img src="/images/lh4.jpg" alt="lunch"/>
+                          </div>
+                        <div className="card-body text-center">
+                        <h4 className="card-title text-center">Title</h4>
+                        <p className="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="spaceing">
+        </div>
+
+      <div className="container">
+        <div className="card-deck">   
+          <div className="row justify-content-center">
+              <div className="col-md">
+                  <div className="card shadow">
+                      <div className="card-img-top">
+                          <img src="/images/lh1.jpg" alt="Breakfast"/>
+                          </div>
+
+                    <div className="card-body text-center">
+                    <h4 className="card-title text-center">Title</h4>
+                    <p className="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+                <div className="col-md">
+                    <div className="card shadow">
+                      <div className="card-img-top">
+                      <img src="/images/lh2.jpg" alt="lunch"/>
+                          </div>
+
+                        <div className="card-body text-center">
+                        <h4 className="card-title text-center">Title</h4>
+                        <p className="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,10 +122,10 @@ function Lunch() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <button className="card-link justify-content-center">Read more</button>
                     </div>
                 </div>
             </div>
+
             <div className="col-md">
                     <div className="card shadow">
                       <div className="card-img-top">
@@ -72,14 +137,12 @@ function Lunch() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
         </>
         );
       }
