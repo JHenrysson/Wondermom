@@ -2,3 +2,11 @@
 margin-right: 5%;
     margin-left: 5%;
 }
+#jumbotronWeekOne {
+    background-image: url("/images/weekOneBanner2.jpg");
+    opacity: 93%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
