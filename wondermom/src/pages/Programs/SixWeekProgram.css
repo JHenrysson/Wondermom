@@ -1,15 +1,9 @@
 
-#headline{
-    display: block;
-    text-align: center;
-    margin-top: 5%;
-    border-style: none;
-}
 #button{
     margin:0 auto;
     border-style:none;
     display:table;
-    margin-top: 2%;
+    margin-top: 5%;
     text-decoration: none;
 }
 .button{
@@ -34,4 +28,16 @@
 .centerButton {
     display: table;
     margin: 0 auto;
+}
+#jumbotronSixWeek {
+    background-image: url("/images/sixWeekBanner.jpg");
+    opacity: 93%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-title{
+    text-align: center;
 }
