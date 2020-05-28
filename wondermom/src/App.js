@@ -11,7 +11,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 // Pages
 import Home from './pages/Home';
 import About from './pages/About';
-import Programs from './pages/Programs';
+import Programs from './pages/Programs/Programs';
 import DayOne from "./pages/Programs/DayOne";
 import SixWeekProgram from "./pages/Programs/SixWeekProgram";
 import WeekOne from "./pages/Programs/WeekOne";
