@@ -25,7 +25,7 @@ function Dinner() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <button className="card-link justify-content-center">Read more</button>
+                    
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function Dinner() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
+                        
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ function Dinner() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <button className="card-link justify-content-center">Read more</button>
+                    
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ function Dinner() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
+                        
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ function Dinner() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <button className="card-link justify-content-center">Read more</button>
+                    
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@ function Dinner() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
+                        
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ function Dinner() {
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <button className="card-link justify-content-center">Read more</button>
+        
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@ function Dinner() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
+                        
                     </div>
                 </div>
             </div>
