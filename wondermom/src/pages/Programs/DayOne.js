@@ -13,8 +13,8 @@ const dayOne = props => (
 
         </div>
         <div className="media">
-            <img style={{width: 25 + '%'}} className="align-self-start mr-3" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/whm012320lavenderset-010-1586183286.jpg" alt="Generic placeholder image"/>
-                <div className="media-body">
+            <img style={{width: 25 + '%'}} className="img-thumbnail align-self-start mr-3" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/whm012320lavenderset-010-1586183286.jpg" alt="Generic placeholder image"/>
+                <div className="card-body media-body">
                     <h5 className="mt-0">Exercise One</h5>
                     <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
                         purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
@@ -24,7 +24,7 @@ const dayOne = props => (
                 </div>
         </div>
         <div className="media">
-            <img style={{width: 25 + '%'}} className="align-self-start mr-3" src="https://media1.popsugar-assets.com/files/thumbor/NvEkx3AENtxWoIIX7WCQXvB-FZ0/307x0:5219x4912/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/07/31/044/n/1922729/8c189b805d422c81c9ba55.76538773_/i/3-Minute-Ab-Workout-Runners.jpg" alt="Generic placeholder image"/>
+            <img style={{width: 25 + '%'}} className="img-thumbnail align-self-start mr-3" src="https://media1.popsugar-assets.com/files/thumbor/NvEkx3AENtxWoIIX7WCQXvB-FZ0/307x0:5219x4912/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/07/31/044/n/1922729/8c189b805d422c81c9ba55.76538773_/i/3-Minute-Ab-Workout-Runners.jpg" alt="Generic placeholder image"/>
             <div className="media-body">
                 <h5 className="mt-0">Exercise Two </h5>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
@@ -36,7 +36,7 @@ const dayOne = props => (
         </div>
         <div className="media">
         <img style={{width: 25 + '%'}} className="align-self-start mr-3" src="https://hips.hearstapps.com/sev.h-cdn.co/assets/15/50/3200x3200/square-1449857371-sev1211097b.jpg?resize=320:*" alt="Generic placeholder image"/>
-        <div className="media-body">
+        <div className="media-body card-body">
             <h5 className="mt-0">Exercise Three</h5>
             <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
                 purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
