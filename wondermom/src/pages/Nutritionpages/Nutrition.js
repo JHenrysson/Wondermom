@@ -21,7 +21,7 @@ function Nutrition() {
               <div className="col-md">
                   <div className="card shadow">
                       <div className="card-img-top">
-                          <img src="/images/bk2.jpg" alt="Breakfast"/>
+                          <img src="./images/bk2.jpg" alt="Breakfast"/>
                           </div>
 
                     <div className="card-body text-center">
