@@ -4,7 +4,7 @@ import './Nutrition.css';
 function Nutrition() {
     return (     
     <>
-    <div className="jumbotron jumbotron-fluid" id="img-jumbo">
+    <div id="img-jumbo" className="jumbotron jumbotron-fluid">
         <div className="container">
     </div>
 </div>
