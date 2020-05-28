@@ -4,15 +4,15 @@ import './Nutrition.css';
 function Nutrition() {
     return (     
     <>
-    <div id="headline2">
-        <h1>Nutrition</h1>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</h5>
-        <button className="btn-join">Join now!</button>
-        
+    <div className="jumbotron jumbotron-fluid" id="img-jumbo">
+        <div className="container">
     </div>
-        <div className="spaceing">
-            <h2>Recipes</h2>
-        </div>
+</div>
+
+
+    <div className="spaceing">
+        <h1>Recipes</h1>
+    </div>
         
         <div className="container">
         <div className="card-deck">   

@@ -1,4 +1,6 @@
-.card-deck{
+.img-jumbo{
+background-image:url('/images/headn.png');
+opacity: 100%;
 }
 
 .btn-join{
@@ -9,6 +11,7 @@
     margin: 0.5rem;
     padding: 2px 20px;
     font-size: 24px;
+    justify-content: center;
 }
 
 .spaceing {
