@@ -6,12 +6,13 @@ function Nutrition() {
     <>
     <div id="img-jumbo" className="jumbotron jumbotron-fluid">
         <div className="container">
+        <div class="centered">Nutrition</div>
     </div>
 </div>
 
 
     <div className="spaceing">
-        <h1>Recipes</h1>
+        <h2>Recipes</h2>
     </div>
         
         <div className="container">
