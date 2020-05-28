@@ -4,15 +4,16 @@ import './Nutrition.css';
 function Nutrition() {
     return (     
     <>
-    <div id="headline2">
-        <h1>Nutrition</h1>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</h5>
-        <button className="btn-join">Join now!</button>
-        
+    <div id="img-jumbo" className="jumbotron jumbotron-fluid">
+        <div className="container">
+        <div class="centered">Nutrition</div>
     </div>
-        <div className="spaceing">
-            <h2>Recipes</h2>
-        </div>
+</div>
+
+
+    <div className="spaceing">
+        <h2>Recipes</h2>
+    </div>
         
         <div className="container">
         <div className="card-deck">   
@@ -20,7 +21,7 @@ function Nutrition() {
               <div className="col-md">
                   <div className="card shadow">
                       <div className="card-img-top">
-                          <img src="/images/bk2.jpg" alt="Breakfast"/>
+                          <img src="./images/bk2.jpg" alt="Breakfast"/>
                           </div>
 
                     <div className="card-body text-center">

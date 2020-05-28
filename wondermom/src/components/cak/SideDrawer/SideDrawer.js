@@ -27,9 +27,16 @@ const sideDrawer = props => {
                     <Link to= "/">Week One</Link>
                     </div>
             </li>
-
             <li>
-                <Link to="/nutrition">Nutrition</Link>
+            <li className="dropdown">
+                <Link to="/nutrition">Nutrition<i className="fa fa-chevron-down"></i></Link>
+                    <div className="dropdown-content">
+                <Link to="/breakfast">Breakfast</Link>
+                <Link to="/lunch">Lunch</Link>
+                <Link to="/dinner">Dinner</Link>
+                <Link to="/snacks">Snacks</Link>
+                    </div>
+                </li>
             </li>
             <li>
                 <Link to="/">Login <i className="fa fa-sign-in" aria-hidden="true"></i></Link>

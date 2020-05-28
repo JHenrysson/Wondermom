@@ -26,7 +26,7 @@ function Breakfast() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                         
-                        <a href="/Breakfast"className="card-link justify-content-center">Read more</a>
+                        
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ function Breakfast() {
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
-                            <button className="card-link justify-content-center">Read more</button>
+                            
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function Breakfast() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
+ 
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ function Breakfast() {
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
-                            <button className="card-link justify-content-center">Read more</button>
+                            
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ function Breakfast() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                         
-                        <a href="/Breakfast"className="card-link justify-content-center">Read more</a>
+                        
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ function Breakfast() {
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
-                            <button className="card-link justify-content-center">Read more</button>
+                            
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ function Breakfast() {
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <button className="card-link justify-content-center">Read more</button>
+                        
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ function Breakfast() {
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
-                            <button className="card-link justify-content-center">Read more</button>
+                            
                         </div>
                     </div>
                 </div>
