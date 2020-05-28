@@ -28,10 +28,6 @@ body {
     
 }
 
-.carouselsize {
-    width: 500px;
-    
-}
 
 @media (max-width: 2000px) {
     #logohome{
@@ -49,14 +45,7 @@ body {
 
 }
 
-@media (max-width: 980px) {
 
-.carouselsize {
-        width: 500px;
-
-    }
-
-}
 
 @media (max-width: 768px) {
     #logohome{

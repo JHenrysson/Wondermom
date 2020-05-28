@@ -13,27 +13,29 @@ function Home() {
         <img id="logohome"src="/images/logo.png" alt="logoimage"/>
       </div>
 
-      <div className="container">
-        <div className="">
-          <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-            Feugiat nisl pretium fusce id velit ut tortor pretium viverra. 
-            Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. 
-            Mauris commodo quis imperdiet massa tincidunt nunc pulvinar. 
-            Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. 
-            Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-            Feugiat nisl pretium fusce id velit ut tortor pretium viverra. 
-            Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. 
-          </p>
+      <div className="container-md">
+        <div className="row">
+          <div className="col-md-6 col-xs-6">
+            <p className="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+              Feugiat nisl pretium fusce id velit ut tortor pretium viverra. 
+              Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. 
+              Mauris commodo quis imperdiet massa tincidunt nunc pulvinar. 
+              Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. 
+              Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+              Feugiat nisl pretium fusce id velit ut tortor pretium viverra. 
+              Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. 
+            </p>
 
-        </div>
+          </div>
 
-        <div className="carouselsize">
-          <BootstrapCarousel></BootstrapCarousel>  
-        </div>
+            <div className="col-md-6 col-xs-6 text-right">
+              <BootstrapCarousel></BootstrapCarousel>  
+            </div>
 
-    </div>
+          </div>
+      </div>
 
   </div>
    
