@@ -8,9 +8,6 @@ const sixWeekProgram = props => (
         </div>
 
     </div>
-        <div id="button">
-            <a href="/login" className="btn button">Join Now!</a>
-        </div>
         <div id="cardContainer" className="row row-cols-1 row-cols-md-3">
             <div className="col mb-4">
                 <div className="card">
