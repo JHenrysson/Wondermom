@@ -11,7 +11,7 @@ class BootstrapCarousel extends Component {
 
             <Carousel>  
                 <Carousel.Item> 
-                    <img className="d-block w-100"
+                    <img className="d-block w-100" 
                         src={'/images/workoutabs.jpg'}  />  
 
                             <Carousel.Caption>  
@@ -21,7 +21,7 @@ class BootstrapCarousel extends Component {
                 </Carousel.Item  >  
 
                 <Carousel.Item>  
-                    <img className="d-block w-100"  
+                    <img className="d-block w-100" 
                     src={'/images/workoutbutt.jpg'}    />  
 
                         <Carousel.Caption>  
@@ -31,7 +31,7 @@ class BootstrapCarousel extends Component {
                 </Carousel.Item >  
 
                 <Carousel.Item>  
-                    <img className="d-block w-100"  
+                    <img className="d-block w-100" 
                     src={'images/workouthug.jpg'}   />  
 
                         <Carousel.Caption>  
