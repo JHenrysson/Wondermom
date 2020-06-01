@@ -30,7 +30,7 @@ function Home() {
 
           </div>
 
-            <div className="col-md-4 col-xs-4 text-right" id="carouselhome">
+            <div className="col-md-6 col-xs-6 text-right">
               <BootstrapCarousel></BootstrapCarousel>  
             </div>
 
