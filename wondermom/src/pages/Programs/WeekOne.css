@@ -5,8 +5,11 @@ margin-right: 5%;
 #jumbotronWeekOne {
     background-image: url("/images/weekOneBanner2.jpg");
     opacity: 93%;
-    height: 150px;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    padding-top: 250px;
+    position: relative;
 }
