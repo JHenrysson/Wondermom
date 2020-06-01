@@ -28,6 +28,7 @@ body {
     
 }
 
+
 @media (max-width: 2000px) {
     #logohome{
         width: 500px;
@@ -43,6 +44,8 @@ body {
     }
 
 }
+
+
 
 @media (max-width: 768px) {
     #logohome{
