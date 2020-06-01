@@ -9,14 +9,17 @@
     background-image:url('/images/headnofont.png');
     opacity: 100%;
     height: 100%;
+    width: 100%;
+    opacity: 90%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 250px;
 }
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
