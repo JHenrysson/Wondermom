@@ -4,7 +4,7 @@ body {
 
 
 
-.jumbotron {
+#homejumbotron {
     background-image: url('/images/workouthug.jpg');
     background-position: center;
     background-repeat: no-repeat;
