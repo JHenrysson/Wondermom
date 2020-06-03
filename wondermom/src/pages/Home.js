@@ -9,7 +9,7 @@ function Home() {
       </div>   
 
       <div>
-        <img id="logohome"src="images/logo.png" alt="logoimage"/>
+        <img id="logohome"src="/wondermom/images/logo.png" alt="logoimage"/>
       </div>
 
       <div className="container-md">
