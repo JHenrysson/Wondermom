@@ -1,4 +1,15 @@
+p{
+    text-align: center;
+}
 
+.progressHeadline{
+
+
+    margin: 0 auto;
+
+
+
+}
 #button{
     margin:0 auto;
     border-style:none;
@@ -32,12 +43,69 @@
 #jumbotronSixWeek {
     background-image: url("/images/sixWeekBanner.jpg");
     opacity: 93%;
-    height: 150px;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    padding-top: 250px;
+    position: relative;
 }
+@media (max-width: 2000px) {
+    .jumbotron {
+        height: 500px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .jumbotron {
+        height: 300px;
+    }
+}
+
+
 
 .card-title{
     text-align: center;
+}
+
+
+input[type="checkbox"] {
+    margin-top: 5%;
+}
+
+/*
+    Progress bar
+ */
+.progressbar-container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.progressbar-bar {/*change here for the width of the progress bar but not the color??? */
+    height: 50px;
+    width: auto; /*to change the length of the progress bar*/
+    border-radius: 30px;
+    background-color: white;
+}
+
+.progress-indicator {
+    border-width: 25px;
+    border-radius: 30px;
+    border-color: cornflowerblue;
+    background-color: lightblue;
+    height: 100%;
+}
+
+.progressbar-label {
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
 }
