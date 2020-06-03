@@ -46,7 +46,7 @@ const footer = props => (
         <hr/>
         <ul className="list-unstyled list-inline text-center py-2">
             <li className="list-inline-item">
-                <h5 className="mb-1">Subscribe </h5>
+                <h5 className="mb-1">Join Wondermom </h5>
             </li>
             <li className="list-inline-item">
                 <button type="button" className="btn btn-outline-light">Sign Up</button>
