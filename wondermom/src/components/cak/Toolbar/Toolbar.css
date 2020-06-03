@@ -50,9 +50,13 @@ height: 56px;
 .toolbar_navigation-items a:active{
     color:#f8ecec;
 }
-
+a:hover{
+    border-radius:none;
+}
 li a:hover, .dropdown:hover .dropbtn {
     background-color:#18a5a7;
+    border-radius: 0;
+
   }
 
 .dropdown-content {

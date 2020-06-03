@@ -14,7 +14,7 @@ function Lunch() {
       <div className="container">
         <div className="card-deck">   
           <div className="row justify-content-center">
-              <div className="col-md">
+              <div className="col-12 col-md-6 col-lg-3">
                   <div className="card shadow">
                       <div className="card-img-top">
                           <img src="/images/lh1.jpg" alt="Breakfast"/>
@@ -29,7 +29,7 @@ function Lunch() {
                 </div>
             </div>
 
-                <div className="col-md">
+                <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                       <div className="card-img-top">
                       <img src="/images/lh2.jpg" alt="lunch"/>
@@ -44,7 +44,7 @@ function Lunch() {
                 </div>
             </div>
 
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                 <div className="card shadow">
                     <div className="card-img-top">
                     <img src="/images/lh3.jpg" alt="dinner"/> 
@@ -58,7 +58,7 @@ function Lunch() {
                 </div>
             </div>
 
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                       <div className="card-img-top">
                       <img src="/images/lh4.jpg" alt="lunch"/>
@@ -81,7 +81,7 @@ function Lunch() {
       <div className="container">
         <div className="card-deck">   
           <div className="row justify-content-center">
-              <div className="col-md">
+              <div className="col-12 col-md-6 col-lg-3">
                   <div className="card shadow">
                       <div className="card-img-top">
                           <img src="/images/lh1.jpg" alt="Breakfast"/>
@@ -96,7 +96,7 @@ function Lunch() {
                 </div>
             </div>
 
-                <div className="col-md">
+                <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                       <div className="card-img-top">
                       <img src="/images/lh2.jpg" alt="lunch"/>
@@ -111,7 +111,7 @@ function Lunch() {
                 </div>
             </div>
 
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                 <div className="card shadow">
                     <div className="card-img-top">
                     <img src="/images/lh3.jpg" alt="dinner"/> 
@@ -126,7 +126,7 @@ function Lunch() {
                 </div>
             </div>
 
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                       <div className="card-img-top">
                       <img src="/images/lh4.jpg" alt="lunch"/>
