@@ -8,7 +8,7 @@ function Programs() {
             <div id="main">
                 <div className="card-deck">
                     <div className="card">
-                        <img src="./images/6weeks.jpg" class="card-img-top" alt="6weeks"></img>
+                        <img src="./images/6weeks.jpg" className="card-img-top" alt="6weeks"></img>
                         <div className="card-body">
                             <h4 className="card-title">6 week program</h4>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -17,7 +17,7 @@ function Programs() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="./images/8weeks.jpg" class="card-img-top" alt="8weeks"></img>
+                        <img src="./images/8weeks.jpg" className="card-img-top" alt="8weeks"></img>
                         <div className="card-body">
                             <h4 className="card-title">8 week program</h4>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -26,7 +26,7 @@ function Programs() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="./images/12weeks.jpg" class="card-img-top" alt="12weeks"></img>
+                        <img src="./images/12weeks.jpg" className="card-img-top" alt="12weeks"></img>
                         <div className="card-body">
                             <h4 className="card-title">12 week program</h4>
                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
