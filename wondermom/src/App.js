@@ -52,10 +52,11 @@ class App extends Component {
 //here is the pages//navbar linking.
 //the router is linking the pages to the link to="/example" 
     return (
-      <Router>
+      <Router basename="/wondermom">
         <div>
           <div style={{marginTop: '56px'}}>  {/* Added to fix spacing between nav bar */}
-          <Route exact path="/home" component = {Home}/>
+          <Route exact path="/" component = {Home}/>
+          <Route path ="/home" component ={Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/breakfast" component ={Breakfast}/>
           <Route path ="/lunch" component ={Lunch}/>

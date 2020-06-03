@@ -38,7 +38,7 @@ const footer = props => (
             </div>
         </ul>
         <hr/>
-        <div class="text">
+        <div className="text">
             <p className="text-center">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet
                 fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex
                 communi. At nos hinc posthac, sitientis piros Afros. </p>
@@ -46,10 +46,10 @@ const footer = props => (
         <hr/>
         <ul className="list-unstyled list-inline text-center py-2">
             <li className="list-inline-item">
-                <h5 className="mb-1">Subscribe </h5>
+                <h5 className="mb-1">Join Wondermom </h5>
             </li>
             <li className="list-inline-item">
-                <button type="button" class="btn btn-outline-light">Sign Up</button>
+                <button type="button" className="btn btn-outline-light">Sign Up</button>
             </li>
         </ul>
         <hr/>
