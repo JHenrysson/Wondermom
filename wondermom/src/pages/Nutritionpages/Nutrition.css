@@ -66,16 +66,13 @@
     }
 }
 
-@media (min-width: 500px){
+@media (min-width: 769px){
     .card-deck .card{
         margin-bottom: 1rem;
     }
-    img{
-        width: 100%;
-    }
 
     .card-columns {
-        column-count: 2;
+        column-count: 4;
     }
 }
 
@@ -84,16 +81,7 @@
         overflow: hidden;
         height: auto;
     }
-}
-
-@media (min-width: 990px){
-    .card-columns {
-      column-count: 4;
-    }
-    img{
-        width: 100%;
-    }
-    .container{
-        margin-bottom: initial;
+    .card-columns{
+        column-count: 2;
     }
 }
