@@ -47,7 +47,7 @@ const weekOne = props => (
             </div>
             <div className="col mb-4">
                 <div className="card">
-                    <img src="./images/sixweek8.jpg" className="card-img-top" alt="Woman doing sit-up"/>
+                    <img src="/wondermom/images/sixweek8.jpg" className="card-img-top" alt="Woman doing sit-up"/>
                     <div className="card-body">
                         <h4 className="card-title">Day Four</h4>
                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -61,7 +61,7 @@ const weekOne = props => (
         <div id="cardContainer" className="row row-cols-1 row-cols-md-2">
             <div className="col mb-5">
                 <div className="card">
-                    <img src="./images/sixweek3.jpg" className="card-img-top" alt="Woman on floor stretching "/>
+                    <img src="/wondermom/images/sixweek3.jpg" className="card-img-top" alt="Woman on floor stretching "/>
                     <div className="card-body">
                         <p> className="card-title">Day Five</p>
                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

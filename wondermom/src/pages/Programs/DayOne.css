@@ -22,7 +22,7 @@
 
 #jumbotronDayOne {
     background-image: url("/wondermom/images/dayOneHeaderYogaBall.jpg");
-    opacity: 93%;
+    opacity: .9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
