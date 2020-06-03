@@ -3,7 +3,7 @@
 }
 
 #img-jumbo{
-    background-image:url('/images/headnofont.png');
+    background-image:url("/wondermom/images/headnofont.png");
     opacity: 80%;
     height: auto;
     background-size: cover;

@@ -17,7 +17,7 @@ function Dinner() {
           
                 <div className="card shadow">
                         <div className="card-img-top">
-                            <img src="./images/dn1.jpeg" alt="Breakfast"/>
+                            <img src="images/dn1.jpeg" alt="Breakfast"/>
                             </div>
 
                         <div className="card-body text-center">
@@ -32,7 +32,7 @@ function Dinner() {
                 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/dn2.jpg" alt="lunch"/>
+                      <img src="images/dn2.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -47,7 +47,7 @@ function Dinner() {
 
                 <div className="card shadow">
                     <div className="card-img-top">
-                    <img src="/images/dn1.jpeg" alt="dinner"/> 
+                    <img src="images/dn1.jpeg" alt="dinner"/> 
                         </div>
 
                     <div className="card-body text-center">
@@ -61,7 +61,7 @@ function Dinner() {
 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/dn2.jpg" alt="lunch"/>
+                      <img src="images/dn2.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -81,7 +81,7 @@ function Dinner() {
           
                 <div className="card shadow">
                         <div className="card-img-top">
-                            <img src="./images/dn1.jpeg" alt="Breakfast"/>
+                            <img src="images/dn1.jpeg" alt="Breakfast"/>
                             </div>
 
                         <div className="card-body text-center">
@@ -96,7 +96,7 @@ function Dinner() {
                 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/dn2.jpg" alt="lunch"/>
+                      <img src="images/dn2.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -111,7 +111,7 @@ function Dinner() {
 
                 <div className="card shadow">
                     <div className="card-img-top">
-                    <img src="/images/dn1.jpeg" alt="dinner"/> 
+                    <img src="images/dn1.jpeg" alt="dinner"/> 
                         </div>
 
                     <div className="card-body text-center">
@@ -125,7 +125,7 @@ function Dinner() {
 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/dn2.jpg" alt="lunch"/>
+                      <img src="images/dn2.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">

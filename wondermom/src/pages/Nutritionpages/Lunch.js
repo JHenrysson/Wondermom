@@ -16,7 +16,7 @@ function Lunch() {
           
                 <div className="card shadow">
                         <div className="card-img-top">
-                            <img src="./images/lh2.jpg" alt="Breakfast"/>
+                            <img src="images/lh2.jpg" alt="Breakfast"/>
                             </div>
 
                         <div className="card-body text-center">
@@ -31,7 +31,7 @@ function Lunch() {
                 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/lh3.jpg" alt="lunch"/>
+                      <img src="images/lh3.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -46,7 +46,7 @@ function Lunch() {
 
                 <div className="card shadow">
                     <div className="card-img-top">
-                    <img src="/images/lh2.jpg" alt="dinner"/> 
+                    <img src="images/lh2.jpg" alt="dinner"/> 
                         </div>
 
                     <div className="card-body text-center">
@@ -60,7 +60,7 @@ function Lunch() {
 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/lh3.jpg" alt="lunch"/>
+                      <img src="images/lh3.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -80,7 +80,7 @@ function Lunch() {
           
                 <div className="card shadow">
                         <div className="card-img-top">
-                            <img src="./images/lh2.jpg" alt="Breakfast"/>
+                            <img src="images/lh2.jpg" alt="Breakfast"/>
                             </div>
 
                         <div className="card-body text-center">
@@ -95,7 +95,7 @@ function Lunch() {
                 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/lh3.jpg" alt="lunch"/>
+                      <img src="images/lh3.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -110,7 +110,7 @@ function Lunch() {
 
                 <div className="card shadow">
                     <div className="card-img-top">
-                    <img src="/images/lh2.jpg" alt="dinner"/> 
+                    <img src="images/lh2.jpg" alt="dinner"/> 
                         </div>
 
                     <div className="card-body text-center">
@@ -124,7 +124,7 @@ function Lunch() {
 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/lh3.jpg" alt="lunch"/>
+                      <img src="images/lh3.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
