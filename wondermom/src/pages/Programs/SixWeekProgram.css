@@ -42,7 +42,7 @@ p{
 }
 #jumbotronSixWeek {
     background-image: url("/wondermom/images/sixWeekBanner.jpg");
-    opacity: 93%;
+    opacity: .9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

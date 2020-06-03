@@ -12,7 +12,7 @@ class BootstrapCarousel extends Component {
             <Carousel>  
                 <Carousel.Item> 
                     <img className="d-block w-100"
-                        src={'images/workoutabs.jpg'}  />  
+                        src={'/wondermom/images/workoutabs.jpg'}  />  
 
                             <Carousel.Caption>  
                                 <h3>First Demo </h3>  
@@ -22,7 +22,7 @@ class BootstrapCarousel extends Component {
 
                 <Carousel.Item>  
                     <img className="d-block w-100"  
-                    src={'images/workoutbutt.jpg'}    />  
+                    src={'/wondermom/images/workoutbutt.jpg'}    />  
 
                         <Carousel.Caption>  
                             <h3>Second Demo</h3>  
@@ -32,7 +32,7 @@ class BootstrapCarousel extends Component {
 
                 <Carousel.Item>  
                     <img className="d-block w-100"  
-                    src={'images/workouthug.jpg'}   />  
+                    src={'/wondermom/images/workouthug.jpg'}   />  
 
                         <Carousel.Caption>  
                             <h3>Third Demo</h3>  
