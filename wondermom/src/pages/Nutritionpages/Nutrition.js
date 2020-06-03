@@ -18,7 +18,7 @@ function Nutrition() {
         <div className="container">
         <div className="card-deck">   
           <div className="row justify-content-center">
-              <div className="col-md">
+              <div className="col-12 col-md-6 col-lg-3">
                   <div className="card shadow">
                       <div className="card-img-top">
                           <img src="./images/bk2.jpg" alt="Breakfast"/>
@@ -34,7 +34,7 @@ function Nutrition() {
                 </div>
             </div>
 
-                <div className="col-md">
+                <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                       <div className="card-img-top">
                       <img src="/images/lh2.jpg" alt="lunch"/>
@@ -50,7 +50,7 @@ function Nutrition() {
                 </div>
             </div>
 
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                 <div className="card shadow">
                     <div className="card-img-top">
                     <img src="/images/dn3.jpg" alt="dinner"/> 
@@ -65,7 +65,7 @@ function Nutrition() {
                     </div>
                 </div>
             </div>
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                       <div className="card-img-top">
                       <img src="/images/bk3.jpg" alt="lunch"/>

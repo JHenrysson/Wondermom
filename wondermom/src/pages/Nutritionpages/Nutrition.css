@@ -1,9 +1,6 @@
 .card{
     border:none;
 }
-.card shadow{
-    box-shadow: none;
-}
 
 #img-jumbo{
     background-image:url('/images/headnofont.png');
@@ -74,8 +71,6 @@ img {
 
 @media (min-width: 769px){
     .container{
-        width: 100%;
-        column-count: 4;
         margin-bottom: initial;
     }
 }

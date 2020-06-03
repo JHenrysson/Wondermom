@@ -14,7 +14,7 @@ function Snacks() {
           <div className="container">
           <div className="card-deck">
               <div className="row jusify-content-center">
-                  <div className="col-md">
+                  <div className="col-12 col-md-6 col-lg-3">
                       <div className="card shadow">
                           <div className="card-img-top">
                               <img src="/images/bk1.jpeg" alt="Breakfast"/>
@@ -29,7 +29,7 @@ function Snacks() {
                     </div>
                 </div>
     
-                    <div className="col-md">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div className="card shadow">
                           <div className="card-img-top">
                           <img src="/images/bk2.jpg" alt="Breakfast2"/>
@@ -44,7 +44,7 @@ function Snacks() {
                     </div>
                 </div>
     
-                <div className="col-md">
+                <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                         <div className="card-img-top">
                         <img src="/images/bk3.jpg" alt="Breakfast3"/> 
@@ -58,7 +58,7 @@ function Snacks() {
                     </div>
                 </div>
             </div>
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                 <div className="card shadow">
                     <div className="card-img-top">
                     <img src="/images/bk4.jpeg" alt="Breakfast4"/>
@@ -81,7 +81,7 @@ function Snacks() {
           <div className="container">
             <div className="card-deck">
               <div className="row jusify-content-center">
-                  <div className="col-md">
+                  <div className="col-12 col-md-6 col-lg-3">
                       <div className="card shadow">
                           <div className="card-img-top">
                             <img src="/images/bk1.jpeg" alt="Breakfast"/>
@@ -95,7 +95,7 @@ function Snacks() {
                 </div>
             </div>
     
-            <div className="col-md">
+            <div className="col-12 col-md-6 col-lg-3">
                 <div className="card shadow">
                     <div className="card-img-top">
                     <img src="/images/bk2.jpg" alt="Breakfast2"/>
@@ -110,7 +110,7 @@ function Snacks() {
                 </div>
             </div>
     
-                <div className="col-md">
+                <div className="col-12 col-md-6 col-lg-3">
                     <div className="card shadow">
                         <div className="card-img-top">
                         <img src="/images/bk3.jpg" alt="Breakfast3"/> 
@@ -125,7 +125,7 @@ function Snacks() {
                 </div>
             </div>
 
-                <div className="col-md">
+                <div className="col-12 col-md-6 col-lg-3">
                         <div className="card shadow">
                           <div className="card-img-top">
                           <img src="/images/bk4.jpeg" alt="Breakfast4"/>
