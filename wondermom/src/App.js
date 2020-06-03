@@ -11,10 +11,10 @@ import Backdrop from './components/Backdrop/Backdrop';
 // Pages
 import Home from './pages/Home';
 import About from './pages/About';
-import Programs from './pages/Programs';
-import DayOne from "./pages/DayOne";
-import SixWeekProgram from "./pages/SixWeekProgram";
-import WeekOne from "./pages/WeekOne";
+import Programs from './pages/Programs/Programs';
+import DayOne from "./pages/Programs/DayOne";
+import SixWeekProgram from "./pages/Programs/SixWeekProgram";
+import WeekOne from "./pages/Programs/WeekOne";
 import Nutrition from './pages/Nutritionpages/Nutrition';
 import Breakfast from './pages/Nutritionpages/Breakfast';
 import Lunch from './pages/Nutritionpages/Lunch';
@@ -52,10 +52,11 @@ class App extends Component {
 //here is the pages//navbar linking.
 //the router is linking the pages to the link to="/example" 
     return (
-      <Router>
+      <Router basename="/wondermom">
         <div>
           <div style={{marginTop: '56px'}}>  {/* Added to fix spacing between nav bar */}
-          <Route exact path="/home" component = {Home}/>
+          <Route exact path="/" component = {Home}/>
+          <Route path ="/home" component ={Home}/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/breakfast" component ={Breakfast}/>
           <Route path ="/lunch" component ={Lunch}/>

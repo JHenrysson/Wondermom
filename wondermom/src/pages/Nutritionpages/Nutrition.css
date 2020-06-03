@@ -1,14 +1,24 @@
-
-
-.btn-join{
-    background-color:white;
-    color: black;
-    border-radius: 5px;
-    border: none;
-    margin: 0.5rem;
-    padding: 2px 20px;
-    font-size: 24px;
+.card{
+    border:none;
 }
+
+#img-jumbo{
+    background-image:url("/wondermom/images/headnofont.png");
+    opacity: .8;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.centered {
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 3px 3px 5px #000000;
+
+  }
 
 .spaceing {
     margin-top: 3%;
@@ -23,9 +33,9 @@
     margin-top: 5%;
 }
 
-img {
+.card-img-top {
     height: 15rem;
-    width: 100%;
+    overflow: hidden;
 }
 
 .card-link{
@@ -34,27 +44,41 @@ img {
     background-color:#18a5a7;
     font-size: 0.9rem;
     border: none;
-    padding: 3px 40px;;
+    padding: 3px 20px;;
     font-family:'Open Sans', sans-serif;
 }
 
-@media (max-width: 768px) {
+
+.card-columns {
+    column-count: 4;
+}
+
+@media (max-width: 1200px) {
     .container{
-        width: 100%;
-        column-count: 2;
         margin-bottom: initial;
     }
     .card-link{
         font-size: 0.5rem;
         padding: 3px 25px;
     }
-   
+    .centered{
+        font-size: 4rem;
+    }
+    .card-columns{
+        column-count: 2;
+
+    }
 }
 
-@media (min-width: 769px){
-    .container{
-        width: 100%;
-        column-count: 4;
-        margin-bottom: initial;
+@media (min-width: 766px){
+    .card-deck .card{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 200px){
+    .card-img-top {
+        overflow: hidden;
+        height: auto;
     }
 }

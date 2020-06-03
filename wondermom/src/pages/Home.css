@@ -4,15 +4,15 @@ body {
 
 
 
-.jumbotron {
-    background-image: url('/images/workouthug.jpg');
+#homejumbotron {
+    background-image: url("/wondermom/images/workouthug.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     width: 100%;
     padding-top: 250px;
-    opacity: 70%;
+    opacity: .7;
     position: relative;
 }
 
