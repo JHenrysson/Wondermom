@@ -50,10 +50,10 @@
 
 
 .card-columns {
-    column-count: 1;
+    column-count: 4;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .container{
         margin-bottom: initial;
     }
@@ -64,24 +64,23 @@
     .centered{
         font-size: 4rem;
     }
+    .card-columns{
+        column-count: 2;
+
+    }
 }
 
-@media (min-width: 769px){
+@media (min-width: 766px){
     .card-deck .card{
         margin-bottom: 1rem;
     }
 
-    .card-columns {
-        column-count: 4;
-    }
+
 }
 
-@media (min-width: 270px){
+@media (min-width: 200px){
     .card-img-top {
         overflow: hidden;
         height: auto;
-    }
-    .card-columns{
-        column-count: 2;
     }
 }
