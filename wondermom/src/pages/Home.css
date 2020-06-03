@@ -5,7 +5,7 @@ body {
 
 
 #homejumbotron {
-    background-image: url('/images/workouthug.jpg');
+    background-image: url("/wondermom/images/workouthug.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

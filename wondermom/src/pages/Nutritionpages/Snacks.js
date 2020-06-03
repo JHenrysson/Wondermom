@@ -16,7 +16,7 @@ function Snacks() {
           
                 <div className="card shadow">
                         <div className="card-img-top">
-                            <img src="./images/bk1.jpeg" alt="Breakfast"/>
+                            <img src="images/bk1.jpeg" alt="Breakfast"/>
                             </div>
 
                         <div className="card-body text-center">
@@ -31,7 +31,7 @@ function Snacks() {
                 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/bk2.jpg" alt="lunch"/>
+                      <img src="images/bk2.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -46,7 +46,7 @@ function Snacks() {
 
                 <div className="card shadow">
                     <div className="card-img-top">
-                    <img src="/images/bk3.jpg" alt="dinner"/> 
+                    <img src="images/bk3.jpg" alt="dinner"/> 
                         </div>
 
                     <div className="card-body text-center">
@@ -60,7 +60,7 @@ function Snacks() {
 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/bk4.jpeg" alt="lunch"/>
+                      <img src="images/bk4.jpeg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -80,7 +80,7 @@ function Snacks() {
           
                 <div className="card shadow">
                         <div className="card-img-top">
-                            <img src="./images/bk1.jpeg" alt="Breakfast"/>
+                            <img src="images/bk1.jpeg" alt="Breakfast"/>
                             </div>
 
                         <div className="card-body text-center">
@@ -95,7 +95,7 @@ function Snacks() {
                 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/bk2.jpg" alt="lunch"/>
+                      <img src="images/bk2.jpg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
@@ -110,7 +110,7 @@ function Snacks() {
 
                 <div className="card shadow">
                     <div className="card-img-top">
-                    <img src="/images/bk3.jpg" alt="dinner"/> 
+                    <img src="images/bk3.jpg" alt="dinner"/> 
                         </div>
 
                     <div className="card-body text-center">
@@ -124,7 +124,7 @@ function Snacks() {
 
                 <div className="card shadow">
                       <div className="card-img-top">
-                      <img src="/images/bk4.jpeg" alt="lunch"/>
+                      <img src="images/bk4.jpeg" alt="lunch"/>
                           </div>
 
                         <div className="card-body text-center">
