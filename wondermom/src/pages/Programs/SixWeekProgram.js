@@ -102,7 +102,7 @@ class sixWeekProgram extends Component {
                     </div>
                     <div className="col mb-4">
                         <div className="card">
-                            <img src="./images/sixweek8.jpg" className="card-img-top" alt="..."/>
+                            <img src="./images/6weeks.jpg" className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h4 className="card-title">Week Six</h4>
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -114,8 +114,9 @@ class sixWeekProgram extends Component {
                         </div>
                     </div>
                     <div className="progressHeadline">
-                        <h3>Your Progress </h3>
+                        <img src="images/progress3.png" alt="headline"/>
                     </div>
+
                 </div>
                 <div className="progressbar-container">
                     <div className="progressbar-bar">
