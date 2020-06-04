@@ -20,3 +20,15 @@
     padding-bottom: 2%;
     border-radius: 25px;
 }
+
+#jumbotronForPrograms {
+    background-image: url("/wondermom/images/programsBanner.jpg");
+    opacity: .9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    padding-top: 250px;
+    position: relative;
+}
