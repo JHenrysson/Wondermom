@@ -67,6 +67,7 @@ class App extends Component {
           <Route path ="/dayOne" component={DayOne}/>
           <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
           <Route path ="/weekOne" component={WeekOne}/>
+          <Route path ="/Login" component={Login}/>
           
 
 
