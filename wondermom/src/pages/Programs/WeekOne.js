@@ -63,7 +63,7 @@ const weekOne = props => (
                 <div className="card">
                     <img src="/wondermom/images/sixweek3.jpg" className="card-img-top" alt="Woman on floor stretching "/>
                     <div className="card-body">
-                        <p> className="card-title">Day Five</p>
+                        <h4 className="card-title">Day Five</h4>
                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
