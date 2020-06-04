@@ -8,13 +8,12 @@ class Programs extends Component {
 
     render() {
         return (
-            <div className="main">
+            <div>
 
                 <div id="jumbotronForPrograms" className="jumbotron jumbotron-fluid">
                     <div className="container"></div>
                 </div>
-
-                <h1>Programs</h1>
+                
                 <div id="main">
                     <div className="card-deck">
                         <div className="card">
