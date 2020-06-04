@@ -104,7 +104,7 @@ class sixWeekProgram extends Component {
                         <div className="card">
                             <img src="./images/6weeks.jpg" className="card-img-top" alt="woman streching on yogamat"/>
                             <div className="card-body">
-                                <h4 className="card-title">Week Six</h4>
+                                <h4> className="card-title">Week Six</h4>
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
