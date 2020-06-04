@@ -13,7 +13,7 @@ class Programs extends Component {
                 <div id="jumbotronForPrograms" className="jumbotron jumbotron-fluid">
                     <div className="container"></div>
                 </div>
-                
+
                 <div id="main">
                     <div className="card-deck">
                         <div className="card">
@@ -22,7 +22,7 @@ class Programs extends Component {
                                 <h4 className="card-title">6 week program</h4>
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="/SixWeekProgram" className="card-link justify-content-center">Try this program</a>
+                                <a href="/SixWeekProgram" className="centerButton card-link justify-content-center">Try this program</a>
                             </div>
                         </div>
                         <div className="card">
@@ -31,7 +31,7 @@ class Programs extends Component {
                                 <h4 className="card-title">8 week program</h4>
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <button className="card-link">Try this program</button>
+                                <button className="centerButton card-link">Try this program</button>
                             </div>
                         </div>
                         <div className="card">
@@ -40,7 +40,7 @@ class Programs extends Component {
                                 <h4 className="card-title">12 week program</h4>
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <button className="card-link">Try this program</button>
+                                <button className="centerButton card-link">Try this program</button>
                             </div>
                         </div>
                     </div>
