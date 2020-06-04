@@ -51,19 +51,10 @@ p{
     padding-top: 250px;
     position: relative;
 }
-@media (max-width: 2000px) {
-    .jumbotron {
-        height: 500px;
-    }
-}
 
 
 
-@media (max-width: 768px) {
-    .jumbotron {
-        height: 300px;
-    }
-}
+
 
 
 
@@ -97,7 +88,7 @@ input[type="checkbox"] {
     border-width: 25px;
     border-radius: 30px;
     border-color: cornflowerblue;
-    background-color: lightblue;
+    background-color: #75c1b5;
     height: 100%;
 }
 
