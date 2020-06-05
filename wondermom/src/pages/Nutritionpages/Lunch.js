@@ -4,9 +4,11 @@ import './Nutrition.css';
 function Lunch() {
     return (
         <>
-        <div id="headline2">
-            <h1>Lunch</h1>
-        </div>
+            <div id="img-jumbo-lunch" className="jumbotron jumbotron-fluid">
+                <div className="container">
+                    <div className="centered"></div>
+                </div>
+            </div>
     
         <div className="spaceing">
         </div>

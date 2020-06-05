@@ -2,13 +2,31 @@
     border:none;
 }
 
-#img-jumbo{
-    background-image:url("/wondermom/images/headnofont.png");
-    opacity: .8;
+#img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
     height: auto;
-    background-size: cover;
+    opacity: .8;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    padding-top: 250px;
+    position: relative;
+}
+#img-jumbo-nutrition{
+    background-image:url("/wondermom/images/nutritionbanner.jpg");;
+}
+#img-jumbo-breakfast {
+    background-image: url("/wondermom/images/breakfastBanner.jpg");
+}
+#img-jumbo-lunch{
+    background-image: url("/wondermom/images/lunchBanner.jpg");
+}
+#img-jumbo-dinner {
+    background-image: url("/wondermom/images/dinnerBanner.jpg");
+}
+#img-jumbo-snacks{
+    background-image:url("/wondermom/images/snackBanner.jpg");
+
 }
 
 .centered {
