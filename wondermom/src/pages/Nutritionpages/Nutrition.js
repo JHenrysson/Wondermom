@@ -4,9 +4,9 @@ import './Nutrition.css';
 function Nutrition() {
     return (     
     <div>
-        <div id="img-jumbo" className="jumbotron jumbotron-fluid">
+        <div id="img-jumbo-nutrition" className="jumbotron jumbotron-fluid">
             <div className="container">
-                <div className="centered">Nutrition</div>
+                <div className="centered"></div>
             </div>
         </div>
 

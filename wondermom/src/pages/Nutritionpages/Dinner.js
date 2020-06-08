@@ -5,8 +5,10 @@ function Dinner() {
     return (
         <>
     <>
-        <div id="headline2">
-            <h1>Dinner</h1>
+        <div id="img-jumbo-dinner" className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <div className="centered"></div>
+            </div>
         </div>
     
         <div className="spaceing">
