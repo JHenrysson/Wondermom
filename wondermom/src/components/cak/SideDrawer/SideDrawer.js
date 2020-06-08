@@ -39,7 +39,7 @@ const sideDrawer = props => {
                 </li>
             </li>
             <li>
-                <Link to="/">Login <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+                <Link to="/">Login/Sign up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
             </li>
 
         </ul>

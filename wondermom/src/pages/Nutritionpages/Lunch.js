@@ -22,7 +22,7 @@ function Lunch() {
                             </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -37,7 +37,7 @@ function Lunch() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -52,7 +52,7 @@ function Lunch() {
                         </div>
 
                     <div className="card-body text-center">
-                    <h4 className="card-title text-center">Title</h4>
+                    <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -66,7 +66,7 @@ function Lunch() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -86,7 +86,7 @@ function Lunch() {
                             </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -101,7 +101,7 @@ function Lunch() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -116,7 +116,7 @@ function Lunch() {
                         </div>
 
                     <div className="card-body text-center">
-                    <h4 className="card-title text-center">Title</h4>
+                    <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -130,7 +130,7 @@ function Lunch() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>

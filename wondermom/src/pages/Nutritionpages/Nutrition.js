@@ -25,7 +25,8 @@ function Nutrition() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Breakfast</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Some info about good and healty Breakfast recipes and
+                if you click on the button you can see all the breakfast recipes.
                         </p>
                         <a href="/breakfast" className="card-link justify-content-center">Show more</a>
                         </div>
@@ -40,7 +41,8 @@ function Nutrition() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Lunch</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Some info about good and healty Lunch recipes and
+                if you click on the button you can see all the lunch recipes.
                         </p>
                         <a href="/lunch" className="card-link justify-content-center">Show more</a>
                     </div>
@@ -55,7 +57,8 @@ function Nutrition() {
                     <div className="card-body text-center">
                     <h4 className="card-title text-center">Dinner</h4>
                     <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Some info about good and healty Dinner recipes and
+                if you click on the button you can see all the dinner recipes.
                     </p>
                     <a href="/dinner" className="card-link justify-content-center">Show more</a>
                     </div>
@@ -69,7 +72,8 @@ function Nutrition() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Snacks</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Some info about good and healty Snacks recipes and
+                if you click on the button you can see all the snacks recipes.
                         </p>
                         <a href="/snacks" className="card-link justify-content-center">Show more</a>
                     </div>
