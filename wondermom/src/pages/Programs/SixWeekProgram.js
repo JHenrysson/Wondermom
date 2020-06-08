@@ -26,8 +26,19 @@ class sixWeekProgram extends Component {
                 <div id="jumbotronSixWeek" className="jumbotron jumbotron-fluid">
                     <div className="container">
                     </div>
-
                 </div>
+
+                <div className="progressHeadline">
+                    <img src="images/progress2.png" alt="headline"/>
+                </div>
+
+        <div className="progressbar-container">
+            <div className="progressbar-bar">
+                <div className="progress-indicator"></div>
+            </div>
+            <div className="progressbar-label"></div>
+        </div>
+        <div className="ready"></div>
                 <div id="cardContainer" className="row row-cols-1 row-cols-md-3">
                     <div className="col mb-4">
                         <div className="card">
@@ -107,18 +118,7 @@ class sixWeekProgram extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="progressHeadline">
-                        <img src="images/progress3.png" alt="headline"/>
-                    </div>
-
                 </div>
-                <div className="progressbar-container">
-                    <div className="progressbar-bar">
-                        <div className="progress-indicator"></div>
-                    </div>
-                    <div className="progressbar-label"></div>
-                </div>
-                <div className="ready"></div>
             </div>
         );
     }
