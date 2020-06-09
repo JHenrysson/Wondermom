@@ -9,7 +9,11 @@ background: #18a5a7;
 height: 56px;
 
 }
-
+.toolbar_brand{
+    padding-right: 10%;
+    margin: 0 auto;
+    margin-left: 27%;
+}
 .toolbar_navigation{
     display: flex;
     height: 100%;
@@ -25,6 +29,7 @@ height: 56px;
     text-decoration: none;
     font-size: 1.5rem;
     margin-left: 1rem;
+    max-width: 40%;
 }
 
 .spacer{
@@ -69,13 +74,17 @@ li a:hover, .dropdown:hover .dropbtn {
   
 
 @media (max-width: 768px) {
-    .toolbar_navigation-items {
+    .toolbar_navigation-items, .toolbar_logo {
         display: none;
+    }
+
+    .toolbar_brand {
+        display: inline-block;
     }
 }
 
 @media (min-width: 769px){
-    .toolbar_toggle-button {
+    .toolbar_toggle-button, .toolbar_brand {
         display: none;
     }
     .toolbar_logo a {
