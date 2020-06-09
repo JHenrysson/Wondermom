@@ -31,11 +31,11 @@ const sideDrawer = props => {
                 
                 <Link to="sixWeekProgram">6 week program</Link>
             </li>
-            <li>
-                <Link to="dayOne">Day 1</Link>
-            </li>
             <li> 
                 <Link to= "weekone">Week 1</Link>
+            </li>
+            <li>
+                <Link to="dayOne">Day 1</Link>
             </li>
             </div>
             
