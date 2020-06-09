@@ -16,15 +16,10 @@ function Home() {
         <div className="row">
           <div className="col-md-6 col-xs-6">
             <p className="texthome">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-              Feugiat nisl pretium fusce id velit ut tortor pretium viverra. 
-              Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. 
-              Mauris commodo quis imperdiet massa tincidunt nunc pulvinar. 
-              Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. 
-              Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-              Feugiat nisl pretium fusce id velit ut tortor pretium viverra. 
-              Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. 
+             This is where there will be an introduction for people visiting the site, and 
+             have a summary about the purpose of the site, and what the content is, which are
+             workout exericises, diet recommendations, and information.
+             The targeted demographic are mothers who want to get back in shape mostly. 
             </p>
 
           </div>
