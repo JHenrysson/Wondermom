@@ -45,7 +45,7 @@ const toolbar = props => (
                         </li>
                     </li>
                         <li>
-                        <Link to="/">Login/Sign up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+                        <Link to="/login">Login/Sign up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
                         </li>
                     </ul>
                 </div>
