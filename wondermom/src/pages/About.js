@@ -6,16 +6,12 @@ function About() {
     return (
       <>
 
-
-
-
-<div className="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center" id="aboutjumbotron">
+<div className="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center" id="aboutjumbotron">
   <div class="container text-center">
   <h1 class="display-2">About us</h1>
   <p class="lead">We’re here to keep mamas around the world inspired and motivated to live healthier every day. We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
 </div>
 </div>
-
 
       <section class="container-fluid px-0">
         <div class="row align-items-center content">
