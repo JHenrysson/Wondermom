@@ -25,12 +25,12 @@
     flex-direction: column;
 }
 .side-drawer li {
-    margin: 0.5rem 0;
+    margin: 0.2rem 0;
 }
 
 /* color for text in App navbar */
 .side-drawer a {
-    color: white;
+    color:#174c4f;
     text-decoration: none;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif ;
@@ -81,8 +81,16 @@ li a:hover, .dropdown:hover .dropbtn {
   display: block;
 }
 
-.profile{
-  margin-top: 10rem;
+
+/* adding space between icon and link*/
+i{
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+
+.subchild{
+  text-indent: 0.5rem;
 }
 
 @media (min-width: 769px){
