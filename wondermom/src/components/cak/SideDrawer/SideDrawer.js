@@ -26,19 +26,26 @@ const sideDrawer = props => {
                 <Link to="programs">Programs</Link>
             </li>
 
+            <div className="subchild">
             <li>
+                
                 <Link to="sixWeekProgram">6 week program</Link>
-            </li>
-            <li>
-                <Link to="dayOne">Day 1</Link>
             </li>
             <li> 
                 <Link to= "weekone">Week 1</Link>
             </li>
-
+            <li>
+                <Link to="dayOne">Day 1</Link>
+            </li>
+            </div>
+            
+            <div className="headmenu">
             <li>
                 <Link to="nutrition">Nutrition</Link>
             </li>
+            </div>
+
+            <div className="subchild">
             <li>
                 <Link to="breakfast">Breakfast</Link>
             </li>
@@ -51,6 +58,7 @@ const sideDrawer = props => {
             <li>
                 <Link to="snacks">Snacks</Link>
             </li>
+            </div>
             <li>
                 <Link to="login">Login/Sign up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
             </li>
