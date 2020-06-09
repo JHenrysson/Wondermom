@@ -81,8 +81,11 @@ li a:hover, .dropdown:hover .dropbtn {
   display: block;
 }
 
-.profile{
-  margin-top: 10rem;
+
+/* adding space between icon and link*/
+i{
+  display: inline-block;
+  margin-left: 0.5em;
 }
 
 @media (min-width: 769px){
