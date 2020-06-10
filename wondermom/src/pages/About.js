@@ -20,7 +20,7 @@ function About() {
                 <div className="row justify-content-center">
                     <div className="col-10 col-lg-8 mb-5 blurb m-md-0">
                         <h3>The wondermom story</h3>
-                        <p className="lead">"We want to inspire and motivate to live healthier every day.
+                        <p className="lead">Here we write the story behind the wondermom app. How we came up with this idea. "We want to inspire and motivate to live healthier every day.
 We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
 
                     </div>
@@ -53,6 +53,25 @@ We’ll be your best friend in your back pocket, coaching you on how to stay fit
             </div>
         </section>
                 
+
+        <section className="container-fluid px-0">
+      <div className="row align-items-center content">
+          <div className="col-md-6 order-2 order-md-1">
+            <img src="./images/health.jpg" alt="" class="img-fluid"></img>
+            </div>    
+            <div className="col-md-6 text-center order-1 order-md-2">
+                <div className="row justify-content-center">
+                    <div className="col-10 col-lg-8 mb-5 blurb m-md-0">
+                        <h3>Our mission</h3>
+                        <p className="lead">Here we write the story behind the wondermom app. How we came up with this idea. "We want to inspire and motivate to live healthier every day.
+We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+
    
 
      </>
