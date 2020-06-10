@@ -23,18 +23,20 @@ class Login extends Component {
   <Form.Label id="passwordText">Password</Form.Label>
   <Form.Control type="password" placeholder="Password"/>
 </Form.Group>
-<div className="text-center">
-<Button variant="primary btn-block" type="submit" id="loginButton">
-  Log In
-</Button>
-<Button variant="primary btn-block" type="submit" id="signinButton">
-  Sign In
-</Button>
-</div>
 
+<div className="text-center">
+  <Button variant="primary btn-block" type="submit" id="loginButton">
+    Log In
+  </Button>
+
+  <Button variant="primary btn-block" type="submit" id="signinButton">
+    Sign In
+  </Button>
+</div>
 </Form>
 
 </div> 
+
   );
   }
 };
