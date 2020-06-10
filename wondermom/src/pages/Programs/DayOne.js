@@ -18,9 +18,12 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item2">
-                    Exercise 1
+                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
+            
+            <hr className="line" />
 
             <div className="row">
                 <div className="col-sm grid-item item3">
@@ -29,9 +32,12 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item4">
-                    Exercise 2
+                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
+
+            <hr className="line" />
 
             <div className="row">
                 <div className="col-sm grid-item item5">
@@ -40,9 +46,12 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item6">
-                    Exercise 3
+                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
+
+            <hr className="line" />
 
             <div className="row">
                 <div className="col-sm grid-item item7">
@@ -51,9 +60,13 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item8">
-                    Exercise 4
+                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <p id="descriptionText">Description on how to best perform the exercise. </p>
+                    
                 </div>
             </div>
+
+            <hr className="line" />
 
             <div className="row">
                 <div className="col-sm grid-item item9">
@@ -62,9 +75,12 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item10">
-                    Exercise 5
+                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
+
+            <hr className="line" />
 
             <div className="row">
                 <div className="col-sm grid-item item11">
@@ -73,7 +89,8 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item12">
-                    Exercise 5
+                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
 

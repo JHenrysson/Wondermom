@@ -5,15 +5,19 @@
     height:auto;
 }
 #headerOne{
-    border-style: solid;
-    text-align: center;
-    border-color:  black;
-    font-size: 20px;
-    font-style: italic;
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-style: none;
     padding-top: 1%;
     margin:0 auto;
-
 }
+
+#descriptionText {
+    padding-top: 4%;
+    text-align: left;
+}
+
 .media {
     margin-top: 5%;
     margin-right: 10%;
@@ -44,72 +48,14 @@
     margin: 50px;
   }
   
-  .grid-item {
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 30px;
     text-align: center;
   }
 
-.item1 {
-    grid-area: image;
-}
-
-.item2 {
-    grid-area: description;
-}
-
-.item3 {
-    grid-area: image;
-}
-
-.item4 {
-    grid-area: description;
-}
-
-.item5 {
-    grid-area: image;
-}
-
-.item6 {
-    grid-area: description;
-}
-
-.item7 {
-    grid-area: image;
-}
-
-.item8 {
-    grid-area: description;
-}
-
-.item9 {
-    grid-area: image;
-}
-
-.item10 {
-    grid-area: description;
-}
-
-.item1   {
-    grid-area: image;
-}
-
-.item12 {
-    grid-area: description;
-}
-
-@media (min-width: 330px) {
-    .grid-container {
-        grid-template-columns: auto 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: 
-            "image description"
-            "image description"
-            "image description"
-            "image description"
-            "image description"
-            "image description";
-    }
+.line {
+    border-top: 0px solid white;
 }
