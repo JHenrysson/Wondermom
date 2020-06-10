@@ -6,6 +6,17 @@ const footer = props => (
     <footer>
         <hr/>
         <ul className="list-unstyled list-inline text-center py-2">
+            <li className="list-inline-item">
+                <h5 className="mb-1">Join Wondermom </h5>
+            </li>
+
+                <button type="button" className="centerButton btn btn-info btn-sm">Sign Up</button>
+
+        </ul>
+
+
+        <hr/>
+        <ul className="list-unstyled list-inline text-center py-2">
             <div className="row">
                 <li className="col-sm list-inline-item">
                     <h5>
@@ -38,21 +49,6 @@ const footer = props => (
             </div>
         </ul>
         <hr/>
-        <div className="text">
-            <p className="text-center">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet
-                fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex
-                communi. At nos hinc posthac, sitientis piros Afros. </p>
-        </div>
-        <hr/>
-        <ul className="list-unstyled list-inline text-center py-2">
-            <li className="list-inline-item">
-                <h5 className="mb-1">Join Wondermom </h5>
-            </li>
-            <li className="list-inline-item">
-                <button type="button" className="btn btn-outline-light">Sign Up</button>
-            </li>
-        </ul>
-        <hr/>
         <ul className="list-unstyled list-inline text-center">
             <li className="list-inline-item">
                 <a href="https://www.facebook.com/" className="btn-floating btn-fb mx-1">
@@ -74,6 +70,12 @@ const footer = props => (
                 </a>
             </li>
         </ul>
+        <hr/>
+
+        <div className="text">
+            <p className="text-center">© Wondermom 2020</p>
+        </div>
+
     </footer>
 
 );
