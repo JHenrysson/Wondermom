@@ -4,6 +4,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 /* Healine */

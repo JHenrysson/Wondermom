@@ -1,0 +1,19 @@
+.blurb p {
+    font-size: 2,5rem;
+    font-weight: 100;
+  
+}
+
+#jumbotronabout {
+    background-image: url("/wondermom/images/mirabanner1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    opacity: .7;
+    width: 100%;
+
+   
+}
+.content {
+    margin-top: 100px;
+}

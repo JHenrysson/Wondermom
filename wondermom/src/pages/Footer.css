@@ -1,6 +1,10 @@
 ul.list-unstyled li a {
-    color: white;
     text-decoration: none;
+    color: #174c4f;
+    margin-right: 1px;
+}
+.mb-1{
+    color: #174c4f;
 }
 a:hover{
     border-radius: 10px;
@@ -8,8 +12,8 @@ a:hover{
 .text{
     margin-left: 10%;
     margin-right: 10%;
-    color: white;
+    color: #174c4f;
 }
-. button{
-
+.centerButton{
+   margin-top: 1%;
 }
