@@ -1,6 +1,17 @@
 .wrapper {
-    margin: 80px;
+    margin: 50px;
 }
+
+.background {
+    background-image: url("/wondermom/images/workouthug.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 50%;
+
+}
+
+
 
 Form {
     max-width: 500px;

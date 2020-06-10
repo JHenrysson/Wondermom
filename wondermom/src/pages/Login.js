@@ -9,9 +9,10 @@ class Login extends Component {
   render() {  
 
   return (
-
-
 <div className="wrapper">
+
+<div className="background">
+</div>
 
 <Form>
 <Form.Group controlId="formBasicEmail">
@@ -29,14 +30,13 @@ class Login extends Component {
     Log In
   </Button>
 
-  <Button variant="primary btn-block" type="submit" id="signinButton">
+  <Button variant="primary btn-block" type="button" id="signinButton">
     Sign In
   </Button>
 </div>
 </Form>
 
 </div> 
-
   );
   }
 };
