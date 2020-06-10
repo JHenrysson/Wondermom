@@ -14,7 +14,7 @@ function Home() {
 
       <div className="container-md">
         <div className="row">
-          <div className="col-md-6 col-xs-6">
+          <div className="col-md-6 col-xs-6 offset-md-1">
             <p className="texthome">
              This is where there will be an introduction for people visiting the site, and 
              have a summary about the purpose of the site, and what the content is, which are
