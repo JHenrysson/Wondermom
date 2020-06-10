@@ -1,0 +1,42 @@
+.wrapper {
+    margin: 80px;
+}
+
+Form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px 40px 50px;
+}
+
+#loginButton {
+margin-top: 40px;
+    margin-bottom: 20px;
+}
+#emailText {
+    color: white;
+}
+
+#passwordText {
+    color: white;
+}
+
+#loginButton {
+    background-color: #d9ecc7;
+    color: teal;
+    border: #d9ecc7;
+}
+
+#signinButton {
+    background-color: teal;
+    color: #d9ecc7;
+    border: teal;
+}
+
+#loginButton:hover {
+    background-color: #c3d4b3;
+}
+
+#signinButton:hover {
+    background-color: #007373;
+}
+
