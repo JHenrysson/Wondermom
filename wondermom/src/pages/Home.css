@@ -5,7 +5,7 @@ body {
 
 
 #homejumbotron {
-    background-image: url("/wondermom/images/workouthug.jpg");
+    background-image: url("/wondermom/images/weight.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,6 +27,7 @@ body {
     position: absolute;
     
 }
+
 
 
 @media (max-width: 2000px) {
