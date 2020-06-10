@@ -12,7 +12,14 @@ const toolbar = props => (
                 </div>
 
                 <div className="toolbar_logo">
-                    <Link to="/home"></Link>
+                   <a href="./home">
+                    < img src= "./images/logowm3.png"/></a>
+                </div>
+
+                <div className="toolbar_brand">
+                   <a href="./home">
+                    <img src="./images/logowondermom4.png"/>
+                   </a>
                 </div>
 
                 <div className="spacer" />

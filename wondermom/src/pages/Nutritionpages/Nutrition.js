@@ -28,7 +28,7 @@ function Nutrition() {
                 Some info about good and healty Breakfast recipes and
                 if you click on the button you can see all the breakfast recipes.
                         </p>
-                        <a href="breakfast" className="card-link justify-content-center">Show more</a>
+                        <a href="breakfast" className="centerButton btn btn-info justify-content-center">Show more</a>
                         </div>
                 </div>
 
@@ -44,7 +44,7 @@ function Nutrition() {
                 Some info about good and healty Lunch recipes and
                 if you click on the button you can see all the lunch recipes.
                         </p>
-                        <a href="lunch" className="card-link justify-content-center">Show more</a>
+                        <a href="lunch" className="centerButton btn btn-info justify-content-center">Show more</a>
                     </div>
                 
                 </div>
@@ -60,7 +60,7 @@ function Nutrition() {
                 Some info about good and healty Dinner recipes and
                 if you click on the button you can see all the dinner recipes.
                     </p>
-                    <a href="dinner" className="card-link justify-content-center">Show more</a>
+                    <a href="dinner" className="centerButton btn btn-info justify-content-center">Show more</a>
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@ function Nutrition() {
                 Some info about good and healty Snacks recipes and
                 if you click on the button you can see all the snacks recipes.
                         </p>
-                        <a href="snacks" className="card-link justify-content-center">Show more</a>
+                        <a href="snacks" className="centerButton btn btn-info justify-content-center">Show more</a>
                     </div>
                 </div>
             </div>
