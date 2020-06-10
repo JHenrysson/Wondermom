@@ -18,7 +18,7 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item2">
-                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <h3 id ="headerOne" className="card-title">Exercise 1</h3>
                     <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
@@ -46,7 +46,7 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item6">
-                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <h3 id ="headerOne" className="card-title">Exercise 3</h3>
                     <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item8">
-                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <h3 id ="headerOne" className="card-title">Exercise 4</h3>
                     <p id="descriptionText">Description on how to best perform the exercise. </p>
                     
                 </div>
@@ -75,7 +75,7 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item10">
-                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <h3 id ="headerOne" className="card-title">Exercise 5</h3>
                     <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
@@ -89,7 +89,7 @@ const dayOne = props => (
                         alt="Generic placeholder image" />
                 </div>
                 <div className="col-sm grid-item item12">
-                    <h3 id ="headerOne" className="card-title">Exercise 2</h3>
+                    <h3 id ="headerOne" className="card-title">Exercise 6</h3>
                     <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
