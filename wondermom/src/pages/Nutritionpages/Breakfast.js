@@ -5,8 +5,10 @@ function Breakfast() {
     return (
 
     <>
-        <div id="headline2">
-            <h1>Breakfast</h1>
+        <div id="img-jumbo-breakfast" className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <div className="centered"></div>
+            </div>
         </div>
     
         <div className="spaceing">
@@ -21,7 +23,7 @@ function Breakfast() {
                             </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -36,7 +38,7 @@ function Breakfast() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -51,7 +53,7 @@ function Breakfast() {
                         </div>
 
                     <div className="card-body text-center">
-                    <h4 className="card-title text-center">Title</h4>
+                    <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -65,7 +67,7 @@ function Breakfast() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -85,7 +87,7 @@ function Breakfast() {
                             </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -100,7 +102,7 @@ function Breakfast() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -115,7 +117,7 @@ function Breakfast() {
                         </div>
 
                     <div className="card-body text-center">
-                    <h4 className="card-title text-center">Title</h4>
+                    <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -129,7 +131,7 @@ function Breakfast() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>

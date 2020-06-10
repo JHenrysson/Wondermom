@@ -4,9 +4,12 @@ import './Nutrition.css';
 function Snacks() {
     return (
         <>
-        <div id="headline2">
-            <h1>Snacks</h1>
-        </div>
+                <div id="img-jumbo-snacks" className="jumbotron jumbotron-fluid">
+                    <div className="container">
+                        <div className="centered"></div>
+                    </div>
+                </div>
+
     
         <div className="spaceing">
         </div>
@@ -20,7 +23,7 @@ function Snacks() {
                             </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -35,7 +38,7 @@ function Snacks() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -50,7 +53,7 @@ function Snacks() {
                         </div>
 
                     <div className="card-body text-center">
-                    <h4 className="card-title text-center">Title</h4>
+                    <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -64,7 +67,7 @@ function Snacks() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -84,7 +87,7 @@ function Snacks() {
                             </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -99,7 +102,7 @@ function Snacks() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
@@ -114,7 +117,7 @@ function Snacks() {
                         </div>
 
                     <div className="card-body text-center">
-                    <h4 className="card-title text-center">Title</h4>
+                    <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -128,7 +131,7 @@ function Snacks() {
                           </div>
 
                         <div className="card-body text-center">
-                        <h4 className="card-title text-center">Title</h4>
+                        <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
