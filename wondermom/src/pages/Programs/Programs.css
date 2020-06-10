@@ -10,9 +10,17 @@
     margin-top: 3%;
 }
 
+
 .centerButton {
-    display: table;
-    margin: 0 auto;
+    margin:0 auto;
+    border-style:none;
+    display:table;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+#tryThisButton {
+    font-size: 18px;
 }
 
 #headline{

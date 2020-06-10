@@ -30,7 +30,7 @@
 
 /* color for text in App navbar */
 .side-drawer a {
-    color:#174c4f;
+    color:#11393a;
     text-decoration: none;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif ;
@@ -87,7 +87,12 @@ i{
   display: inline-block;
   margin-left: 0.5em;
 }
-
+b{
+  color:#174c4f;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif ;
+}
 
 .subchild{
   text-indent: 0.5rem;
