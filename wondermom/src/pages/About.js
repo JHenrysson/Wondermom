@@ -7,21 +7,21 @@ function About() {
       <>
 
 <div id="jumbotronabout" className="jumbotron jumbotron-fluid px-0">
-                    <div className="container"></div>
+                    <div className="container-fluid px-0"></div>
                 </div>
 
 
       <section className="container-fluid px-0">
-        <div className="row align-items-center content">
+      <div className="row align-items-center content">
           <div className="col-md-6 order-2 order-md-1">
             <img src="./images/heart.jpg" alt="" class="img-fluid"></img>
             </div>    
             <div className="col-md-6 text-center order-1 order-md-2">
-                <div classNames="row justify-content-center">
-                    <div className="col-10 col-lg-8 mb-5 mb-md-0 blurb m-4 m-md-0">
-                        <h3>Our mission</h3>
+                <div className="row justify-content-center">
+                    <div className="col-10 col-lg-8 mb-5 blurb m-md-0">
+                        <h3>The wondermom story</h3>
                         <p className="lead">"We want to inspire and motivate to live healthier every day.
-                         We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
+We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
 
                     </div>
                 </div>
@@ -35,7 +35,7 @@ function About() {
             <div className="col-md-6 text-center">
               <div className="row justify-content-center">
               <div className="col-10 col-lg-8 mb-5 mb-md-0 blurb m-4 m-md-0">
-                        <h3>The wondermom story</h3>
+                        <h3>About the app</h3>
                         <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
                             beatae, maiores deserunt
                             in voluptatibus
@@ -48,7 +48,7 @@ function About() {
                 </div>
             </div>
             <div className="col-md-6">
-            <img src="images/health.jpg" alt="" class="img-fluid"></img>
+            <img src="images/phone.jpg" alt="" class="img-fluid"></img>
             </div>
             </div>
         </section>
