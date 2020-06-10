@@ -93,8 +93,10 @@ const dayOne = props => (
                     <p id="descriptionText">Description on how to best perform the exercise. </p>
                 </div>
             </div>
-
-        </div>
+            </div>
+            <br />
+            <a id="completeWorkout" href="SixWeekProgram" className="btn btn-lg centerButton card-link justify-content-center btn-lg">Complete workout!</a>
+        
 
 
     </div>

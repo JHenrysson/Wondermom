@@ -22,7 +22,7 @@ class Programs extends Component {
                                 <h4 className="card-title">6 Week Program</h4>
                                 <p className="card-text">This is where the user will find information about the workouts plans offered by Wondermom. Here there will be a summary explaining the workout plan and its areas of focus and time needed to complete.
                                     The user can click the button to see more about the workout plan they choose. </p>
-                                <a href="/SixWeekProgram" className="centerButton card-link justify-content-center">Try This Program</a>
+                                <a id="tryThisButton" href="SixWeekProgram" className="centerButton card-link justify-content-center">Try This Program</a>
                             </div>
                         </div>
                         <div className="card">
@@ -31,7 +31,7 @@ class Programs extends Component {
                                 <h4 className="card-title">8 Week Program</h4>
                                 <p className="card-text">This is where the user will find information about the workouts plans offered by Wondermom. Here there will be a summary explaining the workout plan and its areas of focus and time needed to complete.
                                     The user can click the button to see more about the workout plan they choose. </p>
-                                <a href="/SixWeekProgram" className="centerButton card-link justify-content-center">Try This Program</a>
+                                <a id="tryThisButton" href="/SixWeekProgram" className="centerButton card-link justify-content-center">Try This Program</a>
                             </div>
                         </div>
                         <div className="card">
@@ -40,7 +40,7 @@ class Programs extends Component {
                                 <h4 className="card-title">12 Week Program</h4>
                                 <p className="card-text">This is where the user will find information about the workouts plans offered by Wondermom. Here there will be a summary explaining the workout plan and its areas of focus and time needed to complete.
                                     The user can click the button to see more about the workout plan they choose. </p>
-                                <a href="/SixWeekProgram" className="centerButton card-link justify-content-center">Try This Program</a>
+                                <a id="tryThisButton" href="/SixWeekProgram" className="centerButton card-link justify-content-center">Try This Program</a>
                             </div>
                         </div>
                     </div>

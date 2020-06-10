@@ -59,3 +59,8 @@
 .line {
     border-top: 0px solid white;
 }
+
+#completeWorkout {
+    text-align: center;
+    font-size: 18px;
+}
