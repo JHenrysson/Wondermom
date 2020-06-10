@@ -6,48 +6,37 @@ function About() {
     return (
       <>
 
-
-    
-<br></br>
-<br></br>
-<br></br>
-<div class="row align-items-center content">
-            <div class="col-md-6 text-center">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8-py-5 mb-5 mb-md-0">
-                        <h2>The wondermom story</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                            beatae, maiores deserunt
-                            in voluptatibus
-                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                            repellat eveniet quidem
-                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
-                            autem nam ex deserunt debitis
-                            eaque ratione! Nobis, quidem assumenda.</p>
-                    </div>
+<div id="jumbotronabout" className="jumbotron jumbotron-fluid px-0">
+                    <div className="container"></div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <img src="images/health.jpg" alt="" class="img-fluid"></img>
-            </div>
-        </div>
-                
 
-<br></br>
-<br></br>
-<br></br>
-        <section class="container-fluid px-0">
-        <div class="row align-items-center content">
-            <div class="col-md-6">
+
+      <section className="container-fluid px-0">
+        <div className="row align-items-center content">
+          <div className="col-md-6 order-2 order-md-1">
             <img src="./images/heart.jpg" alt="" class="img-fluid"></img>
-            </div>
+            </div>    
+            <div className="col-md-6 text-center order-1 order-md-2">
+                <div classNames="row justify-content-center">
+                    <div className="col-10 col-lg-8 mb-5 mb-md-0 blurb m-4 m-md-0">
+                        <h3>Our mission</h3>
+                        <p className="lead">"We want to inspire and motivate to live healthier every day.
+                         We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
 
+                    </div>
+                </div>
+            </div>
+            </div>
             
-            <div class="col-md-6 text-center">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
-                        <h2>Our mission</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
+        
+        
+        
+        <div className="row align-items-center content">
+            <div className="col-md-6 text-center">
+              <div className="row justify-content-center">
+              <div className="col-10 col-lg-8 mb-5 mb-md-0 blurb m-4 m-md-0">
+                        <h3>The wondermom story</h3>
+                        <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
                             beatae, maiores deserunt
                             in voluptatibus
                             aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
@@ -58,9 +47,12 @@ function About() {
                     </div>
                 </div>
             </div>
-        </div>
+            <div className="col-md-6">
+            <img src="images/health.jpg" alt="" class="img-fluid"></img>
+            </div>
+            </div>
         </section>
-
+                
    
 
      </>
