@@ -50,8 +50,8 @@ validatePassword = (e) => {
       validation.password.error = newStatus == 'is-invalid' ? 'Must be at least 6 characters!' : '';
       this.setState({ validation });
   }
-  this.password = value;
-  this.validateForm();
+  //this.password = value;
+  //this.validateForm();ef
 }
 
   render() {  
