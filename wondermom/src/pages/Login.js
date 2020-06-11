@@ -59,7 +59,7 @@ validatePassword = (e) => {
 <div className="wrapper">
 
 <div className="background">
-</div>
+
 
 <Form>
 <Form.Group controlId="formBasicEmail">
@@ -82,7 +82,7 @@ validatePassword = (e) => {
   </Button>
 </div>
 </Form>
-
+</div>
 </div> 
   );
   }

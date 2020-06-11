@@ -17,6 +17,7 @@ Form {
     max-width: 500px;
     margin: 0 auto;
     padding: 15px 40px 50px;
+    opacity: 100%;
 }
 
 #loginButton {
