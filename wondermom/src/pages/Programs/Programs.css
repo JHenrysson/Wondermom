@@ -10,6 +10,13 @@
     margin-top: 3%;
 }
 
+.title {
+    color: #174c4f;
+}
+
+.titleBox {
+    padding-bottom: 2px;
+}
 
 .centerButton {
     margin:0 auto;

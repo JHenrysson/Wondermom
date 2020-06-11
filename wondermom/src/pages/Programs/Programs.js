@@ -14,6 +14,10 @@ class Programs extends Component {
                     <div className="container"></div>
                 </div>
 
+                <div className="titleBox">
+                    <h2 className="title">Choose your program</h2>
+                </div>
+
                 <div id="main">
                     <div className="card-deck">
                         <div className="card">
