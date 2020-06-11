@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Login.css"
 import { Component } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';   
 import { Form, Button } from 'react-bootstrap';
 
 class Login extends Component {  
