@@ -24,7 +24,8 @@ function Lunch() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                         </p>
                         </div>
                       
@@ -39,7 +40,8 @@ function Lunch() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                         </p>
                         </div>
                        
@@ -54,7 +56,8 @@ function Lunch() {
                     <div className="card-body text-center">
                     <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                     </p>
                     </div>
                    
@@ -68,7 +71,8 @@ function Lunch() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                         </p>
                     </div>
                 </div>
@@ -88,7 +92,8 @@ function Lunch() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                         </p>
                         
                         </div>
@@ -103,7 +108,8 @@ function Lunch() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                         </p>
                         
                     </div>
@@ -118,7 +124,8 @@ function Lunch() {
                     <div className="card-body text-center">
                     <h4 className="card-title text-center">Recipe</h4>
                     <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                     </p>
                     
                     </div>
@@ -132,7 +139,8 @@ function Lunch() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Recipe</h4>
                         <p className="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Here is a good and healthy recipe for women who have just become mothers.
+                        Recipes specially designed with vitamins and minerals that are needed.
                         </p>
                         
                     </div>

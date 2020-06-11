@@ -6,6 +6,10 @@ body{
     background-attachment: fixed;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* Healine */
 h1{
     text-align: center;
