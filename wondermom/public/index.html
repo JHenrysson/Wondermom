@@ -43,6 +43,9 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
+  global.db = firebase.firestore();
+  global.auth = firebase.auth();
 </script>
   </body>
 </html>

@@ -26,19 +26,34 @@ class Login extends Component {
     }
 }
 
-/*signupUser = () => {
-  window.auth.createUserWithEmailAndPassword(
-    this.email, 
-    this.password
+  signin = () => {
+    global.auth.createUserWithEmailAndPassword(
+      this.email, 
+      this.password
   );
-  loginUser = () => {
-    window.auth.signInWithEmailAndPassword(
+    }
+  login = () => {
+    global.auth.signInWithEmailAndPassword(
       this.email,
       this.password
     );
   }
+
+
+
+validateEmail = (e) => {
+  const value = e.target.value;
+  const validation = { ...this.state.validation };
+  const newStatus = /^[^@]+@[^@]+$/.test(value) ? 'is-valid' : 'is-invalid';
+  if (newStatus != validation.email.status) {
+      validation.email.status = newStatus;
+      validation.email.error = newStatus == 'is-invalid' ? 'Not a valid email address!' : '';
+      this.setState({ validation });
+  }
+  this.email = value;
+  this.validateForm();
 }
-*/
+
 
 validatePassword = (e) => {
   const value = e.target.value;
@@ -49,8 +64,17 @@ validatePassword = (e) => {
       validation.password.error = newStatus == 'is-invalid' ? 'Must be at least 6 characters!' : '';
       this.setState({ validation });
   }
-  //this.password = value;
-  //this.validateForm();ef
+  this.password = value;
+  this.validateForm();
+}
+
+validateForm() {
+  const validation = { ...this.state.validation };
+  const isFormDisabled = validation.email.status != 'is-valid' || validation.password.status != 'is-valid'; 
+  if (isFormDisabled != validation.form.disabled) {
+      validation.form.disabled = isFormDisabled;
+      this.setState({ validation });
+  }
 }
 
   render() {  
@@ -73,11 +97,11 @@ validatePassword = (e) => {
 </Form.Group>
 
 <div className="text-center">
-  <Button variant="primary btn-block" type="submit" id="loginButton">
+  <Button variant="primary btn-block" type="button" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
     Log In
   </Button>
 
-  <Button variant="primary btn-block" type="button" id="signinButton">
+  <Button variant="primary btn-block" type="button" id="signinButton" disabled={this.state.validation.form.disabled} onClick={this.signin}>
     Sign In
   </Button>
 </div>
