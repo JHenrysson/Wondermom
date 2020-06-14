@@ -3,7 +3,9 @@
 Form {
     max-width: 500px;
     margin: 0 auto;
-    padding: 80px 40px 50px;
+    padding: 70px 50px 70px;
+    background-color: RGBA(0, 128, 128, 0.3);
+    margin-top: 100px;
 }
 
 .textpassword {
