@@ -26,7 +26,7 @@ class Login extends Component {
     }
 }
 
-  signin = () => {
+  signup = () => {
     global.auth.createUserWithEmailAndPassword(
       this.email, 
       this.password
@@ -81,19 +81,19 @@ validateForm() {
 
   return (
 <div className="wrapper">
-
-<div className="background">
-
-
+  <div className="form-container">
 <Form>
 <Form.Group controlId="formBasicEmail">
   <Form.Label id="emailText">Email address</Form.Label>
-  <Form.Control type="email" placeholder="Enter email" label="Email" name="email" className={this.state.validation.email.status} onChange={this.validateEmail}/>
+  <Form.Control type="email" placeholder="Enter email" label="Email" name="email" className={this.state.validation.email.status} onChange={this.validateEmail} />
 </Form.Group>
 
 <Form.Group controlId="formBasicPassword">
   <Form.Label id="passwordText">Password</Form.Label>
   <Form.Control type="password" placeholder="Password" className={this.state.validation.password.status} label="Password"  name="password"  onChange={this.validatePassword}/>
+  <Form.Text className="textpassword">
+      Password needs to be at least 6 characters.
+    </Form.Text>
 </Form.Group>
 
 <div className="text-center">
@@ -101,8 +101,8 @@ validateForm() {
     Log In
   </Button>
 
-  <Button variant="primary btn-block" type="button" id="signinButton" disabled={this.state.validation.form.disabled} onClick={this.signin}>
-    Sign In
+  <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup}>
+    Sign Up
   </Button>
 </div>
 </Form>

@@ -1,23 +1,13 @@
-.wrapper {
-    margin: 50px;
-}
-
-.background {
-    background-image: url("/wondermom/images/workouthug.jpg");
-    background-repeat:no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 50%;
-
-}
-
 
 
 Form {
     max-width: 500px;
     margin: 0 auto;
-    padding: 15px 40px 50px;
-    opacity: 100%;
+    padding: 80px 40px 50px;
+}
+
+.textpassword {
+    color:white;
 }
 
 #loginButton {
@@ -38,7 +28,7 @@ margin-top: 40px;
     border: #d9ecc7;
 }
 
-#signinButton {
+#signupButton {
     background-color: teal;
     color: #d9ecc7;
     border: teal;
@@ -48,7 +38,7 @@ margin-top: 40px;
     background-color: #c3d4b3;
 }
 
-#signinButton:hover {
+#signupButton:hover {
     background-color: #007373;
 }
 
