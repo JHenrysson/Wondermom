@@ -63,6 +63,9 @@ function Home() {
         <div className="col-md-6 px-5 align-self-center">
           <h3 class="text-dark font-weight-bold">ABOUT THE APP</h3>
           <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo
+            
+            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
             dlolo Lorem ipsus dolor lorem ipsis dlolo</p>
         </div>
         <div className="col-md-6">
@@ -73,23 +76,47 @@ function Home() {
     </div>
   </section>
 
+      <section id="fluidbanner">
+        <div className="container-fluid bg-white py-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+        <img src="./images/iphone2.jpg" alt="" class="img-fluid"></img>
+        </div>
+  
+        <div className="col-md-6 px-5 align-self-center">
+          <h3 class="text-dark font-weight-bold">ABOUT THE APP</h3>
+          <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo
+            
+            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo</p>
+        </div>
+        </div>
+        </div>
+        </div>
+
+  </section>
+
 
   
  
-  <section id="carusel" class="py-5">
-    <div className="container text-center">
-      <h3 class="text-center align-items-center text-dark">SUCESS STORIES</h3>
-      <p class="lead">If they can do it, so can you</p>
+  <div className="carusel">
+    <div className="container bg-light text-center mt-5">
+      <h2 class="text-center align-items-center text-dark pt-2 ">SUCESS STORIES</h2>
+      <p class="lead text-dark">If they can do it, so can you</p>
         <div className="row justify-content-center">
+       
           
-            <div className="col-md-8 ">
+            <div className="col-md-8 mb-5">
           <BootstrapCarousel></BootstrapCarousel>  
        </div>
        </div>
        </div>
+      </div>
   
       
-          </section>
+         
 
 
 
