@@ -31,7 +31,7 @@ class Login extends Component {
       this.email, 
       this.password
   ).then(() => {
-    window.location.href = window.location.host + '/';
+    window.location.href = '/home';
   }).catch(error => {
     
   });
@@ -43,9 +43,12 @@ class Login extends Component {
     window.auth.signInWithEmailAndPassword(
       this.email,
       this.password
-    );
-  }
-
+      ).then(() => {
+        window.location.href = '/home';
+      }).catch(error => {
+        
+      });
+      }
 
 
 validateEmail = (e) => {
