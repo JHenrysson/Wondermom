@@ -6,21 +6,25 @@
 
 }
 
+
 .card-deck {
     margin-top: 3%;
 }
 
-
-.centerButton {
-    margin:0 auto;
-    border-style:none;
-    display:table;
-    margin-top: 5%;
-    text-decoration: none;
+.title {
+    color: #174c4f;
 }
 
+.titleBox {
+    padding-bottom: 2px;
+}
+
+
+
 #tryThisButton {
-    font-size: 18px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -20px;
 }
 
 #headline{
