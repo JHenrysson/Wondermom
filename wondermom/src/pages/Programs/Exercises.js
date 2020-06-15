@@ -1,8 +1,8 @@
 import React from 'react';
-import './DayOne.css';
+import './Exercises.css';
 
 
-const dayOne = props => (
+const exercises = props => (
     <div>
         <div id="jumbotronDayOne" className="jumbotron jumbotron-fluid">
             <div className="container">
@@ -108,4 +108,4 @@ const dayOne = props => (
 
 );
 
-export default dayOne;
+export default exercises;

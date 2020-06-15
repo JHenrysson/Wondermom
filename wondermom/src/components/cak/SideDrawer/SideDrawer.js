@@ -29,13 +29,13 @@ const sideDrawer = props => {
             <div className="subchild">
             <li>
                 
-                <Link to="sixWeekProgram"><b>6 week program</b></Link>
+                <Link to="program"><b>6 week program</b></Link>
             </li>
             <li> 
                 <Link to= "weekone"><b>Week 1</b></Link>
             </li>
             <li>
-                <Link to="dayOne"><b>Day 1</b></Link>
+                <Link to="exercises"><b>Day 1</b></Link>
             </li>
             </div>
             

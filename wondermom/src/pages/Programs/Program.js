@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
-import './SixWeekProgram.css';
+import './Program.css';
 
-class sixWeekProgram extends Component {
+const programs = {
+    SixWeekProgram: [
+
+    ]
+}
+class program extends Component {
     constructor(props) {
         super(props);
+        console.log("params", this.props.match.params.name);
     }
 
     countChecked = () => {
@@ -29,7 +35,7 @@ class sixWeekProgram extends Component {
                 </div>
 
                 <div className="progressHeadline">
-                    <img src="images/progress2.png" alt="headline"/>
+                    <img src="./images/progress2.png" alt="headline"/>
                 </div>
 
         <div className="progressbar-container">
@@ -126,4 +132,4 @@ class sixWeekProgram extends Component {
 
 
 
-export default sixWeekProgram;
+export default program;

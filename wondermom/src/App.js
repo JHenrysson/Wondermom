@@ -11,10 +11,10 @@ import Backdrop from './components/Backdrop/Backdrop';
 // Pages
 import Home from './pages/Home';
 import About from './pages/About';
-import Programs from './pages/Programs/Programs';
-import DayOne from "./pages/Programs/DayOne";
-import SixWeekProgram from "./pages/Programs/SixWeekProgram";
-import WeekOne from "./pages/Programs/WeekOne";
+import ProgramOverview from './pages/Programs/ProgramOverview';
+import DayOne from "./pages/Programs/Exercises";
+import SixWeekProgram from "./pages/Programs/Program";
+import WeekOne from "./pages/Programs/Week";
 import Nutrition from './pages/Nutritionpages/Nutrition';
 import Breakfast from './pages/Nutritionpages/Breakfast';
 import Lunch from './pages/Nutritionpages/Lunch';
@@ -26,7 +26,10 @@ import Login from "./pages/Login";
 // This is the animation of the navbar
 class App extends Component {
     state = {
-      sideDrawerOpen: false
+      sideDrawerOpen: false,
+      progress: {
+
+      }
     };
 
 //This is the hamburgerbutton
@@ -41,6 +44,18 @@ class App extends Component {
   backdropClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   };
+
+  progress = {
+    getProgress: () => {
+      return { ...this.state.progress };
+    },
+
+    setProgress: (progress) => {
+      this.setState({
+        progress: progress
+      });
+    }
+  }
 
   render() {
     let backdrop;
@@ -63,12 +78,13 @@ class App extends Component {
           <Route path ="/dinner" component ={Dinner}/>
           <Route path ="/snacks" component ={Snacks}/>
           <Route path ="/about" component ={About}/>
-          <Route path ="/programs" component ={Programs}/>
-          <Route path ="/dayOne" component={DayOne}/>
-          <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
-          <Route path ="/weekOne" component={WeekOne}/>
+
+          <Route exact path ="/programs" render ={ () => <ProgramOverview progress={ this.progress } /> }/>
+          <Route exact path ="/programs/:name" component={SixWeekProgram}/> // Rename component to program
+          <Route exact path ="/week" component={WeekOne}/> // /programs/:name/week/:week
+          <Route exact path ="/exercises" component={DayOne}/>   // /programs/:name/week/:week/day/:day
+
           <Route path ="/Login" component={Login}/>
-          
 
 
           </div>

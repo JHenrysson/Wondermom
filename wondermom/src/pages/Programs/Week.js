@@ -1,7 +1,7 @@
 import React from 'react';
-import './WeekOne.css';
+import './Week.css';
 
-const weekOne = props => (
+const week = props => (
     <div>
         <div id="jumbotronWeekOne" className="jumbotron jumbotron-fluid">
             <div className="container"></div>
@@ -82,4 +82,4 @@ const weekOne = props => (
 );
 
 
-export default weekOne;
+export default week;
