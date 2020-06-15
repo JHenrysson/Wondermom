@@ -20,13 +20,13 @@ function About() {
                 <div className="row justify-content-center">
                     <div className="col-10 col-lg-8 mb-5 blurb m-md-0">
                         <h3>The wondermom story</h3>
-                        <p className="lead">Here we write the story behind the wondermom app. How we came up with this idea. "We want to inspire and motivate to live healthier every day.
-We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
+                        <p className="lead">Here we write the story behind the wondermom app. How we came up with this idea.</p>
 
                     </div>
                 </div>
             </div>
             </div>
+          
             
         
         
@@ -36,14 +36,7 @@ We’ll be your best friend in your back pocket, coaching you on how to stay fit
               <div className="row justify-content-center">
               <div className="col-10 col-lg-8 mb-5 mb-md-0 blurb m-4 m-md-0">
                         <h3>About the app</h3>
-                        <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                            beatae, maiores deserunt
-                            in voluptatibus
-                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                            repellat eveniet quidem
-                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
-                            autem nam ex deserunt debitis
-                            eaque ratione! Nobis, quidem assumenda.</p>
+                        <p className="lead">Here is a info text about who we want to reach . And what the app offers, different workout programs, healthy recepies etc. </p>
                     </div>
                 </div>
             </div>
