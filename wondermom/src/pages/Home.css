@@ -2,31 +2,44 @@ body {
     background-color: #C8D9EB;
 }
 
-
-
-#homejumbotron {
-    background-image: url("/wondermom/images/weight.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+#topjumbotron {
+    background-image: url("/wondermom/images/yoga2.jpg");
     background-size: cover;
-    height: 400px;
-    width: 100%;
-    padding-top: 250px;
-    opacity: .7;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    opacity: .9;
+}
+
+
+
+.services {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+#home-extra {
     position: relative;
+    min-height: 200px;
+    background: url("/wondermom/images/weight.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+
 }
-
-
-#logohome{
-    width: 450px;
-    height: 220px;
-    left: 40%;
-    margin-left: -50px;
-    top: 20%;
-    margin-top: -50px;
+.dark-overlay {
     position: absolute;
-    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(192,192,192,0.3);
 }
+
+
 
 
 
