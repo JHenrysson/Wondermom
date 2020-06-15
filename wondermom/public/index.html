@@ -26,7 +26,9 @@
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-auth.js"></script>
+
 
 <script>
   // Your web app's Firebase configuration
@@ -42,10 +44,9 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
 
-  global.db = firebase.firestore();
-  global.auth = firebase.auth();
+  window.db = firebase.firestore();
+  window.auth = firebase.auth();
 </script>
   </body>
 </html>

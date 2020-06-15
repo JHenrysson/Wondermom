@@ -27,13 +27,20 @@ class Login extends Component {
 }
 
   signup = () => {
-    global.auth.createUserWithEmailAndPassword(
+    window.auth.createUserWithEmailAndPassword(
       this.email, 
       this.password
-  );
-    }
+  ).then(() => {
+    window.location.href = window.location.host + '/';
+  }).catch(error => {
+    
+  });
+  }
+
+
+    
   login = () => {
-    global.auth.signInWithEmailAndPassword(
+    window.auth.signInWithEmailAndPassword(
       this.email,
       this.password
     );
