@@ -35,8 +35,9 @@ function About() {
             <div className="col-md-6 text-center">
               <div className="row justify-content-center">
               <div className="col-10 col-lg-8 mb-5 mb-md-0 blurb m-4 m-md-0">
-                        <h3>About the app</h3>
-                        <p className="lead">Here is a info text about who we want to reach . And what the app offers, different workout programs, healthy recepies etc. </p>
+                        <h3>Our mission</h3>
+                        <p className="lead">Here we write the story behind the wondermom app. How we came up with this idea. "We want to inspire and motivate to live healthier every day.
+                    We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully. </p>
                     </div>
                 </div>
             </div>
@@ -55,9 +56,8 @@ function About() {
             <div className="col-md-6 text-center order-1 order-md-2">
                 <div className="row justify-content-center">
                     <div className="col-10 col-lg-8 mb-5 blurb m-md-0">
-                        <h3>Our mission</h3>
-                        <p className="lead">Here we write the story behind the wondermom app. How we came up with this idea. "We want to inspire and motivate to live healthier every day.
-We’ll be your best friend in your back pocket, coaching you on how to stay fit, eat well, and live more mindfully.</p>
+                        <h3>Something else</h3>
+                        <p className="lead">Here we can add some more stuff we would like to add.</p>
 
                     </div>
                 </div>
