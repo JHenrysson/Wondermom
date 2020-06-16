@@ -31,11 +31,11 @@ class Login extends Component {
       this.email, 
       this.password
   ).then(() => {
-    window.alert("You have signed up successfully.");
+    window.alert("You have Signed Up successfully.");
     window.location.href = '/home';
     
   }).catch(error => {
-    
+    window.alert("You already have an account.")
   });
   }
 
@@ -48,7 +48,7 @@ class Login extends Component {
       ).then(() => {
         window.location.href = '/home';
       }).catch(error => {
-        window.alert("You need to sign up first.");
+        window.alert("You need to Sign Up first.");
       });
       }
 
