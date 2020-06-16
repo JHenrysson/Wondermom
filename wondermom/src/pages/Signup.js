@@ -108,7 +108,7 @@ class Signup extends Component {
                         <div className="text-center">
 
                             <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup} >
-                            <a href="Login">Sign Up</a>
+                            Sign Up
                             </Button>
                         </div>
                     </Form>
