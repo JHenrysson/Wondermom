@@ -25,25 +25,7 @@ class Login extends Component {
             }
         }
     }
-}
-
-  signup = () => {
-    window.auth.createUserWithEmailAndPassword(
-      this.email, 
-      this.password
-  ).then(() => {
-    window.alert("You have signed up successfully.");
-    window.location.href = '/home';
-    
-  }).catch(error => {
-    const validation = { ...this.state.validation };
-    validation.form.error = error.message;
-    this.setState({ validation });
-  });
-  }
-
-
-    
+}    
   login = () => {
     window.auth.signInWithEmailAndPassword(
       this.email,
