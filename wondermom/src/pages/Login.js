@@ -2,6 +2,7 @@ import React from 'react';
 import "./Login.css"
 import { Component } from 'react'
 import { Form, Button } from 'react-bootstrap';
+import {Link} from "react-router-dom";
 
 class Login extends Component {  
 
@@ -117,9 +118,8 @@ validateForm() {
                 Log In
               </Button>
 
-              <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup}>
-                 Sign Up
-              </Button>
+            <Link to="/signup" className="btn btn-block" id="signupButton">Sign up</Link>
+
           </div>
           <div className="texterror" style={ {marginTop: '15px', textAlign: 'center', color: '#E34234'} }>
                     { this.state.validation.form.error }
