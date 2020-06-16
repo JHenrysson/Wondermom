@@ -2,7 +2,7 @@ import React from 'react';
 import "./Login.css"
 import { Component } from 'react'
 import { Form, Button } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 class Login extends Component {  
 
@@ -25,25 +25,7 @@ class Login extends Component {
             }
         }
     }
-}
-
-  signup = () => {
-    window.auth.createUserWithEmailAndPassword(
-      this.email, 
-      this.password
-  ).then(() => {
-    window.alert("You have signed up successfully.");
-    window.location.href = '/home';
-    
-  }).catch(error => {
-    const validation = { ...this.state.validation };
-    validation.form.error = error.message;
-    this.setState({ validation });
-  });
-  }
-
-
-    
+}    
   login = () => {
     window.auth.signInWithEmailAndPassword(
       this.email,
@@ -118,7 +100,8 @@ validateForm() {
                 Log In
               </Button>
 
-              <Link to="signup" className= "btn btn-block" id="signupButton">Sign Up</Link>
+            <Link to="/signup" className="btn btn-block" id="signupButton">Sign up</Link>
+
           </div>
           <div className="texterror" style={ {marginTop: '15px', textAlign: 'center', color: '#E34234'} }>
                     { this.state.validation.form.error }
