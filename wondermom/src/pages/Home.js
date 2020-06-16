@@ -9,8 +9,8 @@ function Home() {
 
      <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
        <div className="container text-center">
-         <h1 className="display-1">For every mom</h1>
-         <p className="display-4">Join now!</p>
+         <h1>For every mom</h1>
+         <h2>Join now!</h2>
          <a href="#" class="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
@@ -19,8 +19,8 @@ function Home() {
       
   
   <section id="services">
-    <div className="container-fluid bg-white p-3 px-2">
-      <div className="row text-center">
+    <div className="container-fluid bg-white p-3">
+      <div className="row text-center px-5">
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-heart fa-2x"></i>
        <h4 class="pt-3">POSTNATAL EXERCISES</h4>
@@ -76,15 +76,15 @@ function Home() {
     </div>
   </section>
 
-      <section id="fluidbanner">
-        <div className="container-fluid bg-white py-5">
+      <section id="fluidbanner2">
+        <div className="container-fluid bg-light py-5">
           <div className="container">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 order-2 order-md-1">
         <img src="./images/iphone2.jpg" alt="" class="img-fluid"></img>
         </div>
   
-        <div className="col-md-6 px-5 align-self-center">
+        <div className="col-md-6 order-1 order-md-2 px-5 align-self-center">
           <h3 class="text-dark font-weight-bold">ABOUT THE APP</h3>
           <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
             dlolo Lorem ipsus dolor lorem ipsis dlolo
@@ -102,13 +102,13 @@ function Home() {
   
  
   <div className="carusel">
-    <div className="container bg-light text-center mt-5">
+    <div className="container-fluid bg-white text-center pt-5">
       <h2 class="text-center align-items-center text-dark pt-2 ">SUCESS STORIES</h2>
       <p class="lead text-dark">If they can do it, so can you</p>
         <div className="row justify-content-center">
        
           
-            <div className="col-md-8 mb-5">
+            <div className="col-md-5 mb-5">
           <BootstrapCarousel></BootstrapCarousel>  
        </div>
        </div>
