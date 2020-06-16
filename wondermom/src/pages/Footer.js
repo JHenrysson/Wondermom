@@ -20,28 +20,28 @@ const footer = props => (
             <div className="row">
                 <li className="col-sm list-inline-item">
                     <h5>
-                        <a href="/home">
+                        <a href="./home">
                             Home
                         </a>
                     </h5>
                 </li>
                 <li className="col-sm list-inline-item">
                     <h5>
-                        <a href="/about">
+                        <a href="./about">
                             About
                         </a>
                     </h5>
                 </li>
                 <li className="col-sm list-inline-item">
                     <h5>
-                        <a href="/programs">
+                        <a href="./programs">
                             Program
                         </a>
                     </h5>
                 </li>
                 <li className="col-sm list-inline-item">
                     <h5>
-                        <a href="/nutrition">
+                        <a href="./nutrition">
                             Nutrition
                         </a>
                     </h5>
