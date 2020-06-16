@@ -11,7 +11,7 @@ function Home() {
        <div className="container text-center">
          <h1>For every mom</h1>
          <h2>Join now!</h2>
-         <a href="#" class="btn btn-lg btn-info">Sign up</a>
+         <a href="signup" class="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
 
