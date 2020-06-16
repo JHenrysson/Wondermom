@@ -25,7 +25,7 @@ function Nutrition() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Breakfast</h4>
                         <p className="card-text">
-                Some info about good and healty Breakfast recipes and
+                Some info about good and healthy Breakfast recipes and
                 if you click on the button you can see all the breakfast recipes.
                         </p>
                         <a href="breakfast" className="centerButton btn btn-info justify-content-center">Show more</a>
@@ -41,7 +41,7 @@ function Nutrition() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Lunch</h4>
                         <p className="card-text">
-                Some info about good and healty Lunch recipes and
+                Some info about good and healthy Lunch recipes and
                 if you click on the button you can see all the lunch recipes.
                         </p>
                         <a href="lunch" className="centerButton btn btn-info justify-content-center">Show more</a>
@@ -57,7 +57,7 @@ function Nutrition() {
                     <div className="card-body text-center">
                     <h4 className="card-title text-center">Dinner</h4>
                     <p className="card-text">
-                Some info about good and healty Dinner recipes and
+                Some info about good and healthy Dinner recipes and
                 if you click on the button you can see all the dinner recipes.
                     </p>
                     <a href="dinner" className="centerButton btn btn-info justify-content-center">Show more</a>
@@ -72,7 +72,7 @@ function Nutrition() {
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Snacks</h4>
                         <p className="card-text">
-                Some info about good and healty Snacks recipes and
+                Some info about good and healthy Snacks recipes and
                 if you click on the button you can see all the snacks recipes.
                         </p>
                         <a href="snacks" className="centerButton btn btn-info justify-content-center">Show more</a>
