@@ -8,10 +8,10 @@ function Home() {
       <>
 
      <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
-       <div class="container text-center">
+       <div className="container text-center">
          <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="signup" className="btn btn-lg btn-info">Sign up</a>
+         <a href="signup" class="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
 
