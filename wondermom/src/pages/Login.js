@@ -31,7 +31,7 @@ class Login extends Component {
       this.email, 
       this.password
   ).then(() => {
-    window.location.href = window.location.host + '/';
+    window.location.href = '/home';
   }).catch(error => {
     
   });
@@ -43,9 +43,12 @@ class Login extends Component {
     window.auth.signInWithEmailAndPassword(
       this.email,
       this.password
-    );
-  }
-
+      ).then(() => {
+        window.location.href = '/home';
+      }).catch(error => {
+        
+      });
+      }
 
 
 validateEmail = (e) => {
@@ -87,34 +90,34 @@ validateForm() {
   render() {  
 
   return (
-<div className="wrapper">
-  <div className="form-container">
-<Form>
-<Form.Group controlId="formBasicEmail">
-  <Form.Label id="emailText">Email address</Form.Label>
-  <Form.Control type="email" placeholder="Enter email" label="Email" name="email" className={this.state.validation.email.status} onChange={this.validateEmail} />
-</Form.Group>
+    <div className="wrapper">
+      <div className="form-container">
+        <Form>
+          <Form.Group controlId="formBasicEmail">
+              <Form.Label id="emailText">Email address</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" label="Email" name="email" className={this.state.validation.email.status} onChange={this.validateEmail} />
+          </Form.Group>
 
-<Form.Group controlId="formBasicPassword">
-  <Form.Label id="passwordText">Password</Form.Label>
-  <Form.Control type="password" placeholder="Password" className={this.state.validation.password.status} label="Password"  name="password"  onChange={this.validatePassword}/>
-  <Form.Text className="textpassword">
-      Password needs to be at least 6 characters.
-    </Form.Text>
-</Form.Group>
+          <Form.Group controlId="formBasicPassword">
+              <Form.Label id="passwordText">Password</Form.Label>
+              <Form.Control type="password" placeholder="Password" className={this.state.validation.password.status} label="Password"  name="password"  onChange={this.validatePassword}/>
+            <Form.Text className="textpassword">
+              Password needs to be at least 6 characters.
+            </Form.Text>
+          </Form.Group>
 
-<div className="text-center">
-  <Button variant="primary btn-block" type="button" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
-    Log In
-  </Button>
+          <div className="text-center">
+              <Button variant="primary btn-block" type="button" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
+                Log In
+              </Button>
 
-  <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup}>
-    Sign Up
-  </Button>
-</div>
-</Form>
-</div>
-</div> 
+              <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup}>
+                 Sign Up
+              </Button>
+          </div>
+        </Form>
+      </div>
+    </div> 
   );
   }
 };
