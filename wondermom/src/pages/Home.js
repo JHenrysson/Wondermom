@@ -9,9 +9,9 @@ function Home() {
 
      <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
        <div className="container text-center">
-         <h1 className="display-1">For Every Mom</h1>
-         <p className="display-4">Join now!</p>
-         <a href="/Login" class="btn btn-lg btn-info">Sign up</a>
+         <h1>For Every Mom</h1>
+         <h2>Join now!</h2>
+         <a href="signup" className="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
 
@@ -102,9 +102,9 @@ function Home() {
   
  
   <div className="carusel">
-    <div className="container bg-light text-center mt-5">
-      <h2 class="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
-      <p class="lead text-dark">See what other Wondermoms have to say!</p>
+    <div className="container-fluid bg-white text-center pt-5">
+      <h2 className="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
+      <p className="lead text-dark">See what other Wondermoms have to say!</p>
         <div className="row justify-content-center">
        
           
