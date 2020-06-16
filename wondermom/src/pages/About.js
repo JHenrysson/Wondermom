@@ -10,7 +10,51 @@ function About() {
                     <div className="container-fluid px-0"></div>
                 </div>
 
+                <div className="fluidbanner">
+    <div className="container-fluid py-5">
+      <div className="container">
+      <div className="row">
+        <div className="col-md-6 px-5 align-self-center">
+            <div className="textruta m-xs-10">
+          <h3 className="text-dark font-weight-bold">THE WONDERMOM STORY</h3>
+          <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo
+            
+            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo</p>
+            </div>
+        </div>
+        <div className="col-md-6">
+        <img src="./images/heart.jpg" alt="" class="img-fluid"></img>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
 
+      <div className="fluidbanner2">
+        <div className="container-fluid py-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6 order-2 order-md-1">
+        <img src="./images/health.jpg" alt="" class="img-fluid"></img>
+        </div>
+  
+        <div className="col-md-6 order-1 order-md-2 px-5 align-self-center">
+        <div className="textruta m-md-0">
+          <h3 class="text-dark font-weight-bold">OUR MISSION</h3>
+          <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo
+            
+            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo</p></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+{/*}
       <section className="container-fluid px-0">
       <div className="row align-items-center content">
           <div className="col-md-6 order-2 order-md-1">
@@ -63,7 +107,7 @@ function About() {
                 </div>
             </div>
             </div>
-            </section>
+    </section> */}
 
    
 
