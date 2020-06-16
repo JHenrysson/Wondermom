@@ -104,7 +104,7 @@ function Home() {
   <div className="carusel">
     <div className="container-fluid bg-white text-center pt-5">
       <h2 class="text-center align-items-center text-dark pt-2 ">SUCESS STORIES</h2>
-      <p class="lead text-dark">If they can do it, so can you</p>
+      <p class="lead text-dark font-italic">If they can do it, so can you</p>
         <div className="row justify-content-center">
        
           
