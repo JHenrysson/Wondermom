@@ -39,9 +39,9 @@ class sixWeekProgram extends Component {
                     <div className="container">
                     </div>
                 </div>
-
+                <div className="container-fluid bg-white p-3">
                 <div className="progressHeadline">
-                    <img src="images/progress2.png" alt="headline"/>
+                    <img src="images/progress5.png" alt="headline"/>
                 </div>
 
         <div className="progressbar-container">
@@ -50,6 +50,7 @@ class sixWeekProgram extends Component {
             </div>
             <div className="progressbar-label"></div>
         </div>
+                </div>
         <div className="ready"></div>
                 <div id="cardContainer" className="row row-cols-1 row-cols-md-3">
                     <div className="col mb-4">
