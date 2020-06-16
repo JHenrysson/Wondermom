@@ -2,6 +2,7 @@ import React from 'react';
 import "./Login.css"
 import { Component } from 'react'
 import { Form, Button } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 class Login extends Component {  
 
@@ -31,9 +32,13 @@ class Login extends Component {
       this.email, 
       this.password
   ).then(() => {
+    window.alert("You have signed up successfully.");
     window.location.href = '/home';
-  }).catch(error => {
     
+  }).catch(error => {
+    const validation = { ...this.state.validation };
+    validation.form.error = error.message;
+    this.setState({ validation });
   });
   }
 
@@ -46,7 +51,9 @@ class Login extends Component {
       ).then(() => {
         window.location.href = '/home';
       }).catch(error => {
-        
+        const validation = { ...this.state.validation };
+        validation.form.error = error.message;
+        this.setState({ validation });
       });
       }
 
@@ -111,9 +118,10 @@ validateForm() {
                 Log In
               </Button>
 
-              <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup}>
-                 Sign Up
-              </Button>
+              <Link to="signup" className= "btn btn-block" id="signupButton">Sign Up</Link>
+          </div>
+          <div className="texterror" style={ {marginTop: '15px', textAlign: 'center', color: '#E34234'} }>
+                    { this.state.validation.form.error }
           </div>
         </Form>
       </div>

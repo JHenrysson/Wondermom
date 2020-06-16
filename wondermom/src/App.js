@@ -22,6 +22,7 @@ import Dinner from './pages/Nutritionpages/Dinner';
 import Snacks from './pages/Nutritionpages/Snacks';
 import Footer from "./pages/Footer";
 import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 // This is the animation of the navbar
 class App extends Component {
@@ -68,6 +69,7 @@ class App extends Component {
           <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
           <Route path ="/weekOne" component={WeekOne}/>
           <Route path ="/Login" component={Login}/>
+          <Route path ="/Signup" component={Signup}/>
           
 
 
