@@ -10,12 +10,27 @@ function About() {
                     <div className="container-fluid px-0"></div>
                 </div>
 
+                <div className="info-panel text-center">
+    <div class="container p-5">
+        <div className="container">
+            <div className="row justify-content-center">
+            <div className="col-md-8">
+      <h2 className=" pb-3 text-dark">Created to help moms to live a better, stronger and healthier life.</h2>
+      <p class="nopad">Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo. Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
+            dlolo Lorem ipsus dolor lorem ipsis dlolo.</p>
+    </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
                 <div className="fluidbanner">
-    <div className="container-fluid py-5">
+    <div className="container py-5">
       <div className="container">
       <div className="row">
         <div className="col-md-6 px-5 align-self-center">
-            <div className="textruta m-xs-10">
+            <div className="textruta">
           <h3 className="text-dark font-weight-bold">THE WONDERMOM STORY</h3>
           <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
             dlolo Lorem ipsus dolor lorem ipsis dlolo
@@ -33,7 +48,7 @@ function About() {
   </div>
 
       <div className="fluidbanner2">
-        <div className="container-fluid py-5">
+        <div className="container py-5">
           <div className="container">
             <div className="row">
               <div className="col-md-6 order-2 order-md-1">
