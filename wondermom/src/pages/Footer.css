@@ -2,6 +2,7 @@ ul.list-unstyled li a {
     text-decoration: none;
     color: #174c4f;
     margin-right: 1px;
+    font-size: 20px;
 }
 .mb-1{
     color: #174c4f;
@@ -16,4 +17,18 @@ a:hover{
 }
 .centerButton{
    margin-top: 1%;
+}
+#logo{
+    max-width: 15%;
+    margin-bottom: 1%;
+
+}
+
+
+@media (max-width: 768px) {
+    #logo {
+
+        max-width: 35%;
+
+    }
 }
