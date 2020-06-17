@@ -2,7 +2,7 @@ import React from 'react';
 import "./Login.css"
 import { Component } from 'react'
 import { Form, Button } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 class Login extends Component {
 
@@ -25,28 +25,20 @@ class Login extends Component {
         }
       }
     }
-  }
 
-  signup = () => {
-    window.auth.createUserWithEmailAndPassword(
-      this.email,
-      this.password
-    ).then(() => {
-      window.location.href = '/home';
-    }).catch(error => {
-
-    });
-  }
-
-
-
+}    
   login = () => {
     window.auth.signInWithEmailAndPassword(
       this.email,
       this.password
-    ).then(() => {
-      window.location.href = '/home';
-    }).catch(error => {
+      ).then(() => {
+        window.location.href = '/home';
+      }).catch(error => {
+        const validation = { ...this.state.validation };
+        validation.form.error = error.message;
+        this.setState({ validation });
+      });
+      }
 
     });
   }
@@ -120,6 +112,7 @@ class Login extends Component {
             </div>
           </Form>
         </div>
+
       </div>
     );
   }
