@@ -76,7 +76,7 @@ const dayOne = props => (
             }
         </div>
         <br />
-        <a id="completeWorkout" href="SixWeekProgram" className="btn btn-lg centerButton card-link justify-content-center btn-lg">Complete workout!</a>
+        <a id="completeWorkout" href="WeekOne" className="btn btn-lg centerButton card-link justify-content-center btn-lg">Complete workout!</a>
 
 
 
