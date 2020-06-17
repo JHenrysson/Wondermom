@@ -9,9 +9,9 @@ function Home() {
 
      <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
        <div className="container text-center">
-         <h1>For every mom</h1>
+         <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="#" class="btn btn-lg btn-info">Sign up</a>
+         <a href="signup" class="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
 
@@ -29,7 +29,7 @@ function Home() {
         </div>
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-lemon fa-2x"></i>
-       <h4 class="pt-3">HEALTHY RECEPIES</h4>
+       <h4 class="pt-3">HEALTHY RECIPES</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
@@ -49,7 +49,7 @@ function Home() {
         <div className="row">
           <div className="col">
             <div className="container pt-5">
-              <h1>Are you ready to get started?</h1>
+              <h1>Are You Ready to Get Started?</h1>
             </div>
           </div>
         </div>
@@ -103,8 +103,10 @@ function Home() {
  
   <div className="carusel">
     <div className="container-fluid bg-white text-center pt-5">
-      <h2 class="text-center align-items-center text-dark pt-2 ">SUCESS STORIES</h2>
-      <p class="lead text-dark font-italic">If they can do it, so can you</p>
+
+      <h2 class="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
+      <p class="lead text-dark">See what other Wondermoms have to say!</p>
+
         <div className="row justify-content-center">
        
           
