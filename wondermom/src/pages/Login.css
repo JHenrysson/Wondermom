@@ -30,9 +30,9 @@ margin-top: 40px;
     border: #d9ecc7;
 }
 
-#signUpButton {
-    background-color: none;
-    color: teal;
+#signupButton {
+    background-color: teal;
+    color: #d9ecc7;
     border: teal;
 }
 
