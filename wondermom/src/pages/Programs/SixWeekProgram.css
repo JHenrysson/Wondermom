@@ -38,6 +38,11 @@ p{
 .centerButton {
     display: table;
     margin: 0 auto;
+
+}
+#button{
+margin-top: -40px;
+    margin-bottom: 30px;
 }
 #jumbotronSixWeek {
     background-image: url("/wondermom/images/sixWeekBanner.jpg");
@@ -45,7 +50,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+
     width: auto;
     padding-top: 250px;
     position: relative;
@@ -64,6 +69,7 @@ p{
 
 input[type="checkbox"] {
     margin-top: 5%;
+
 }
 
 /*
@@ -73,19 +79,20 @@ input[type="checkbox"] {
     position: relative;
     width: 50%;
     margin: 0 auto;
-
+    justify-content: center;
+    margin-bottom: 2%;
 }
 
 .progressbar-bar {/*change here for the width of the progress bar but not the color??? */
     height: 50px;
     width: auto; /*to change the length of the progress bar*/
-    border-radius: 30px;
-    background-color: white;
+
+    background-color: lightgray;
 }
 
 .progress-indicator {
     border-width: 25px;
-    border-radius: 30px;
+
     border-color: cornflowerblue;
     background-color: #75c1b5;
     height: 100%;
