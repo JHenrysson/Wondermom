@@ -101,7 +101,7 @@ function Home() {
 
   
  
-  <div className="carusel">
+  <div className="carousel">
     <div className="container-fluid bg-white text-center pt-5">
 
       <h2 class="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
