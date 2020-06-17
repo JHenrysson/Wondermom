@@ -1,6 +1,68 @@
 import React, { Component } from 'react';
 import './SixWeekProgram.css';
 
+const weeks = [
+    {
+        slug:"Week One",
+        title:"Week One",
+        img:"/wondermom/images/sixweek1.jpg",
+        description: "This is where the user will find information about the weekly workouts plans. " +
+            "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
+            "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
+    },
+    {
+        slug:"Week Two",
+        title:"Week Two",
+        img:"/wondermom/images/sixweek2.jpg",
+        description: "This is where the user will find information about the weekly workouts plans. " +
+            "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
+            "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
+    },
+    {
+        slug:"Week Three",
+        title:"Week Three",
+        img:"/wondermom/images/sixweek3.jpg",
+        description: "This is where the user will find information about the weekly workouts plans. " +
+            "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
+            "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
+    },
+    {
+        slug:"Week Four",
+        title:"Week Four",
+        img:"/wondermom/images/sixweek4.jpg",
+        description: "This is where the user will find information about the weekly workouts plans. " +
+            "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
+            "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
+    },
+    {
+        slug:"Week Five",
+        title:"Week Five",
+        img:"/wondermom/images/sixweek7.jpg",
+        description: "This is where the user will find information about the weekly workouts plans. " +
+            "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
+            "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
+    },
+    {
+        slug:"Week Six",
+        title:"Week Six",
+        img:"/wondermom/images/6weeks.jpg",
+        description: "This is where the user will find information about the weekly workouts plans. " +
+            "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
+            "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
 class sixWeekProgram extends Component {
     constructor(props) {
         super(props);
@@ -53,84 +115,29 @@ class sixWeekProgram extends Component {
                 </div>
         <div className="ready"></div>
                 <div id="cardContainer" className="row row-cols-1 row-cols-md-3">
-                    <div className="col mb-4">
-                        <div className="card">
-                            <img src="./images/sixweek1.jpg" className="card-img-top" alt="Woman by weight"/>
-                            <div className="card-body">
-                                <h4 className="card-title">Week One</h4>
-                                <p className="card-text">This is where the user will find information about the weekly workouts plans. A summary will explain which body parts or areas the user will focus on for the week's workout plan.
-                                    The user can click the button to see more about that week's workout or click "finished" to mark that week complete.  </p>
-                                <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
-                                <p>Finished! <input type="checkbox" name="box1" onClick={this.countChecked}/></p>
+                    {
+                        weeks.map(weeks =>{
+                            return(
+                                <div className="col mb-4">
+                                    <div className="card">
+                                        <img src= {weeks.img} className="card-img-top" alt={weeks.slug}/>
+                                        <div className="card-body">
+                                            <a href="./weekOne" id= "button"className="centerButton btn btn-info" role="button">Show More</a>
+
+                                            <h4 className="card-title">{weeks.title}</h4>
+                                            <p className="card-text"> {weeks.description} </p>
+                                            <p>Finished! <input type="checkbox" name="box1" onClick={this.countChecked}/></p>
 
 
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div className="card">
-                            <img src="./images/sixweek2.jpg" className="card-img-top" alt="Woman stretching"/>
-                            <div className="card-body">
-                                <h4 className="card-title">Week Two</h4>
-                                <p className="card-text">This is where the user will find information about the weekly workouts plans. A summary will explain which body parts or areas the user will focus on for the week's workout plan.
-                                    The user can click the button to see more about that week's workout or click "finished" to mark that week complete. </p>
-                                <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
-                                <p>Finished! <input type="checkbox" name="box2" onClick={this.countChecked}/></p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div className="card">
-                            <img src="./images/sixweek3.jpg" className="card-img-top" alt="Woman stretching on floor"/>
-                            <div className="card-body">
-                                <h4 className="card-title">Week Three</h4>
-                                <p className="card-text">This is where the user will find information about the weekly workouts plans. A summary will explain which body parts or areas the user will focus on for the week's workout plan.
-                                    The user can click the button to see more about that week's workout or click "finished" to mark that week complete. </p>
-                                <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
-                                <p>Finished! <input type="checkbox" name="box3" onClick={this.countChecked}/></p>
+                            )
+                        })
 
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div className="card">
-                            <img src="./images/sixweek4.jpg" className="card-img-top" alt="woman tying shoes"/>
-                            <div className="card-body">
-                                <h4 className="card-title">Week Four</h4>
-                                <p className="card-text">This is where the user will find information about the weekly workouts plans. A summary will explain which body parts or areas the user will focus on for the week's workout plan.
-                                    The user can click the button to see more about that week's workout or click "finished" to mark that week complete. </p>
-                                <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
-                                <p>Finished! <input type="checkbox" name="box4" onClick={this.countChecked}/></p>
+                    }
 
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div className="card">
-                            <img src="./images/sixweek7.jpg" className="card-img-top" alt="Woman stretching on yogaball"/>
-                            <div className="card-body">
-                                <h4 className="card-title">Week Five</h4>
-                                <p className="card-text">This is where the user will find information about the weekly workouts plans. A summary will explain which body parts or areas the user will focus on for the week's workout plan.
-                                    The user can click the button to see more about that week's workout or click "finished" to mark that week complete. </p>
-                                <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
-                                <p>Finished! <input type="checkbox" name="box5" onClick={this.countChecked}/></p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div className="card">
-                            <img src="./images/6weeks.jpg" className="card-img-top" alt="woman streching on yogamat"/>
-                            <div className="card-body">
-                                <h4 className="card-title">Week Six</h4>
-                                <p className="card-text">This is where the user will find information about the weekly workouts plans. A summary will explain which body parts or areas the user will focus on for the week's workout plan.
-                                    The user can click the button to see more about that week's workout or click "finished" to mark that week complete. </p>
-                                <a href="/weekOne" className="centerButton btn btn-info" role="button">Show More</a>
-                                <p>Finished! <input type="checkbox" name="box6" onClick={this.countChecked}/></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         );

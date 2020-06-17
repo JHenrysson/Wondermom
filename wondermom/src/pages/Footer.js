@@ -5,18 +5,12 @@ const footer = props => (
 
     <footer>
         <hr/>
-        <ul className="list-unstyled list-inline text-center py-2">
-            <li className="list-inline-item">
-                <h5 className="mb-1">Join Wondermom </h5> <button type="button" className="centerButton btn btn-info btn-sm">Sign Up</button>
 
+        <ul className="list-unstyled list-inline text-center">
+            <li className="list-inline-block">
+            <img id="logo"src="./images/logowondermom4.png"/>
             </li>
 
-
-        </ul>
-
-
-        <hr/>
-        <ul className="list-unstyled list-inline text-center">
             <li className="list-inline-item">
                 <h5>
                     <a href="./home">
@@ -44,6 +38,9 @@ const footer = props => (
                         Nutrition
                     </a>
                 </h5>
+            </li>
+            <li className="list-inline-item">
+                <h5><a href="mailto:someoneImportant@wondermom.se">Contact Us</a></h5>
             </li>
         </ul>
         <hr/>
