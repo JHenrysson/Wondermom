@@ -33,7 +33,9 @@ class Signup extends Component {
         ).then(() => {
             window.location.href = '/login';
         }).catch(error => {
-
+            const validation = { ...this.state.validation};
+            validation.form.error = error.message;
+            this.setState({ validation });
         });
     }
 
@@ -110,6 +112,10 @@ class Signup extends Component {
                             <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup} >
                             Sign Up
                             </Button>
+                        </div>
+
+                        <div className="texterror" style={{marginTop: '15px', textAlign: 'center', color: '#E34234'}}>
+                            {this.state.validation.form.error }
                         </div>
                     </Form>
                 </div>
