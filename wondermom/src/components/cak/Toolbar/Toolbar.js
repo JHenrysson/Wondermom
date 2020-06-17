@@ -3,8 +3,25 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 import {Link} from "react-router-dom";
 
+
 //navbar for the browser
-const toolbar = props => (
+const toolbar = props => {
+    
+function logoutUser() {
+    console.log('signed out successfully');
+    window.auth.signOut();
+}
+
+let authButton = null;
+
+if (props.getUser()) {
+  authButton = <Link id="logout" onClick={logoutUser}>Logout<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+} else {
+    authButton = <Link to="login">Login/Sign Up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+}
+
+return (
+
         <header className="toolbar">
             <nav className="toolbar_navigation">
                 <div className="toolbar_toggle-button">
@@ -52,12 +69,12 @@ const toolbar = props => (
                         </li>
                     </li>
                         <li>
-                        <Link to="login">Login/Sign up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+                        {authButton}
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
-);
-
+    );
+}
 export default toolbar;

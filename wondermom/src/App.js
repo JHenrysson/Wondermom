@@ -29,7 +29,36 @@ class App extends Component {
     state = {
       sideDrawerOpen: false
     };
+      constructor(props) {
+        super(props);
 
+          this.state = {
+
+              user: null 
+          }
+      }
+    
+    componentDidMount() {
+      window.auth.onAuthStateChanged(user => {
+          if (user) {
+               this.setState({ user: user.uid });
+               console.log(user)
+          } else {
+            this.setState({ user: null });
+          }
+      });
+  }
+
+  getUser() {
+    return this.state.user;
+  }
+
+  render() {
+    function getUser(props){
+     return this.state.user
+    }
+
+  }
 //This is the hamburgerbutton
   drawerToogleClickHandler = () => {
     this.setState((prevState)=> {
