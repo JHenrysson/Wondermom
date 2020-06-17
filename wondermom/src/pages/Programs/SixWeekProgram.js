@@ -9,15 +9,27 @@ class sixWeekProgram extends Component {
     countChecked = () => {
         var checked = document.querySelectorAll("input:checked").length;
         console.log(checked);
-        var percentage = parseInt(((checked / this.numberOfCheckboxes) * 100), 10);
+        var percentage = parseInt(((checked / this.checkboxes.length) * 100), 10);
         this.progressIndicator.style.width = percentage + "%";
         document.querySelector(".progressbar-label").innerHTML = percentage + "%";
     }
 
+    getCheckboxStatus = (document) => {
+        window.db.collection("progress").doc('YY96Loo6X6SNZx5tvq1x').get().then(function(field) {
+            var databaseStatus = field.data().weeks;
+            for (let i = 0; i < document.checkboxes.length; i++) {
+                document.checkboxes[i].checked = databaseStatus[i];
+            }
+
+            document.countChecked();
+        });
+    }
+
     componentDidMount() {
         this.progressIndicator = document.querySelector('.progress-indicator');
-        this.numberOfCheckboxes = document.querySelectorAll("input[type='checkbox']").length;
-        this.countChecked();
+        this.checkboxes = document.querySelectorAll("input[type='checkbox']");
+
+        this.getCheckboxStatus(this);
     }
 
     render() {

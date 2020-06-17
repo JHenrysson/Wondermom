@@ -12,17 +12,17 @@ class BootstrapCarousel extends Component {
             <Carousel>  
                 <Carousel.Item> 
                     <img className="d-block w-100"
-                        src={'/wondermom/images/workoutabs.jpg'}  />  
+                        src={'/wondermom/images/review1.png'}  />
                 </Carousel.Item  >  
 
                 <Carousel.Item>  
                     <img className="d-block w-100"  
-                    src={'/wondermom/images/workoutbutt.jpg'}    />  
+                    src={'/wondermom/images/review3.png'}    />
                 </Carousel.Item >  
 
                 <Carousel.Item>  
                     <img className="d-block w-100"  
-                    src={'/wondermom/images/workouthug.jpg'}   />  
+                    src={'/wondermom/images/review4.png'}   />
                 </Carousel.Item>  
 
             </Carousel>  
