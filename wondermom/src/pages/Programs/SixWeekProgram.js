@@ -68,6 +68,20 @@ class sixWeekProgram extends Component {
         super(props);
     }
 
+
+    saveAndCountChecked = () => {
+        var databaseStatus = [];
+        for (let i = 0; i < this.checkboxes.length; i++) {
+            databaseStatus.push(this.checkboxes[i].checked);
+        }
+
+        let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
+            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').set({weeks: databaseStatus});
+        });
+
+        this.countChecked();
+    }
+
     countChecked = () => {
         var checked = document.querySelectorAll("input:checked").length;
         console.log(checked);
@@ -77,13 +91,15 @@ class sixWeekProgram extends Component {
     }
 
     getCheckboxStatus = (document) => {
-        window.db.collection("progress").doc('YY96Loo6X6SNZx5tvq1x').get().then(function(field) {
-            var databaseStatus = field.data().weeks;
-            for (let i = 0; i < document.checkboxes.length; i++) {
-                document.checkboxes[i].checked = databaseStatus[i];
-            }
+        let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
+            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+                var databaseStatus = field.data().weeks;
+                for (let i = 0; i < document.checkboxes.length; i++) {
+                    document.checkboxes[i].checked = databaseStatus[i];
+                }
 
-            document.countChecked();
+                document.countChecked();
+            });
         });
     }
 
@@ -126,7 +142,7 @@ class sixWeekProgram extends Component {
 
                                             <h4 className="card-title">{weeks.title}</h4>
                                             <p className="card-text"> {weeks.description} </p>
-                                            <p>Finished! <input type="checkbox" name="box1" onClick={this.countChecked}/></p>
+                                            <p>Finished! <input type="checkbox" name="box1" onClick={this.saveAndCountChecked}/></p>
 
 
                                         </div>
