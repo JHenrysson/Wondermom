@@ -11,7 +11,7 @@ function Home() {
        <div className="container text-center">
          <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="signup" class="btn btn-lg btn-info">Sign up</a>
+         <a href="./signup" class="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
 
@@ -103,8 +103,10 @@ function Home() {
  
   <div className="carusel">
     <div className="container-fluid bg-white text-center pt-5">
+
       <h2 class="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
       <p class="lead text-dark">See what other Wondermoms have to say!</p>
+
         <div className="row justify-content-center">
        
           

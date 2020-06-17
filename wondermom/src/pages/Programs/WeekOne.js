@@ -14,7 +14,7 @@ const weekOne = props => (
                         <h4 className="card-title">Day One</h4>
                         <p className="card-text">Here is where the user will find information about the different daily workout plans. There will be a summary explaining the workout plan and its areas of focus.
                             The user can click the button to see that day's workout. </p>
-                        <a href="/dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                        <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ const weekOne = props => (
                         <h4 className="card-title">Day Two</h4>
                         <p className="card-text">Here is where the user will find information about the different daily workout plans. There will be a summary explaining the workout plan and its areas of focus.
                             The user can click the button to see that day's workout. </p>
-                        <a href="/dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                        <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const weekOne = props => (
                         <h4 className="card-title">Day Three</h4>
                         <p className="card-text">Here is where the user will find information about the different daily workout plans. There will be a summary explaining the workout plan and its areas of focus.
                             The user can click the button to see that day's workout.  </p>
-                        <a href="/dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                        <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ const weekOne = props => (
                         <h4 className="card-title">Day Four</h4>
                         <p className="card-text">Here is where the user will find information about the different daily workout plans. There will be a summary explaining the workout plan and its areas of focus.
                             The user can click the button to see that day's workout. </p>
-                        <a href="/dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                        <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ const weekOne = props => (
                         <h4 className="card-title">Day Five</h4>
                         <p className="card-text">Here is where the user will find information about the different daily workout plans. There will be a summary explaining the workout plan and its areas of focus.
                             The user can click the button to see that day's workout. </p>
-                        <a href="/dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                        <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ const weekOne = props => (
                         <h4 className="card-title">Day Six</h4>
                         <p className="card-text">Here is where the user will find information about the different daily workout plans. There will be a summary explaining the workout plan and its areas of focus.
                             The user can click the button to see that day's workout. </p>
-                        <a href="/dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                        <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
                     </div>
                 </div>
             </div>
