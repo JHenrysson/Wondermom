@@ -39,6 +39,10 @@ p{
     display: table;
     margin: 0 auto;
 }
+#button{
+    margin-top: -40px;
+    margin-bottom: 5%;
+}
 #jumbotronSixWeek {
     background-image: url("/wondermom/images/sixWeekBanner.jpg");
     opacity: .9;
