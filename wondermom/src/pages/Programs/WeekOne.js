@@ -9,7 +9,13 @@ class weekOne extends Component {
     componentDidMount() {
         window.auth.onAuthStateChanged(function(currentUser) {
             window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
-                let days = field.data().days;
+                let data = field.data();
+
+                let days;
+                if (data)
+                    days = data.days;
+                else
+                    days = 0;
 
                 document.getElementById("amount").innerHTML = days > 6 ? 6 : days;
             });

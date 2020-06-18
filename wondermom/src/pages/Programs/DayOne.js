@@ -51,10 +51,13 @@ class dayOne extends Component {
             window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
                 let data = field.data();
 
-                if (data.days)
-                    data.days++;
-                else
-                    data.days = 1;
+                if (data) {
+                    if (data.days)
+                        data.days++;
+                    else
+                        data.days = 1;
+                } else
+                    data = {days: 1}
 
                 window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').set(data);
             });

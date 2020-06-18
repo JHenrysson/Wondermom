@@ -66,7 +66,11 @@ class sixWeekProgram extends Component {
         let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
             window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
                 let data = field.data();
-                data.weeks = databaseStatus;
+
+                if (data)
+                    data.weeks = databaseStatus;
+                else
+                    data = {weeks: databaseStatus}
 
                 window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').set(data);
             });
@@ -86,10 +90,15 @@ class sixWeekProgram extends Component {
     getCheckboxStatus = (document) => {
         let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
             window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
-                var databaseStatus = field.data().weeks;
-                for (let i = 0; i < document.checkboxes.length; i++) {
-                    document.checkboxes[i].checked = databaseStatus[i];
+                let data = field.data();
+
+                if (data) {
+                    var databaseStatus = data.weeks;
+                    for (let i = 0; i < document.checkboxes.length; i++) {
+                        document.checkboxes[i].checked = databaseStatus[i];
+                    }
                 }
+
                 document.countChecked();
             });
         });
