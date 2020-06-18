@@ -52,17 +52,6 @@ const weeks = [
     }
 ]
 
-
-
-
-
-
-
-
-
-
-
-
 class sixWeekProgram extends Component {
     constructor(props) {
         super(props);
@@ -101,9 +90,9 @@ class sixWeekProgram extends Component {
                     <div className="container">
                     </div>
                 </div>
-                <div className="container-fluid bg-white p-3">
+                <div className="container-fluid p-3">
                 <div className="progressHeadline">
-                    <img src="images/progress5.png" alt="headline"/>
+                    <img src="images/progressHeader.png" alt="headline"/>
                 </div>
 
         <div className="progressbar-container">

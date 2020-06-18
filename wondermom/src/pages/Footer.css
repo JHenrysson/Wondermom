@@ -23,6 +23,9 @@ a:hover{
     margin-bottom: 1%;
 
 }
+i{
+    margin-left: 0;
+}
 
 
 @media (max-width: 768px) {
