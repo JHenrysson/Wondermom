@@ -8,9 +8,10 @@ import {Link} from "react-router-dom";
 const toolbar = props => {
     
 function logoutUser() {
-    console.log('signed out successfully');
     window.auth.signOut();
 }
+
+console.log("check login", props.getUser());
 
 let authButton = null;
 
