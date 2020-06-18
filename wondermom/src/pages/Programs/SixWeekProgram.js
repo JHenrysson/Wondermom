@@ -92,7 +92,7 @@ class sixWeekProgram extends Component {
                 </div>
                 <div id="containerProgress" className="container-fluid p-3">
                     <div className="progressHeadline">
-                        <img src="images/progressHeader.png" alt="headline"/>
+                        <img src="images/progressheadlineArrow.png" alt="headline"/>
                     </div>
 
                     <div className="progressbar-container">
