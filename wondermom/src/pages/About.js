@@ -32,11 +32,12 @@ function About() {
         <div className="col-md-6 px-5 align-self-center">
             <div className="textruta">
           <h3 className="text-dark font-weight-bold">THE WONDERMOM STORY</h3>
-          <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo
-            
-            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo</p>
+          <p>
+              Wondermom was founded by five women who wanted to bring change to the industry.
+              They created Wondermom after having a friend who recently had a baby.
+              Their friend mentioned she lacked the resources as a new mom as their needs are often not a company's focus.
+              After hearing their friend's story, they all decided they wanted to change the industry.
+              The friends gathered together for a fika, and well, the rest is history.  </p>
             </div>
         </div>
         <div className="col-md-6">
@@ -58,11 +59,9 @@ function About() {
         <div className="col-md-6 order-1 order-md-2 px-5 align-self-center">
         <div className="textruta m-md-0">
           <h3 class="text-dark font-weight-bold">OUR MISSION</h3>
-          <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo
-            
-            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo</p></div>
+          <p>The Mission of Wondermom is to help new moms on their new fitness journey.
+              We strive to build a community that empowers women and helps them achieve their goals.
+              They say you can't do it all but with Wondermoms yes you can! </p></div>
         </div>
         </div>
         </div>
