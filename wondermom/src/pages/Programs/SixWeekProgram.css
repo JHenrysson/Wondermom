@@ -85,6 +85,7 @@ input[type="checkbox"] {
     height: 50px;
     width: auto; /*to change the length of the progress bar*/
     background-color: gray;
+    box-shadow: #174c4f;
 }
 
 .progress-indicator {
