@@ -6,6 +6,11 @@ const weekOne = props => (
         <div id="jumbotronWeekOne" className="jumbotron jumbotron-fluid">
             <div className="container"></div>
         </div>
+        <div id="containerProgress" className="container-fluid p-3">
+            <div className="progressHeadline">
+                
+            </div>
+        </div>
         <div id="cardContainer" className="row row-cols-1 row-cols-md-2">
             <div className="col mb-4">
                 <div className="card">
