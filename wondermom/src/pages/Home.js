@@ -11,7 +11,7 @@ function Home() {
        <div className="container text-center">
          <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="./signup" class="btn btn-lg btn-info">Sign up</a>
+         <a href="signup" class="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
 
@@ -20,7 +20,7 @@ function Home() {
   
   <section id="services">
     <div className="container-fluid bg-white p-3">
-      <div className="row text-center px-5">
+      <div className="row text-center">
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-heart fa-2x"></i>
        <h4 class="pt-3">POSTNATAL EXERCISES</h4>
