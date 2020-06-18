@@ -11,7 +11,9 @@ body {
     opacity: .9;
 }
 
-
+i {
+    margin-left: 0;
+}
 
 .services {
     padding: 20px;
