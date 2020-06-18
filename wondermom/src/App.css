@@ -5,6 +5,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.jumbotron{
+    margin-bottom: 0;
+
+}
 
 body::-webkit-scrollbar {
     display: none;
