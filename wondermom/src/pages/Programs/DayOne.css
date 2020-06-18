@@ -68,10 +68,10 @@
 }
 
   /* The container */
-.container {
+.checkboxContainer {
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-left: 0px;
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
@@ -82,7 +82,7 @@
   }
   
   /* Hide the browser's default checkbox */
-  .container input {
+  .checkboxContainer input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -101,7 +101,7 @@
   }
   
   /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
+  .checkboxContainer:hover input ~ .checkmark {
     background-color: #eee;
   }
   

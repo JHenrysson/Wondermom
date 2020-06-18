@@ -63,8 +63,8 @@ const dayOne = props => (
                                 <div className="col-sm grid-item item2">
                                     <h3 id="headerOne" className="card-title">{exercises.title}</h3>
                                     <p id="descriptionText">{exercises.description} </p>
-                                    <label className="container">
-                                        <input type="checkbox" />
+                                    <label className="checkboxContainer">
+                                        <input type="checkbox" /> <p>Check when done</p>
                                         <span className="checkmark" />
                                     </label>
                                 </div>
