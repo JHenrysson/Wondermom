@@ -47,7 +47,7 @@ class dayOne extends Component {
     }
 
     saveDay = () => {
-        let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
+        window.auth.onAuthStateChanged(function(currentUser) {
             window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
                 let data = field.data();
 
