@@ -1,51 +1,51 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './SixWeekProgram.css';
 
 const weeks = [
     {
-        slug:"Week One",
-        title:"Week One",
-        img:"/wondermom/images/sixweek1.jpg",
+        slug: "Week One",
+        title: "Week One",
+        img: "/wondermom/images/sixweek1.jpg",
         description: "This is where the user will find information about the weekly workouts plans. " +
             "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
             "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
     },
     {
-        slug:"Week Two",
-        title:"Week Two",
-        img:"/wondermom/images/sixweek2.jpg",
+        slug: "Week Two",
+        title: "Week Two",
+        img: "/wondermom/images/sixweek2.jpg",
         description: "This is where the user will find information about the weekly workouts plans. " +
             "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
             "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
     },
     {
-        slug:"Week Three",
-        title:"Week Three",
-        img:"/wondermom/images/sixweek3.jpg",
+        slug: "Week Three",
+        title: "Week Three",
+        img: "/wondermom/images/sixweek3.jpg",
         description: "This is where the user will find information about the weekly workouts plans. " +
             "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
             "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
     },
     {
-        slug:"Week Four",
-        title:"Week Four",
-        img:"/wondermom/images/sixweek4.jpg",
+        slug: "Week Four",
+        title: "Week Four",
+        img: "/wondermom/images/sixweek4.jpg",
         description: "This is where the user will find information about the weekly workouts plans. " +
             "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
             "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
     },
     {
-        slug:"Week Five",
-        title:"Week Five",
-        img:"/wondermom/images/sixweek7.jpg",
+        slug: "Week Five",
+        title: "Week Five",
+        img: "/wondermom/images/sixweek7.jpg",
         description: "This is where the user will find information about the weekly workouts plans. " +
             "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
             "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
     },
     {
-        slug:"Week Six",
-        title:"Week Six",
-        img:"/wondermom/images/6weeks.jpg",
+        slug: "Week Six",
+        title: "Week Six",
+        img: "/wondermom/images/6weeks.jpg",
         description: "This is where the user will find information about the weekly workouts plans. " +
             "A summary will explain which body parts or areas the user will focus on for the weeks workout plan.  " +
             "The user can click the button to see more about that week's workout or click \"finished\" to mark that week complete. "
@@ -66,7 +66,7 @@ class sixWeekProgram extends Component {
     }
 
     getCheckboxStatus = (document) => {
-        window.db.collection("progress").doc('YY96Loo6X6SNZx5tvq1x').get().then(function(field) {
+        window.db.collection("progress").doc('YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
             var databaseStatus = field.data().weeks;
             for (let i = 0; i < document.checkboxes.length; i++) {
                 document.checkboxes[i].checked = databaseStatus[i];
@@ -90,32 +90,47 @@ class sixWeekProgram extends Component {
                     <div className="container">
                     </div>
                 </div>
-                <div className="container-fluid p-3">
-                <div className="progressHeadline">
-                    <img src="images/progressHeader.png" alt="headline"/>
-                </div>
+                <div id="containerProgress" className="container-fluid p-3">
+                    <div className="progressHeadline">
+                        <img src="images/progressHeader.png" alt="headline"/>
+                    </div>
 
-        <div className="progressbar-container">
-            <div className="progressbar-bar">
-                <div className="progress-indicator"></div>
-            </div>
-            <div className="progressbar-label"></div>
-        </div>
+                    <div className="progressbar-container">
+                        <div className="progressbar-bar">
+                            <div className="progress-indicator"></div>
+                        </div>
+                        <div className="progressbar-label"></div>
+                    </div>
                 </div>
-        <div className="ready"></div>
+                    <section id="home-extra" className="p-5">
+                        <div className="dark-overlay">
+                            <div className="row">
+                                <div className="col">
+                                    <div className="container pt-5">
+                                        <h1>Choose your next Challenge!</h1>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                <div className="ready"></div>
                 <div id="cardContainer" className="row row-cols-1 row-cols-md-3">
                     {
-                        weeks.map(weeks =>{
-                            return(
+                        weeks.map(weeks => {
+                            return (
                                 <div className="col mb-4">
                                     <div className="card">
-                                        <img src= {weeks.img} className="card-img-top" alt={weeks.slug}/>
+                                        <img src={weeks.img} className="card-img-top" alt={weeks.slug}/>
                                         <div className="card-body">
-                                            <a href="./weekOne" id= "button"className="centerButton btn btn-info" role="button">Show More</a>
+                                            <a href="./weekOne" id="button" className="centerButton btn btn-info"
+                                               role="button">Start Now</a>
 
                                             <h4 className="card-title">{weeks.title}</h4>
                                             <p className="card-text"> {weeks.description} </p>
-                                            <p>Finished! <input type="checkbox" name="box1" onClick={this.countChecked}/></p>
+                                            <p>Finished! <input type="checkbox" name="box1"
+                                                                onClick={this.countChecked}/></p>
 
 
                                         </div>
@@ -132,7 +147,6 @@ class sixWeekProgram extends Component {
         );
     }
 }
-
 
 
 export default sixWeekProgram;
