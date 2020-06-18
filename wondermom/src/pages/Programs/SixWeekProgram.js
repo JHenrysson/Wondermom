@@ -52,17 +52,6 @@ const weeks = [
     }
 ]
 
-
-
-
-
-
-
-
-
-
-
-
 class sixWeekProgram extends Component {
     constructor(props) {
         super(props);
