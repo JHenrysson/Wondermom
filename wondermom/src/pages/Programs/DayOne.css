@@ -61,8 +61,6 @@
     border-top: 0px solid white;
 }
 
-
-
 #completeWorkout {
     text-align: center;
     font-size: 18px;
@@ -72,10 +70,12 @@
 .checkboxContainer {
     display: block;
     position: relative;
-    padding-left: 0px;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    text-align: left;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -127,8 +127,8 @@
   .container .checkmark:after {
     left: 9px;
     top: 5px;
-    width: 5px;
-    height: 10px;
+    width: 8px;
+    height: 13px;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
