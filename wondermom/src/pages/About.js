@@ -34,7 +34,7 @@ function About() {
             </div>    
             <div className="col-md-6 text-center order-1 order-md-2">
                 <div className="row justify-content-center">
-                    <div className="col-10 col-lg-8 mb-5 blurb m-md-0">
+                    <div className="col-10 col-lg-10 mb-5 blurb m-md-0">
                         <h3>THE WONDERMOM STORY</h3>
                         <p className="lead">Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
                     dlolo Lorem ipsus dolor lorem ipsis dlolo. Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
@@ -50,7 +50,7 @@ function About() {
             <div className="row align-items-center content">
             <div className="col-md-6 text-center">
               <div className="row justify-content-center">
-              <div className="col-10 col-lg-8 mb-5 mb-md-0 blurb m-4 m-md-0">
+              <div className="col-10 col-lg-10 mb-5 mb-md-0 blurb m-4 m-md-0">
                         <h3>OUR MISSION</h3>
                         <p className="lead">Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
                     dlolo Lorem ipsus dolor lorem ipsis dlolo. Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
