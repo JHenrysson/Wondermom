@@ -5,8 +5,9 @@ p{
 .progressHeadline{
     margin: 0 auto;
     max-width: 35%;
-
-
+}
+#containerProgress{
+    background-color: rgba(255, 255, 255, 0.639);
 
 }
 #button{
@@ -42,6 +43,7 @@ p{
 #button{
     margin-top: -40px;
     margin-bottom: 5%;
+    font-size: 17px;
 }
 #jumbotronSixWeek {
     background-image: url("/wondermom/images/sixWeekBanner.jpg");
@@ -78,6 +80,7 @@ input[type="checkbox"] {
     position: relative;
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 5%;
 
 }
 
