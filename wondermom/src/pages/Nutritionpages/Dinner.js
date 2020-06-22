@@ -26,13 +26,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
-                                        <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                    <div className="stars">
+                                        <li className="icon-start">
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -54,13 +54,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
-                                        <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                    <div className="stars">
+                                        <li className="icon-start">
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -81,13 +81,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
-                                        <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                    <div className="stars">
+                                        <li className="icon-start">
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -108,13 +108,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
-                                        <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                    <div className="stars">
+                                        <li className="icon-start">
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -142,13 +142,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
-                                        <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                    <div className="stars">
+                                        <li className="icon-start">
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -170,13 +170,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
+                                    <div className="stars">
                                         <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -197,13 +197,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
-                                        <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                    <div className="stars">
+                                        <li className="icon-start">
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -224,13 +224,13 @@ function Dinner() {
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
-                                    <div class="stars">
+                                    <div className="stars">
                                         <li>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
