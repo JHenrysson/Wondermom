@@ -29,6 +29,29 @@ class App extends Component {
     state = {
       sideDrawerOpen: false
     };
+      constructor(props) {
+        super(props);
+
+          this.state = {
+
+              user: null 
+          }
+      }
+    
+    componentDidMount() {
+      window.auth.onAuthStateChanged(user => {
+          if (user) {
+               this.setState({ user: user.uid });
+               console.log(user)
+          } else {
+            this.setState({ user: null });
+          }
+      });
+  }
+
+  getUser = () => {
+    return this.state.user;
+}
 
 //This is the hamburgerbutton
   drawerToogleClickHandler = () => {
@@ -36,7 +59,7 @@ class App extends Component {
       return{sideDrawerOpen: !prevState.sideDrawerOpen};
     });
   };
-  
+
 //This is a backdrop for the sidedrawer like a shadow over the background in the browser.
 //control by click on site.
   backdropClickHandler = () => {
@@ -76,7 +99,7 @@ class App extends Component {
           </div>
 
             <div style={{height: '100%'}}>
-              <Toolbar drawerClickHandler ={this.drawerToogleClickHandler}/>
+            <Toolbar getUser={ this.getUser } drawerClickHandler ={this.drawerToogleClickHandler}/>
               <SideDrawer show={this.state.sideDrawerOpen}/>
               {backdrop}
                 <main style={{marginTop: '64px'}}>

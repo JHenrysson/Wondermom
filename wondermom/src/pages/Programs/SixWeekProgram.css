@@ -5,8 +5,9 @@ p{
 .progressHeadline{
     margin: 0 auto;
     max-width: 35%;
-
-
+}
+#containerProgress{
+    background-color: rgba(255, 255, 255, 0.639);
 
 }
 #button{
@@ -38,11 +39,11 @@ p{
 .centerButton {
     display: table;
     margin: 0 auto;
-
 }
 #button{
-margin-top: -40px;
-    margin-bottom: 30px;
+    margin-top: -40px;
+    margin-bottom: 5%;
+    font-size: 17px;
 }
 #jumbotronSixWeek {
     background-image: url("/wondermom/images/sixWeekBanner.jpg");
@@ -50,10 +51,11 @@ margin-top: -40px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: auto;
     width: auto;
     padding-top: 250px;
     position: relative;
+    margin-bottom: 0;
 }
 
 
@@ -69,7 +71,6 @@ margin-top: -40px;
 
 input[type="checkbox"] {
     margin-top: 5%;
-
 }
 
 /*
@@ -79,20 +80,19 @@ input[type="checkbox"] {
     position: relative;
     width: 50%;
     margin: 0 auto;
-    justify-content: center;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+
 }
 
 .progressbar-bar {/*change here for the width of the progress bar but not the color??? */
     height: 50px;
     width: auto; /*to change the length of the progress bar*/
-
-    background-color: lightgray;
+    background-color: gray;
+    box-shadow: #174c4f;
 }
 
 .progress-indicator {
     border-width: 25px;
-
     border-color: cornflowerblue;
     background-color: #75c1b5;
     height: 100%;

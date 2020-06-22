@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './DayOne.css';
 
 const exercises = [
@@ -41,7 +41,31 @@ const exercises = [
 ];
 
 
-const dayOne = props => (
+class dayOne extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    saveDay = () => {
+        window.auth.onAuthStateChanged(function(currentUser) {
+            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+                let data = field.data();
+
+                if (data) {
+                    if (data.days)
+                        data.days++;
+                    else
+                        data.days = 1;
+                } else
+                    data = {days: 1}
+
+                window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').set(data);
+            });
+        });
+    }
+
+    render() {
+        return (
     <div>
         <div id="jumbotronDayOne" className="jumbotron jumbotron-fluid">
             <div className="container">
@@ -76,7 +100,7 @@ const dayOne = props => (
             }
         </div>
         <br />
-        <a id="completeWorkout" href="WeekOne" className="btn btn-lg centerButton card-link justify-content-center btn-lg">Complete workout!</a>
+        <a id="completeWorkout" href="WeekOne" className="btn btn-lg centerButton card-link justify-content-center btn-lg" onClick={this.saveDay()}>Complete workout!</a>
 
 
 
@@ -87,6 +111,6 @@ const dayOne = props => (
 
 
 
-);
+);}}
 
 export default dayOne;
