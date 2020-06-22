@@ -2,35 +2,29 @@ import React from 'react';
 import './Home.css'
 import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
   
-function Home() {
+function Home(props) {
+
+  if (!props.getUser()) {
+
+  
     return (
 
-      <>
-{/*
+    <>
+
      <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
        <div className="container text-center">
          <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="signup" class="btn btn-lg btn-info">Sign up</a>
+         <a href="./signup" class="btn btn-lg btn-info">Sign up</a>
        </div>
      </div>
-*/}
+
    
-   <section id="showcase" className="d-flex justify-content-center align-items-center">
-     <div className="overlay"></div>
-     <div className="header container text-white text-center">
-     <h1 className="display-3">For every mom</h1>
-     <h3 id="rubrik" className="display-5">Join now!</h3>
-     <a href="signup" class="btn btn-lg btn-info px-5">Sign up</a>
-     </div>
-   </section>
       
   
-  <section id="services text-center">
+  <section id="services">
     <div className="container-fluid bg-white p-3">
-      <div className="container">
-    <h3 className="rubrikservice text-dark font-weight-bold mt-5">TAILORED TO YOU AND YOUR EVERYDAY LIFE</h3>
-      <div className="row text-center">
+      <div className="row text-center px-5">
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-heart fa-2x"></i>
        <h4 class="pt-3">POSTNATAL EXERCISES</h4>
@@ -50,7 +44,6 @@ function Home() {
          ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-    </div>
     </div>
     </section>
 
@@ -112,7 +105,7 @@ function Home() {
 
   
  
-  <div className="carousel">
+  <div className="carusel">
     <div className="container-fluid bg-white text-center pt-5">
 
       <h2 class="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
@@ -128,18 +121,24 @@ function Home() {
        </div>
       </div>
   
-      
-         
-
-
-
-
-      
-
+    
  
    </>
 
     );
+  } else {
+    return (
+      <div>
+        <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+          <div className="container text-center">
+            <h1>Welcome!</h1>
+            <br />
+            <a href="programs" class="btn btn-lg btn-info">Start Workout!</a>
+          </div>
+        </div>
+      </div>
+    )
   }
+}
 
   export default Home;
