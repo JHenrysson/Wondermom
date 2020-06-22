@@ -10,9 +10,10 @@
     padding: 1px 3px;
 
 }
-#star{
+.stars{
     display: inline-block;
     color:gold;
+    margin-left: 1rem;
     text-align: center;
     padding: 1px 3px;
     text-decoration: none;
@@ -22,16 +23,20 @@
     margin-left: 0;
 }
 
-ul{
+#iconrecipe{
     margin-bottom: 0rem;
 }
 
-li{
+#icons-card{
+    vertical-align: middle;
     margin-left: 1em;
     line-height: 1em;
     display: inline-block;
     font-family:'Open Sans', sans-serif;
     font-size: 1rem;
+}
+li{
+    display: inline-block;
 }
 .titlecards{
     text-align: left;

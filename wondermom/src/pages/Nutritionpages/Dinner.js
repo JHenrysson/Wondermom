@@ -22,9 +22,9 @@ function Dinner() {
                             <img src="images/dn1.jpeg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
@@ -50,9 +50,9 @@ function Dinner() {
                             <img src="images/dn2.jpg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
@@ -77,9 +77,9 @@ function Dinner() {
                             <img src="images/dn1.jpeg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
@@ -104,9 +104,9 @@ function Dinner() {
                             <img src="images/dn2.jpg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
@@ -138,9 +138,9 @@ function Dinner() {
                             <img src="images/dn1.jpeg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
@@ -166,9 +166,9 @@ function Dinner() {
                             <img src="images/dn2.jpg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
@@ -193,9 +193,9 @@ function Dinner() {
                             <img src="images/dn1.jpeg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
@@ -220,9 +220,9 @@ function Dinner() {
                             <img src="images/dn2.jpg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
-                                <li><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
-                                <li><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 4</span></li>
+                                <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>20 Mins</span></li>
                                 </ul>
                                     <div class="stars">
                                         <li>
