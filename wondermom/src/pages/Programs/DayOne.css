@@ -34,6 +34,7 @@
     width: 100%;
     padding-top: 250px;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .grid-container {
@@ -60,21 +61,21 @@
     border-top: 0px solid white;
 }
 
-
-
 #completeWorkout {
     text-align: center;
     font-size: 18px;
 }
 
   /* The container */
-.container {
+.checkboxContainer {
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    text-align: left;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -82,7 +83,7 @@
   }
   
   /* Hide the browser's default checkbox */
-  .container input {
+  .checkboxContainer input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -101,7 +102,7 @@
   }
   
   /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
+  .checkboxContainer:hover input ~ .checkmark {
     background-color: #eee;
   }
   
@@ -126,8 +127,8 @@
   .container .checkmark:after {
     left: 9px;
     top: 5px;
-    width: 5px;
-    height: 10px;
+    width: 8px;
+    height: 13px;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);

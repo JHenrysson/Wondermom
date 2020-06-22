@@ -40,7 +40,7 @@ class Programs extends Component {
                 </div>
 
                 <div className="titleBox">
-                    <img id= "titleImage" src="./images/programsHeadlineTextOnly.png"/>
+                    <img id= "titleImage" alt="headimg"src="./images/programsHeadlineTextOnly.png"/>
                 </div>
                 <div id="main">
                     <div className="card-deck">

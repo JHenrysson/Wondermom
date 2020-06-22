@@ -1,8 +1,4 @@
-.blurb p {
-    font-size: 2,5rem;
-    font-weight: 100;
-  
-}
+
 
 #jumbotronabout {
     background-image: url("/wondermom/images/mirabanner2.jpg");
@@ -13,7 +9,30 @@
     width: 100%; }
 
 .textruta{
-    margin-top: -50px;
+ 
+    padding-bottom: 100px;
+    margin-top: 100px;
+
 }
 
+.blurb h3 {
+    color: black;
+    font-weight: 100;
+    font-size: 2,5rem;
+}
+
+.blurb p {
+    
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.info-header {
+    width: auto;
+    margin: auto;
+    border-bottom: 1px lightseagreen solid;
+    border-top: 1px lightseagreen solid;
+
+}
 
