@@ -11,7 +11,6 @@ function Nutrition() {
         </div>
 
         <div className="spaceing">
-            <h2>Recipes</h2>
         </div>
         
         <div className="container">
@@ -24,9 +23,19 @@ function Nutrition() {
 
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Breakfast</h4>
+                        <div class="stars">
+                                        <li className="icon-start">
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                        </li>
+                                    </div>
+
                         <p className="card-text">
-                Some info about good and healthy Breakfast recipes and
-                if you click on the button you can see all the breakfast recipes.
+                        Some info about good and healthy breakfast recipes.
+                        The user can click the button to see all the meal recipes
                         </p>
                         <a href="breakfast" className="centerButton btn btn-info justify-content-center">Show more</a>
                         </div>
@@ -40,9 +49,17 @@ function Nutrition() {
 
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Lunch</h4>
+                        <div class="stars">
+                                        <li className="icon-start">
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                        </li>
+                                    </div>
                         <p className="card-text">
-                Some info about good and healthy Lunch recipes and
-                if you click on the button you can see all the lunch recipes.
+                        Some info about good and healthy lunch recipes. The user can click the button to see all the meal recipes
                         </p>
                         <a href="lunch" className="centerButton btn btn-info justify-content-center">Show more</a>
                     </div>
@@ -56,9 +73,18 @@ function Nutrition() {
 
                     <div className="card-body text-center">
                     <h4 className="card-title text-center">Dinner</h4>
+                    <div class="stars">
+                                        <li className="icon-start">
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                        </li>
+                                    </div>
                     <p className="card-text">
-                Some info about good and healthy Dinner recipes and
-                if you click on the button you can see all the dinner recipes.
+                    Some info about good and healthy dinner recipes.
+                    The user can click the button to see all the meal recipes
                     </p>
                     <a href="dinner" className="centerButton btn btn-info justify-content-center">Show more</a>
                     </div>
@@ -71,9 +97,18 @@ function Nutrition() {
 
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Snacks</h4>
+                        <div class="stars">
+                                        <li className="icon-start">
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" class="fa fa-star m-0"></i>
+                                        </li>
+                                    </div>
                         <p className="card-text">
-                Some info about good and healthy Snacks recipes and
-                if you click on the button you can see all the snacks recipes.
+                        Some info about good and healthy snack recipes.
+                        The user can click the button to see all the meal recipes
                         </p>
                         <a href="snacks" className="centerButton btn btn-info justify-content-center">Show more</a>
                     </div>
