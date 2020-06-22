@@ -9,7 +9,22 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
     opacity: .9;
+} 
+
+#showcase {
+    background-image: url("/wondermom/images/yoga2.jpg");
+    height: 100vh;
+    position: relative;
+    background: cover no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
 }
+
+#rubrik {
+    margin-bottom: 20px;
+}
+
 
 i {
     margin-left: 0;
@@ -40,7 +55,6 @@ i {
     height: 100%;
     background: rgba(192,192,192,0.3);
 }
-
 
 
 
@@ -157,9 +171,17 @@ i {
         left: 32%;
         margin-left: -50px;
         top: 22%;
-        margin-top: -50px;
-
+        margin-top: -50px; 
     }
+
+    #showcase {
+        min-height: 300px;
+     
+        
+    }
+
+
+    
     .jumbotron {
         height: 300px;
     }
