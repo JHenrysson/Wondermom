@@ -16,7 +16,7 @@ console.log("check login", props.getUser());
 let authButton = null;
 
 if (props.getUser()) {
-  authButton = <Link id="logout" onClick={logoutUser}>Logout<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+  authButton = <Link to="home" id="logout" onClick={logoutUser}>Logout<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
 } else {
     authButton = <Link to="login">Login/Sign Up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
 }
