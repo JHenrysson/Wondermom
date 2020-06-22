@@ -35,6 +35,7 @@ function About() {
             <div className="col-md-6 text-center order-1 order-md-2">
                 <div className="row justify-content-center">
                     <div className="col-10 col-lg-10 mb-5 blurb m-md-0">
+              
                         <h3>THE WONDERMOM STORY</h3>
                         <p className="lead">Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
                     dlolo Lorem ipsus dolor lorem ipsis dlolo. Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
@@ -59,7 +60,7 @@ function About() {
                 </div>
             </div>
             <div className="col-md-6">
-            <img src="images/phone.jpg" alt="" class="img-fluid"></img>
+            <img src="images/heart.jpg" alt="" class="img-fluid"></img>
             </div>
             </div>
         </section>
