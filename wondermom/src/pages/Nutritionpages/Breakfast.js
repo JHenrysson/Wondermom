@@ -28,11 +28,11 @@ function Breakfast() {
                                 </ul>
                                     <div className="stars">
                                         <li className="icon-start">
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
                                     <div className="card-body text-center">
@@ -54,11 +54,11 @@ function Breakfast() {
                                     </ul>
                                         <div className="stars">
                                             <li className="icon-start">
-                                                <i id="star" class="fa fa-star m-0"></i>
-                                                <i id="star" class="fa fa-star m-0"></i>
-                                                <i id="star" class="fa fa-star m-0"></i>
-                                                <i id="star" class="fa fa-star m-0"></i>
-                                                <i id="star" class="fa fa-star-o m-0"></i>
+                                                <i id="star" className="fa fa-star m-0"></i>
+                                                <i id="star" className="fa fa-star m-0"></i>
+                                                <i id="star" className="fa fa-star m-0"></i>
+                                                <i id="star" className="fa fa-star m-0"></i>
+                                                <i id="star" className="fa fa-star-o m-0"></i>
                                             </li>
                                         </div>
                                         <div className="card-body text-center">
@@ -78,7 +78,7 @@ function Breakfast() {
                                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 2</span></li>
                                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>5 Mins</span></li>
                                             </ul>
-                                                <div class="stars">
+                                                <div className="stars">
                                                     <li className="icon-start">
                                                         <i id="star" className="fa fa-star m-0"></i>
                                                         <i id="star" className="fa fa-star m-0"></i>
@@ -104,7 +104,7 @@ function Breakfast() {
                                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 2</span></li>
                                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>5 Mins</span></li>
                                             </ul>
-                                                <div class="stars">
+                                                <div className="stars">
                                                     <li className="icon-start">
                                                         <i id="star" className="fa fa-star m-0"></i>
                                                         <i id="star" className="fa fa-star m-0"></i>
