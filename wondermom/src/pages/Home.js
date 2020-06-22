@@ -19,8 +19,8 @@ function Home() {
    <section id="showcase" className="d-flex justify-content-center align-items-center">
      <div className="overlay"></div>
      <div className="header container text-white text-center">
-     <h1 className="display-3">For every mom</h1>
-     <h3 id="rubrik" className="display-5">Join now!</h3>
+     <h1 id="rubrik1" className="display-3 text-weight-bold">FOR EVERY MOM</h1>
+     <h3 id="rubrik2" className="display-5">JOIN NOW!</h3>
      <a href="signup" class="btn btn-lg btn-info px-5">Sign up</a>
      </div>
    </section>
