@@ -31,7 +31,7 @@ return (
 
                 <div className="toolbar_logo">
                    <a href="./home">
-                    < img src= "/wondermom/images/logowm3.png"/></a>
+                    <img src= "/wondermom/images/logowm3.png"/></a>
                 </div>
 
                 <div className="toolbar_brand">
