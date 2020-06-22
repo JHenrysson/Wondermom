@@ -78,12 +78,10 @@ class App extends Component {
           <Route path ="/dinner" component ={Dinner}/>
           <Route path ="/snacks" component ={Snacks}/>
           <Route path ="/about" component ={About}/>
-
-          <Route exact path ="/programs" render ={ () => <ProgramOverview progress={ this.progress } /> }/>
-          <Route exact path ="/programs/:name" component={SixWeekProgram}/> // Rename component to program
-          <Route exact path ="/week" component={WeekOne}/> // /programs/:name/week/:week
-          <Route exact path ="/exercises" component={DayOne}/>   // /programs/:name/week/:week/day/:day
-
+          <Route path ="/programs" component ={Programs}/>
+          <Route path ="/dayOne" render={ () => <DayOne getUser={ this.getUser } /> }/>
+          <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
+          <Route path ="/weekOne" component={WeekOne}/>
           <Route path ="/Login" component={Login}/>
 
 
