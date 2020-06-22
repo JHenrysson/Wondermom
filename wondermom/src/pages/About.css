@@ -36,3 +36,37 @@
 
 }
 
+@media (min-width: 400px) {
+    #aboutrubrik{
+font-size: 30px;
+margin: 0;
+padding: 0;
+    }
+}
+
+    @media (min-width: 600px) {
+        #aboutrubrik{
+    font-size: 40px;
+        }
+    }
+  
+
+    @media (min-width: 768px) {
+        #aboutrubrik{
+      font-size: 50px;
+    }
+}
+  
+    
+    @media (min-width: 992px) {
+        #aboutrubrik{
+      font-size: 50px;
+    }
+}
+  
+    @media (min-width: 1200px) {
+        #aboutrubrik{
+            font-size: 60px;
+  
+    }
+}
