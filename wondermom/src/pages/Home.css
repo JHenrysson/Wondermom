@@ -21,8 +21,8 @@ body {
 
 }
 
-#rubrik {
-    margin-bottom: 20px;
+#rubrik1 {
+    margin-bottom: 30px;
 }
 
 
@@ -59,6 +59,7 @@ i {
 
 
 
+
 @media (max-width: 2000px) {
     #logohome{
         width: 500px;
@@ -83,8 +84,10 @@ i {
         margin-left: -50px;
         top: 20%;
         margin-top: -50px;
- 
     }
+
+   
+
 
 }
 
@@ -186,6 +189,16 @@ i {
         height: 300px;
     }
 
+    #rubrik1{
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    #rubrik2{
+        font-size:20px;
+    }
+
+
 }
 
 @media (max-width: 670px) {
@@ -198,6 +211,16 @@ i {
         margin-top: -50px;
 
     }
+
+    #rubrik1{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    #rubrik2{
+        font-size:20px;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -210,6 +233,16 @@ i {
         margin-top: -50px;
 
     }
+
+    #rubrik1{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    #rubrik2{
+        font-size:20px;
+    }
+
 }
 
 @media (max-width: 580px) {
@@ -222,6 +255,16 @@ i {
         margin-top: -50px;
 
     }
+
+    #rubrik1{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    #rubrik2{
+        font-size:20px;
+    }
+
 }
 
 
@@ -233,8 +276,18 @@ i {
         margin-left: -50px;
         top: 30%;
         margin-top: -50px;
-
     }
+
+        #rubrik1{
+            font-size: 50px;
+            padding-bottom: 10px;
+        }
+
+        #rubrik2{
+            font-size:20px;
+        }
+
+    
 
 }
 
