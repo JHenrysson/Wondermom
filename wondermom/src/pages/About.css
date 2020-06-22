@@ -1,11 +1,11 @@
 
 
 #jumbotronabout {
-    background-image: url("/wondermom/images/mirabanner2.jpg");
+    background-image: url("/wondermom/images/aboutus.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
-    opacity: .7;
+    opacity: .9;
     width: 100%; }
 
 .textruta{
