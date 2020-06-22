@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Programs.css';
+import {Link} from "react-router-dom";
 
 
 const programs = [
@@ -49,7 +50,7 @@ class Programs extends Component {
                                 return (
                                     <div className="card">
                                         <img src={programs.img} className="program-img card-img-top" alt={programs.slug}></img>
-                                        <a id="tryThisButton" href={programs.href} className="centerButton btn btn-info justify-content-center">{programs.title}</a>
+                                        <Link id="tryThisButton" to={programs.href} className="centerButton btn btn-info justify-content-center">{programs.title}</Link>
                                         <div className="card-body">
                                             <p className="card-text">{programs.description}</p>
                                         </div>
