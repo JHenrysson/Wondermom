@@ -63,8 +63,8 @@ class sixWeekProgram extends Component {
             databaseStatus.push(this.checkboxes[i].checked);
         }
 
-        let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
-            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+        let currentUser = this.props.getUser();
+        window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
                 let data = field.data();
 
                 if (data)
@@ -72,9 +72,8 @@ class sixWeekProgram extends Component {
                 else
                     data = {weeks: databaseStatus}
 
-                window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').set(data);
+                window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').set(data);
             });
-        });
 
         this.countChecked();
     }
@@ -88,8 +87,8 @@ class sixWeekProgram extends Component {
     }
 
     getCheckboxStatus = (document) => {
-        let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
-            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+        let currentUser = this.props.getUser();
+        window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
                 let data = field.data();
 
                 if (data) {
@@ -101,17 +100,16 @@ class sixWeekProgram extends Component {
 
                 document.countChecked();
             });
-        });
     }
 
     componentDidMount() {
         this.progressIndicator = document.querySelector('.progress-indicator');
         this.checkboxes = document.querySelectorAll("input[type='checkbox']");
-
-        this.getCheckboxStatus(this);
     }
 
     render() {
+        this.getCheckboxStatus(this);
+
         return (
             <div>
                 <div id="jumbotronSixWeek" className="jumbotron jumbotron-fluid">
