@@ -16,9 +16,9 @@ const toolbar = props => {
     let authButton = null;
 
     if (props.getUser()) {
-        authButton = <Link id="logout" onClick={logoutUser}>Logout<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+        authButton = <Link to ="home" id="logout" onClick={logoutUser}>Logout <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
     } else {
-        authButton = <Link to="login">Login/Sign Up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+        authButton = <Link to="login">Login/Sign Up <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
     }
 
     let programsButton = null;
@@ -26,9 +26,9 @@ const toolbar = props => {
     if (props.getUser()) {
         programsButton =
             <li className="dropdown">
-                <Link to="programs">Programs<i className="fa fa-chevron-down"></i></Link>
+                <Link to="programs">Programs <i className="fa fa-chevron-down"></i></Link>
                 <div className="dropdown-content">
-                    <Link to="sixWeekProgram">6 Week program</Link>
+                    <Link to="sixWeekProgram">6 Week program </Link>
                     <Link to="weekOne">Week 1 </Link>
                     <Link to="dayOne">Day 1</Link>
                 </div>
@@ -41,7 +41,7 @@ const toolbar = props => {
         nutritionButton = 
         <li>
         <li className="dropdown">
-            <Link to="nutrition">Nutrition<i className="fa fa-chevron-down"></i></Link>
+            <Link to="nutrition">Nutrition <i className="fa fa-chevron-down"></i></Link>
             <div className="dropdown-content">
                 <Link to="breakfast">Breakfast</Link>
                 <Link to="lunch">Lunch</Link>
