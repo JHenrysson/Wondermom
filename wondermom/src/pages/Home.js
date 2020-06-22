@@ -2,10 +2,14 @@ import React from 'react';
 import './Home.css'
 import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
   
-function Home() {
+function Home(props) {
+
+  if (!props.getUser()) {
+
+  
     return (
 
-      <>
+    <>
 
      <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
        <div className="container text-center">
@@ -117,18 +121,24 @@ function Home() {
        </div>
       </div>
   
-      
-         
-
-
-
-
-      
-
+    
  
    </>
 
     );
+  } else {
+    return (
+      <div>
+        <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+          <div className="container text-center">
+            <h1>Welcome!</h1>
+            <br />
+            <a href="programs" class="btn btn-lg btn-info">Start Workout!</a>
+          </div>
+        </div>
+      </div>
+    )
   }
+}
 
   export default Home;
