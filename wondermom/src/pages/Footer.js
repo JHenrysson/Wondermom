@@ -9,7 +9,7 @@ const footer = props => (
 
         <ul className="list-unstyled list-inline text-center">
             <li className="list-inline-block">
-            <img id="logo"src="./images/logowondermom4.png"/>
+            <img id="logo"src="/wondermom/images/logowondermom4.png"/>
             </li>
 
             <li className="list-inline-item">
