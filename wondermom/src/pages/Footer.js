@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import {Link} from "react-router-dom";
 
 const footer = props => (
 
@@ -8,37 +9,31 @@ const footer = props => (
 
         <ul className="list-unstyled list-inline text-center">
             <li className="list-inline-block">
-            <img id="logo"src="./images/logowondermom4.png" alt="logofooter"/>
+            <img id="logo"src="/wondermom/images/logowondermom4.png" alt="logofooter"/>
             </li>
 
             <li className="list-inline-item">
                 <h5>
-                    <a href="./home">
-                        Home
-                    </a>
+                    <Link to="home">Home</Link>
                 </h5>
             </li>
             <li className="list-inline-item">
                 <h5>
-                    <a href="./about">
-                        About
-                    </a>
+                    <Link to="about">About</Link>
                 </h5>
             </li>
             <li className="list-inline-item">
                 <h5>
-                    <a href="./programs">
-                        Program
-                    </a>
+                    <Link to="program">Program</Link>
                 </h5>
             </li>
             <li className="list-inline-item">
                 <h5>
-                    <a href="./nutrition">
-                        Nutrition
-                    </a>
+                    <Link to="nutrition">Nutrition</Link>
                 </h5>
             </li>
+
+
             <li className="list-inline-item">
                 <h5><a href="mailto:someoneImportant@wondermom.se">Contact Us</a></h5>
             </li>

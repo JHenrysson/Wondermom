@@ -30,8 +30,18 @@ i{
 
 @media (max-width: 768px) {
     #logo {
-
         max-width: 35%;
 
+    }
+}
+@media (min-width: 869px) {
+    #logo {
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #logo {
+        max-width: 20%;
     }
 }

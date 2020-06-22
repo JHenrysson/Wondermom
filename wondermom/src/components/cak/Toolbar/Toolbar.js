@@ -61,14 +61,14 @@ const toolbar = props => {
                 </div>
 
                 <div className="toolbar_logo">
-                    <a href="./home">
-                        < img src="./images/logowm3.png" /></a>
+                   <a href="./home">
+                    <img src= "/wondermom/images/logowm3.png"/></a>
                 </div>
 
                 <div className="toolbar_brand">
-                    <a href="./home">
-                        <img src="./images/logowondermom4.png" />
-                    </a>
+                   <a href="./home">
+                    <img src="/wondermom/images/logowondermom4.png"/>
+                   </a>
                 </div>
 
                 <div className="spacer" />
