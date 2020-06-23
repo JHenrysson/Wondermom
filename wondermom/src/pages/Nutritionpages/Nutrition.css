@@ -136,6 +136,12 @@
     }
 }
 
+@media (min-width: 1209px) {
+    #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
+        padding: 250px;
+    } 
+}
+
 @media (min-width: 766px){
     .card-deck .card{
         margin-bottom: 1rem;

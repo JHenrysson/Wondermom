@@ -106,3 +106,8 @@ input[type="checkbox"] {
     z-index: 2;
 
 }
+@media (min-width: 1209px) {
+    #jumbotronSixWeek{
+        padding: 250px;
+    } 
+}
