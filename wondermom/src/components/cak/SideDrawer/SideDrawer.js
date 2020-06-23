@@ -84,10 +84,6 @@ const sideDrawer = props => {
             <li>
                 {programsButton}    
             </li>
-            
-            <li>
-                <Link to="nutrition">Nutrition</Link>
-            </li>
             <li>
                 {nutritionButton}
             </li>
