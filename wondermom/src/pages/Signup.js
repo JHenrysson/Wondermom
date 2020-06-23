@@ -31,7 +31,7 @@ class Signup extends Component {
             this.email,
             this.password
         ).then(() => {
-            window.location.href = '/login';
+            window.location.href = '/wondermom';
         }).catch(error => {
 
         });

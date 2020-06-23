@@ -31,7 +31,7 @@ class Login extends Component {
       this.email,
       this.password
       ).then(() => {
-        window.location.href = '/home';
+        window.location.href = '/wondermom';
       }).catch(error => {
         const validation = { ...this.state.validation };
         validation.form.error = error.message;
