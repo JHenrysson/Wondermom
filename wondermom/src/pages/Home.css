@@ -58,13 +58,15 @@ i {
     background: rgba(192,192,192,0.3);
 }
 
-
+/*size big window*/
 @media (min-width: 1209px) {
     #topjumbotron{
         padding: 250px;
     } 
     
 }
+
+/*size when app/small window*/
 @media (max-width: 700px) {
     #topjumbotron{
         padding: 80px;
