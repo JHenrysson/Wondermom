@@ -100,7 +100,7 @@ validateForm() {
                 Log In
               </Button>
 
-            <Link to="/signup" className="btn btn-block" id="signupButton">Sign up</Link>
+            <Link to="/signup" className="btn btn-block" id="signupButton1">Not a member yet? Sign up here!</Link>
 
           </div>
           <div className="texterror" style={ {marginTop: '15px', textAlign: 'center', color: '#E34234'} }>

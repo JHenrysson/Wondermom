@@ -13,8 +13,8 @@ function Home(props) {
 
      <div id="topjumbotron" className="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
        <div id="textOnTop" className="container text-center">
-         <h1>For Every Mom</h1>
-         <h2>Join now!</h2>
+         <h1>FOR EVERY MOM</h1>
+         <h2 id="join">JOIN NOW!</h2>
          <a href="./signup" id="buttonHome" className="btn btn-lg">Sign up</a>
        </div>
      </div>

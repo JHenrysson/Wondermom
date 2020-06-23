@@ -30,17 +30,17 @@ margin-top: 40px;
     border: #d9ecc7;
 }
 
-#signupButton {
-    background-color: teal;
-    color: #d9ecc7;
-    border: teal;
+#signupButton1 {
+    background-color: none;
+    color: teal;
 }
 
 #loginButton:hover {
     background-color: #c3d4b3;
 }
 
-#signupButton:hover {
-    background-color: #007373;
+#signupButton1:hover {
+    background-color: none;
+    text-decoration: underline;
 }
 
