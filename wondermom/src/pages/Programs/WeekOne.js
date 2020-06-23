@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from "react-router-dom";
 import './WeekOne.css';
-import { Link } from "react-router-dom";
 
 
 function weekOne(props) {
