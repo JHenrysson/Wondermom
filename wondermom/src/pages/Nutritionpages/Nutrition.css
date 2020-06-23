@@ -126,6 +126,9 @@
     .container{
         margin-bottom: initial;
     }
+    #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
+        padding: 200px;
+    } 
     .card-link{
         font-size: 0.5rem;
         padding: 3px 25px;

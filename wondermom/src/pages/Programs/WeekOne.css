@@ -21,6 +21,11 @@ margin-right: 5%;
     font-size: 44px;
 }
 
+@media (min-width: 1209px) {
+    #jumbotronWeekOne{
+        padding: 250px;
+    } 
+}
 
 @media (min-width: 766px){
     #text4{
