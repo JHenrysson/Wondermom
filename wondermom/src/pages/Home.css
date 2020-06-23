@@ -6,6 +6,9 @@ body {
     background-color: #07A3B2;
     color: white;
 }
+#textOnTop{
+    margin-top: 10%;
+}
 
 #topjumbotron {
     background-image: url("/wondermom/images/yoga2.jpg");
