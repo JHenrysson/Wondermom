@@ -10,7 +10,7 @@ body {
 #topjumbotron {
     background-image: url("/wondermom/images/yoga2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 30%;
     background-attachment: fixed;
     position: relative;
     padding: 250px;
