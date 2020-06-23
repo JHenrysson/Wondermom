@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css'
 import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
-  
+import {Link} from "react-router-dom";
+
 function Home(props) {
 
   if (!props.getUser()) {
@@ -15,7 +16,7 @@ function Home(props) {
        <div id="textOnTop" className="container text-center">
          <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="./signup" id="buttonHome" className="btn btn-lg">Sign up</a>
+         <Link to="signup" id="buttonHome" className="btn btn-lg">Sign up</Link>
        </div>
      </div>
 
@@ -28,20 +29,20 @@ function Home(props) {
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-heart fa-2x"></i>
        <h4 className="pt-3">POSTNATAL EXERCISES</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       <p>Our workouts are specifically created for new moms looking to build and strengthen their muscles after birth.
+These gentle exercises are perfect for easing your postnatal body into an exercise routine.
+Following a safe and effective postnatal workout plan will get you on the right track to becoming a happy and healthy new mom.</p>
         </div>
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-lemon fa-2x"></i>
        <h4 class="pt-3">HEALTHY RECIPES</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       <p>We will provide a healthy meal planner and it will help you to maintain your health and fitness. In addition to that this app offers healthy lunch ideas, desserts, easy healthy recipes, breakfast ideas, and many more. 
+         All of our recipes have been tried and tested by home cooks, and our app makes it easy to whip up your favorites wherever you go</p>
         </div>
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-star fa-2x"></i>
        <h4 class="pt-3">PROGRESS BAR</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-         ut aliquip ex ea commodo consequat.</p>
+       <p>Track your progress! The wondermom has a progressbar which will help you to track your progress towards your fitness goals</p>
         </div>
       </div>
     </div>
@@ -64,13 +65,10 @@ function Home(props) {
     <div className="container-fluid bg-white py-5">
       <div className="container">
       <div className="row">
-        <div className="col-md-6 px-5 align-self-center">
+        <div className="col-md-6 px-5 align-self-center about1">
           <h3 className="text-dark font-weight-bold">ABOUT THE APP</h3>
-          <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo
-            
-            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo</p>
+          <p>Wondermom is developed with experts from the fields of sports science, midwifery, physiotherapy and personal training. 
+            We guide you from your first postnatal exercises up to the demanding fitness program.</p>
         </div>
         <div className="col-md-6">
         <img src="./images/phone.jpg" alt="" class="img-fluid"></img>
@@ -88,13 +86,10 @@ function Home(props) {
         <img src="./images/iphone2.jpg" alt="" class="img-fluid"></img>
         </div>
   
-        <div className="col-md-6 order-1 order-md-2 px-5 align-self-center">
+        <div className="col-md-6 order-1 order-md-2 px-5 align-self-center about1">
           <h3 className="text-dark font-weight-bold">ABOUT THE APP</h3>
-          <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo
-            
-            Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
-            dlolo Lorem ipsus dolor lorem ipsis dlolo</p>
+          <p>The wondermom app is packed full of workouts, circuits and daily exercises, we are your personal fitness coach, 
+            always at hand. Targeted exercises will strengthen your pelvic floor and tighten your stomach at the same time and with fun..</p>
         </div>
         </div>
         </div>
@@ -108,7 +103,7 @@ function Home(props) {
   <div className="carusel">
     <div className="container-fluid bg-white text-center pt-5">
 
-      <h2 className="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
+      <h2 className="text-center align-items-center text-dark pt-2">SUCCESS STORIES</h2>
       <p className="lead text-dark">See what other Wondermoms have to say!</p>
 
         <div className="row justify-content-center">
@@ -133,7 +128,7 @@ function Home(props) {
           <div id ="textOnTop" className="container text-center">
             <h1>Welcome!</h1>
             <br />
-            <a href="programs" class="btn btn-lg btn-info">Start Workout!</a>
+            <Link to="programs" class="btn btn-lg btn-info">Start Workout!</Link>
           </div>
         </div>
       </div>

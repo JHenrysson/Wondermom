@@ -133,7 +133,7 @@ class sixWeekProgram extends Component {
                             <div className="row">
                                 <div className="col">
                                     <div className="container pt-5">
-                                        <h1>Choose your next Challenge!</h1>
+                                        <h1>Start your new week!</h1>
 
                                     </div>
                                 </div>
@@ -150,7 +150,9 @@ class sixWeekProgram extends Component {
                                     <div className="card">
                                         <img src={weeks.img} className="card-img-top" alt={weeks.slug}/>
                                         <div className="card-body">
-                                            <Link to="/weekOne" id="button" className="centerButton btn btn-info"
+
+                                            <Link to="weekOne" id="button" className="centerButton btn btn-info"
+                                 
                                                role="button">Start Now</Link>
 
                                             <h4 className="card-title">{weeks.title}</h4>

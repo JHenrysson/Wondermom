@@ -55,11 +55,11 @@
 
 #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
     height: auto;
+    width: auto;
     opacity: .8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
     padding-top: 250px;
     position: relative;
 }
@@ -126,9 +126,6 @@
     .container{
         margin-bottom: initial;
     }
-    #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
-        padding: 200px;
-    } 
     .card-link{
         font-size: 0.5rem;
         padding: 3px 25px;
@@ -141,7 +138,13 @@
 
 @media (min-width: 1209px) {
     #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
-        padding: 250px;
+        padding: 200px;
+    } 
+}
+
+@media (max-width: 700px) {
+    #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
+        padding: 100px;
     } 
 }
 

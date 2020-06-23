@@ -6,7 +6,6 @@
 
 }
 
-
 .card-deck {
     margin-top: 3%;
 }
@@ -60,4 +59,13 @@
     #jumbotronForPrograms{
         padding: 250px;
     } 
+}
+@media (max-width: 700px) {
+    #jumbotronForPrograms{
+        padding: 100px;
+    } 
+    #titleImage{
+        max-width: 50%;
+    }
+
 }
