@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './SixWeekProgram.css';
+import { Link } from "react-router-dom";
 
 const weeks = [
     {
@@ -150,8 +151,8 @@ class sixWeekProgram extends Component {
                                     <div className="card">
                                         <img src={weeks.img} className="card-img-top" alt={weeks.slug}/>
                                         <div className="card-body">
-                                            <a href="./weekOne" id="button" className="centerButton btn btn-info"
-                                               role="button">Start Now</a>
+                                            <Link to="weekOne" id="button" className="centerButton btn btn-info"
+                                               role="button">Start Now</Link>
 
                                             <h4 className="card-title">{weeks.title}</h4>
                                             <p className="card-text"> {weeks.description} </p>

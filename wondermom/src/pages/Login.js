@@ -31,7 +31,7 @@ class Login extends Component {
       this.email,
       this.password
       ).then(() => {
-        window.location.href = '/home';
+        window.location.href = '/wondermom';
       }).catch(error => {
         const validation = { ...this.state.validation };
         validation.form.error = error.message;
@@ -96,9 +96,9 @@ validateForm() {
           </Form.Group>
 
           <div className="text-center">
-              <Button variant="primary btn-block" type="button" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
+              <Link variant="primary btn-block" type="button" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
                 Log In
-              </Button>
+              </Link>
 
             <Link to="/signup" className="btn btn-block" id="signupButton">Sign up</Link>
 
