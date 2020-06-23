@@ -5,13 +5,17 @@ import './WeekOne.css';
 
 function weekOne(props) {
     let currentUser = props.getUser();
+    // reads the data from the database from the logged in or not logged in user
     window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
         let data = field.data();
 
         let days;
-        if (data)
-            days = data.days;
-        else
+        if (data) {
+            if (data.days)
+                days = data.days;
+            else
+                days = 0;
+        } else
             days = 0;
 
         document.getElementById("amount").innerHTML = days > 6 ? 6 : days;

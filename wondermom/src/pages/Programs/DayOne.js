@@ -61,11 +61,12 @@ class dayOne extends Component {
 
     saveDay = (event) => {
         event.preventDefault();
-
+// if the current user exists then use the current users ID else use the ID from firebase used for not logged in user t
+// the getting the data
         let currentUser = this.props.getUser();
         window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
             let data = field.data();
-
+// 68-76 // checking if the user(logged in or not) has any saved data -- checking b.c were using same field for progress bar & weekOne
             if (data) {
                 if (data.days)
                     data.days++;
@@ -73,7 +74,7 @@ class dayOne extends Component {
                     data.days = 1;
             } else
                 data = {days: 1}
-
+// saves the data to firebase and redirects to weekone page
             window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').set(data).then(function () {
                 window.location.href = 'WeekOne';
             });
