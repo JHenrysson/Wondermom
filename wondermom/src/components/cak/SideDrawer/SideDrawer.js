@@ -25,6 +25,51 @@ const sideDrawer = props => {
         authButton = <Link to="login">Login/Sign Up <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
     }
 
+    let programsButton = null;
+
+    if (props.getUser()) {
+        programsButton =
+            <li className="dropdown">
+                <Link to="programs">Programs <i className="fa fa-chevron-down"></i></Link>
+                <div className="subchild">
+                    <li>
+                        <Link to="sixWeekProgram">6 Week program </Link>
+                    </li>
+                    <li>
+                        <Link to="weekOne">Week 1 </Link>
+                    </li>
+                    <li>
+                        <Link to="dayOne">Day 1</Link>
+                    </li>
+                </div>
+            </li>    
+    }
+
+    let nutritionButton = null;
+
+    if (props.getUser()) {
+        nutritionButton = 
+        <li>
+        <li className="dropdown">
+            <Link to="nutrition">Nutrition <i className="fa fa-chevron-down"></i></Link>
+            <div className="subchild">
+                <li>
+                    <Link to="breakfast">Breakfast</Link>
+                </li>
+                <li>
+                    <Link to="lunch">Lunch</Link>
+                </li>
+                <li>
+                    <Link to="dinner">Dinner</Link>
+                </li>
+                <li>
+                    <Link to="snacks">Snacks</Link>
+                </li>
+            </div>
+        </li>
+    </li>
+    }
+
     return (
     <nav className={drawerClasses}>
         <ul>
@@ -37,40 +82,11 @@ const sideDrawer = props => {
             </li>
 
             <li>
-                <Link to="programs">Programs</Link>
-            </li>
-
-            <div className="subchild">
-            <li>
-                
-                <Link to="sixWeekProgram"><b>6 week program</b></Link>
-            </li>
-            <li> 
-                <Link to= "weekone"><b>Week 1</b></Link>
+                {programsButton}    
             </li>
             <li>
-                <Link to="dayOne"><b>Day 1</b></Link>
+                {nutritionButton}
             </li>
-            </div>
-            
-            <li>
-                <Link to="nutrition">Nutrition</Link>
-            </li>
-
-            <div className="subchild">
-            <li>
-                <Link to="breakfast"><b>Breakfast</b></Link>
-            </li>
-            <li>
-                <Link to="lunch"><b>Lunch</b></Link>
-            </li>
-            <li>
-                <Link to="dinner"><b>Dinner</b></Link>
-            </li>
-            <li>
-                <Link to="snacks"><b>Snacks</b></Link>
-            </li>
-            </div>
             <li>
             {authButton}
             </li>
