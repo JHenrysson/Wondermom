@@ -100,8 +100,8 @@ Following a safe and effective postnatal workout plan will get you on the right 
 
   
  
-  <div className="carusel">
-    <div className="container-fluid bg-white text-center pt-5">
+  <div className="carousel">
+    <div className="container-fluid text-center pt-5">
 
       <h2 className="text-center align-items-center text-dark pt-2">SUCCESS STORIES</h2>
       <p className="lead text-dark">See what other Wondermoms have to say!</p>
