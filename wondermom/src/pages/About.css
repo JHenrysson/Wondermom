@@ -49,6 +49,15 @@
     #jumbotronabout{
         padding: 100px;
     } 
+    h2{
+        font-size: 1.5rem;
+    }
+    .blurb h3 {
+        font-size: 1.5rem;
+    }
+    .blurb p{
+        font-size: 0.9rem;
+    }
 }
 
 

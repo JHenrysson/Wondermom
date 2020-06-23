@@ -7,9 +7,9 @@ function About() {
       <>
 
 <div id="jumbotronabout" className="jumbotron jumbotron-fluid px-0">
-                    <div className="container-fluid px-0">
-                    </div>
-                </div>
+    <div className="container-fluid px-0">
+</div>
+    </div>
 
                 <div className="info-panel text-center">
     <div class="container p-5">
