@@ -20,21 +20,6 @@ body {
     margin-top: 200px;
 }
 
-#showcase {
-    background-image: url("/wondermom/images/yoga2.jpg");
-    height: 100vh;
-    position: relative;
-    background: cover no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-
-}
-
-#rubrik1 {
-    margin-bottom: 30px;
-}
-
-
 i {
     margin-left: 0;
 }
@@ -43,7 +28,6 @@ i {
     padding: 20px;
     margin-top: 20px;
 }
-
 
 
 #home-extra {
@@ -124,6 +108,11 @@ i {
  
     }
 
+    #ready{
+        font-size: 50px;
+    }
+
+
 }
 
 @media (max-width: 1120px) {
@@ -172,6 +161,8 @@ i {
         margin-top: -50px;
  
     }
+
+
 }
 
 
@@ -192,19 +183,14 @@ i {
         
     }
 
+    #ready{
+        font-size: 40px;
+    }
+
 
     
     .jumbotron {
         height: 300px;
-    }
-
-    #rubrik1{
-        font-size: 50px;
-        padding-bottom: 30px;
-    }
-
-    #rubrik2{
-        font-size:20px;
     }
 
 
@@ -221,14 +207,10 @@ i {
 
     }
 
-    #rubrik1{
-        font-size: 50px;
-        padding-bottom: 10px;
+    #ready{
+        font-size: 40px;
     }
 
-    #rubrik2{
-        font-size:20px;
-    }
 
 }
 
@@ -243,14 +225,10 @@ i {
 
     }
 
-    #rubrik1{
-        font-size: 50px;
-        padding-bottom: 10px;
+    #ready{
+        font-size: 40px;
     }
 
-    #rubrik2{
-        font-size:20px;
-    }
 
 }
 
@@ -265,13 +243,8 @@ i {
 
     }
 
-    #rubrik1{
-        font-size: 50px;
-        padding-bottom: 10px;
-    }
-
-    #rubrik2{
-        font-size:20px;
+    #ready{
+        font-size: 40px;
     }
 
 }
@@ -287,16 +260,11 @@ i {
         margin-top: -50px;
     }
 
-        #rubrik1{
-            font-size: 50px;
-            padding-bottom: 10px;
-        }
+    #ready{
+        font-size: 40px;
+    }
 
-        #rubrik2{
-            font-size:20px;
-        }
-
-    
+  
 
 }
 
