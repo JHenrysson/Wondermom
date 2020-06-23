@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 import './DayOne.css';
 
 const exercises = [
@@ -117,7 +118,7 @@ class dayOne extends Component {
             }
         </div>
         <br />
-        <a id="completeWorkout" href="#" className="btn btn-lg centerButton card-link justify-content-center btn-lg" onClick={this.saveDay}>Complete workout!</a>
+        <Link to ="" id="completeWorkout" className="btn btn-lg centerButton card-link justify-content-center btn-lg" onClick={this.saveDay}>Complete workout!</Link>
 
 
 

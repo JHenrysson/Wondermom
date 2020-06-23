@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Nutrition.css';
 
 function Nutrition() {
@@ -37,7 +38,7 @@ function Nutrition() {
                         Some info about good and healthy breakfast recipes.
                         The user can click the button to see all the meal recipes
                         </p>
-                        <a href="breakfast" className="centerButton btn btn-info justify-content-center">Show more</a>
+                        <Link to="breakfast" className="centerButton btn btn-info justify-content-center">Show more</Link>
                         </div>
                 </div>
 
@@ -61,7 +62,7 @@ function Nutrition() {
                         <p className="card-text">
                         Some info about good and healthy lunch recipes. The user can click the button to see all the meal recipes
                         </p>
-                        <a href="lunch" className="centerButton btn btn-info justify-content-center">Show more</a>
+                        <Link to="lunch" className="centerButton btn btn-info justify-content-center">Show more</Link>
                     </div>
                 
                 </div>
@@ -86,7 +87,7 @@ function Nutrition() {
                     Some info about good and healthy dinner recipes.
                     The user can click the button to see all the meal recipes
                     </p>
-                    <a href="dinner" className="centerButton btn btn-info justify-content-center">Show more</a>
+                    <Link to="dinner" className="centerButton btn btn-info justify-content-center">Show more</Link>
                     </div>
                 </div>
 
@@ -110,7 +111,7 @@ function Nutrition() {
                         Some info about good and healthy snack recipes.
                         The user can click the button to see all the meal recipes
                         </p>
-                        <a href="snacks" className="centerButton btn btn-info justify-content-center">Show more</a>
+                        <Link to="snacks" className="centerButton btn btn-info justify-content-center">Show more</Link>
                     </div>
                 </div>
             </div>
