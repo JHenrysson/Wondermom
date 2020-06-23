@@ -22,8 +22,8 @@ function Home(props) {
    
       
   
-  <section id="services">
-    <div className="container-fluid bg-white p-3">
+  <section id="services" className="bg-white">
+    <div className="container bg-white p-3">
       <div className="row text-center px-5">
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-heart fa-2x"></i>
@@ -52,8 +52,8 @@ function Home(props) {
       <div className="dark-overlay">
         <div className="row">
           <div className="col">
-            <div className="container pt-5">
-              <h1>Are You Ready to Get Started?</h1>
+            <div className="container py-5">
+              <h1 id="ready">Are You Ready to Get Started?</h1>
             </div>
           </div>
         </div>
