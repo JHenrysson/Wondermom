@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css'
 import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
-  
+import {Link} from "react-router-dom";
+
 function Home(props) {
 
   if (!props.getUser()) {
@@ -15,7 +16,7 @@ function Home(props) {
        <div id="textOnTop" className="container text-center">
          <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="./signup" id="buttonHome" className="btn btn-lg">Sign up</a>
+         <Link to="signup" id="buttonHome" className="btn btn-lg">Sign up</Link>
        </div>
      </div>
 
@@ -127,7 +128,7 @@ Following a safe and effective postnatal workout plan will get you on the right 
           <div id ="textOnTop" className="container text-center">
             <h1>Welcome!</h1>
             <br />
-            <a href="programs" class="btn btn-lg btn-info">Start Workout!</a>
+            <Link to="programs" class="btn btn-lg btn-info">Start Workout!</Link>
           </div>
         </div>
       </div>

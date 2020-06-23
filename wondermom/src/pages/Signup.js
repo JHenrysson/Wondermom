@@ -2,6 +2,7 @@ import React from 'react';
 import "./Signup.css"
 import { Component } from 'react'
 import { Form, Button } from 'react-bootstrap';
+import {Link} from "react-router-dom";
 
 class Signup extends Component {
 
@@ -31,7 +32,7 @@ class Signup extends Component {
             this.email,
             this.password
         ).then(() => {
-            window.location.href = '/login';
+            window.location.href = '/wondermom';
         }).catch(error => {
 
         });
@@ -107,9 +108,9 @@ class Signup extends Component {
 
                         <div className="text-center">
 
-                            <Button variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup} >
+                            <Link variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup} >
                             Sign Up
-                            </Button>
+                            </Link>
                         </div>
                     </Form>
                 </div>
