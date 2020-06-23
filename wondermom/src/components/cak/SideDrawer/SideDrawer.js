@@ -15,6 +15,16 @@ const sideDrawer = props => {
         window.auth.signOut();
     }
 
+    console.log("check login", props.getUser());
+
+    let authButton = null;
+
+    if (props.getUser()) {
+        authButton = <Link to ="home" id="logout" onClick={logoutUser}>Logout <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+    } else {
+        authButton = <Link to="login">Login/Sign Up <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+    }
+
     return (
     <nav className={drawerClasses}>
         <ul>
@@ -62,11 +72,7 @@ const sideDrawer = props => {
             </li>
             </div>
             <li>
-                <Link to="login">Login/Sign up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
-            </li>
-
-            <li>
-            <Link to ="home" id="logout" onClick={logoutUser}>Logout <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+            {authButton}
             </li>
         </ul>
     </nav>
