@@ -8,31 +8,43 @@
     font-size: 1rem;
     color: #18a5a7;
     padding: 1px 3px;
-
 }
-#star{
+
+.stars2{
     display: inline-block;
     color:gold;
+    margin-left:0;
     text-align: center;
+    padding: 1px 3px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.stars{
+    display: inline-block;
+    color:gold;
+    margin-left: 1rem;
     padding: 1px 3px;
     text-decoration: none;
     font-size: 1rem;
 }
 .icon-start{
     margin-left: 0;
+    display: inline-block;
 }
 
-ul{
+#iconrecipe{
     margin-bottom: 0rem;
 }
 
-li{
+#icons-card{
+    vertical-align: middle;
     margin-left: 1em;
     line-height: 1em;
     display: inline-block;
     font-family:'Open Sans', sans-serif;
     font-size: 1rem;
 }
+
 .titlecards{
     text-align: left;
     color: black;

@@ -2,6 +2,11 @@ body {
     background-color: #C8D9EB;
 }
 
+#buttonHome {
+    background-color: #07A3B2;
+    color: white;
+}
+
 #topjumbotron {
     background-image: url("/wondermom/images/yoga2.jpg");
     background-size: cover;
@@ -10,6 +15,10 @@ body {
     min-height: 100vh;
     opacity: .9;
 } 
+
+#textOnTop {
+    margin-top: 200px;
+}
 
 #showcase {
     background-image: url("/wondermom/images/yoga2.jpg");

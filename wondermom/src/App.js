@@ -79,8 +79,8 @@ class App extends Component {
       <Router basename="/wondermom">
         <div>
           <div style={{marginTop: '56px'}}>  {/* Added to fix spacing between nav bar */}
-          <Route exact path="/" component = {Home}/>
-          <Route path ="/home" component ={Home}/>
+          <Route exact path="/" render={ () => <Home getUser={ this.getUser } /> }/>
+          <Route path ="/home" render={ () => <Home getUser={ this.getUser } /> }/>
           <Route path ="/nutrition" component ={Nutrition}/>
           <Route path ="/breakfast" component ={Breakfast}/>
           <Route path ="/lunch" component ={Lunch}/>
@@ -88,9 +88,9 @@ class App extends Component {
           <Route path ="/snacks" component ={Snacks}/>
           <Route path ="/about" component ={About}/>
           <Route path ="/programs" component ={Programs}/>
-          <Route path ="/dayOne" component={DayOne}/>
-          <Route path ="/sixWeekProgram" component={SixWeekProgram}/>
-          <Route path ="/weekOne" component={WeekOne}/>
+          <Route path ="/dayOne" render={() => <DayOne getUser={this.getUser} />}/>
+          <Route path ="/sixWeekProgram" render={() => <SixWeekProgram getUser={ this.getUser } /> }/>
+          <Route path ="/weekOne" render={() => <WeekOne getUser={this.getUser} />}/>
           <Route path ="/Login" component={Login}/>
           <Route path ="/Signup" component={Signup}/>
           

@@ -1,29 +1,22 @@
 import React, {Component} from 'react';
 import './WeekOne.css';
 
-class weekOne extends Component {
-    constructor(props) {
-        super(props);
-    }
 
-    componentDidMount() {
-        window.auth.onAuthStateChanged(function(currentUser) {
-            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
-                let data = field.data();
+function weekOne(props) {
+    let currentUser = props.getUser();
+    window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+        let data = field.data();
 
-                let days;
-                if (data)
-                    days = data.days;
-                else
-                    days = 0;
+        let days;
+        if (data)
+            days = data.days;
+        else
+            days = 0;
 
-                document.getElementById("amount").innerHTML = days > 6 ? 6 : days;
-            });
-        });
-    }
+        document.getElementById("amount").innerHTML = days > 6 ? 6 : days;
+    });
 
-    render() {
-        return (
+    return (
             <div>
                 <div id="jumbotronWeekOne" className="jumbotron jumbotron-fluid">
                     <div className="container"></div>
@@ -44,7 +37,7 @@ class weekOne extends Component {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +50,7 @@ class weekOne extends Component {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
                             </div>
                         </div>
                     </div>
@@ -73,7 +66,7 @@ class weekOne extends Component {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +80,7 @@ class weekOne extends Component {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +96,7 @@ class weekOne extends Component {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
                             </div>
                         </div>
                     </div>
@@ -117,14 +110,13 @@ class weekOne extends Component {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Show More</a>
+                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         );
-    }
 }
 
 export default weekOne;

@@ -2,38 +2,32 @@ import React from 'react';
 import './Home.css'
 import BootstrapCarousel from  '../components/carousel/BootstrapCarousel'
   
-function Home() {
+function Home(props) {
+
+  if (!props.getUser()) {
+
+  
     return (
 
-      <>
-{/*
-     <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
-       <div className="container text-center">
+    <>
+
+     <div id="topjumbotron" className="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+       <div id="textOnTop" className="container text-center">
          <h1>For Every Mom</h1>
          <h2>Join now!</h2>
-         <a href="signup" class="btn btn-lg btn-info">Sign up</a>
+         <a href="./signup" id="buttonHome" className="btn btn-lg">Sign up</a>
        </div>
      </div>
-*/}
+
    
-   <section id="showcase" className="d-flex justify-content-center align-items-center">
-     <div className="overlay"></div>
-     <div className="header container text-white text-center">
-     <h1 id="rubrik1" className="display-3 text-weight-bold">FOR EVERY MOM</h1>
-     <h3 id="rubrik2" className="display-5">JOIN NOW!</h3>
-     <a href="signup" class="btn btn-lg btn-info px-5">Sign up</a>
-     </div>
-   </section>
       
   
-  <section id="services text-center">
+  <section id="services">
     <div className="container-fluid bg-white p-3">
-      <div className="container">
-    <h3 className="rubrikservice text-dark font-weight-bold mt-5">TAILORED TO YOU AND YOUR EVERYDAY LIFE</h3>
-      <div className="row text-center">
+      <div className="row text-center px-5">
         <div className="col-md-4 services">
         <li className="list-inline-item"></li><i class="far fa-heart fa-2x"></i>
-       <h4 class="pt-3">POSTNATAL EXERCISES</h4>
+       <h4 className="pt-3">POSTNATAL EXERCISES</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
@@ -50,7 +44,6 @@ function Home() {
          ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-    </div>
     </div>
     </section>
 
@@ -72,7 +65,7 @@ function Home() {
       <div className="container">
       <div className="row">
         <div className="col-md-6 px-5 align-self-center">
-          <h3 class="text-dark font-weight-bold">ABOUT THE APP</h3>
+          <h3 className="text-dark font-weight-bold">ABOUT THE APP</h3>
           <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
             dlolo Lorem ipsus dolor lorem ipsis dlolo
             
@@ -96,7 +89,7 @@ function Home() {
         </div>
   
         <div className="col-md-6 order-1 order-md-2 px-5 align-self-center">
-          <h3 class="text-dark font-weight-bold">ABOUT THE APP</h3>
+          <h3 className="text-dark font-weight-bold">ABOUT THE APP</h3>
           <p>Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis dlolo Lorem ipsus dolor lorem ipsis 
             dlolo Lorem ipsus dolor lorem ipsis dlolo
             
@@ -112,11 +105,11 @@ function Home() {
 
   
  
-  <div className="carousel">
+  <div className="carusel">
     <div className="container-fluid bg-white text-center pt-5">
 
-      <h2 class="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
-      <p class="lead text-dark">See what other Wondermoms have to say!</p>
+      <h2 className="text-center align-items-center text-dark pt-2 ">SUCCESS STORIES</h2>
+      <p className="lead text-dark">See what other Wondermoms have to say!</p>
 
         <div className="row justify-content-center">
        
@@ -128,18 +121,24 @@ function Home() {
        </div>
       </div>
   
-      
-         
-
-
-
-
-      
-
+    
  
    </>
 
     );
+  } else {
+    return (
+      <div>
+        <div id="topjumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+          <div id ="textOnTop" className="container text-center">
+            <h1>Welcome!</h1>
+            <br />
+            <a href="programs" class="btn btn-lg btn-info">Start Workout!</a>
+          </div>
+        </div>
+      </div>
+    )
   }
+}
 
   export default Home;

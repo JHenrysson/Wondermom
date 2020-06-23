@@ -30,8 +30,11 @@ i{
 
 @media (max-width: 768px) {
     #logo {
-
-        max-width: 35%;
-
+        max-width: 40%;
     }
+}
+@media (min-width: 768px) {
+    #logo{
+        max-width: 25%;
+}
 }

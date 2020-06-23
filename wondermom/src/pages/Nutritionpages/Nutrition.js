@@ -23,13 +23,13 @@ function Nutrition() {
 
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Breakfast</h4>
-                        <div class="stars">
+                        <div className="stars2">
                                         <li className="icon-start">
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
 
@@ -49,13 +49,13 @@ function Nutrition() {
 
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Lunch</h4>
-                        <div class="stars">
+                        <div className="stars2">
                                         <li className="icon-start">
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
                                         </li>
                                     </div>
                         <p className="card-text">
@@ -73,13 +73,13 @@ function Nutrition() {
 
                     <div className="card-body text-center">
                     <h4 className="card-title text-center">Dinner</h4>
-                    <div class="stars">
+                    <div className="stars2">
                                         <li className="icon-start">
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
-                                            <i id="star" class="fa fa-star-o m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
+                                            <i id="star" className="fa fa-star-o m-0"></i>
                                         </li>
                                     </div>
                     <p className="card-text">
@@ -97,13 +97,13 @@ function Nutrition() {
 
                         <div className="card-body text-center">
                         <h4 className="card-title text-center">Snacks</h4>
-                        <div class="stars">
+                        <div className="stars2">
                                         <li className="icon-start">
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
-                                            <i id="star" class="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
+                                            <i id="star" className="fa fa-star m-0"></i>
                                         </li>
                                     </div>
                         <p className="card-text">
