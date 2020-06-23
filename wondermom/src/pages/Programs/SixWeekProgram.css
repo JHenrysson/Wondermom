@@ -106,16 +106,6 @@ input[type="checkbox"] {
     z-index: 2;
 
 }
-
-@media (max-width: 768px) {
-    .progressHeadline {
-        max-width: 60%;
-    }
-    h1{
-        margin-top: 5%;
-        font-size: 30px;
-    }
-}
 @media (min-width: 768px) {
     .progressHeadline{
         max-width: 40%;
@@ -135,5 +125,17 @@ input[type="checkbox"] {
     }
     .progressHeadline{
         max-width: 40%;
+    }
+}
+@media (max-width: 700px) {
+    #jumbotronSixWeek{
+        padding: 100px;
+    } 
+    .progressHeadline {
+        max-width: 60%;
+    }
+    h1{
+        margin-top: 4%;
+        font-size: 2rem;
     }
 }
