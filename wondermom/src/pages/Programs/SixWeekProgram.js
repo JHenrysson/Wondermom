@@ -133,7 +133,7 @@ class sixWeekProgram extends Component {
                             <div className="row">
                                 <div className="col">
                                     <div className="container pt-5">
-                                        <h1>Choose your next Challenge!</h1>
+                                        <h1>Start your new week!</h1>
 
                                     </div>
                                 </div>
