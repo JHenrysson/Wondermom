@@ -11,6 +11,10 @@ const sideDrawer = props => {
         drawerClasses= 'side-drawer open';
     }
 
+    function logoutUser() {
+        window.auth.signOut();
+    }
+
     return (
     <nav className={drawerClasses}>
         <ul>
@@ -61,6 +65,9 @@ const sideDrawer = props => {
                 <Link to="login">Login/Sign up<i className="fa fa-sign-in" aria-hidden="true"></i></Link>
             </li>
 
+            <li>
+            <Link to ="home" id="logout" onClick={logoutUser}>Logout <i className="fa fa-sign-in" aria-hidden="true"></i></Link>
+            </li>
         </ul>
     </nav>
     
