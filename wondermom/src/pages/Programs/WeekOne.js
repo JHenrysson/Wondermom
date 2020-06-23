@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 import './WeekOne.css';
 
 
@@ -37,7 +38,7 @@ function weekOne(props) {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
+                                <Link to="/dayOne" className="centerButton btn btn-info" role="button">Begin Workout</Link>
                             </div>
                         </div>
                     </div>
@@ -50,7 +51,7 @@ function weekOne(props) {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
+                                <Link to="/dayOne" className="centerButton btn btn-info" role="button">Begin Workout</Link>
                             </div>
                         </div>
                     </div>
@@ -66,7 +67,7 @@ function weekOne(props) {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
+                                <Link to="/dayOne" className="centerButton btn btn-info" role="button">Begin Workout</Link>
                             </div>
                         </div>
                     </div>
@@ -80,8 +81,10 @@ function weekOne(props) {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
-                            </div>
+                <Link to="/dayOne" className="centerButton btn btn-info" role="button">Begin Workout</Link>
+
+                              
+            </div>
                         </div>
                     </div>
                 </div>
@@ -96,7 +99,7 @@ function weekOne(props) {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
+                                <Link to="/dayOne" className="centerButton btn btn-info" role="button">Begin Workout</Link>
                             </div>
                         </div>
                     </div>
@@ -110,7 +113,7 @@ function weekOne(props) {
                                     different daily workout plans. There will be a summary explaining the workout plan
                                     and its areas of focus.
                                     The user can click the button to see that day's workout. </p>
-                                <a href="./dayOne" className="centerButton btn btn-info" role="button">Begin Workout</a>
+                                <Link to="/dayOne" className="centerButton btn btn-info" role="button">Begin Workout</Link>
                             </div>
                         </div>
                     </div>

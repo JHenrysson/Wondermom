@@ -163,7 +163,7 @@ function Lunch() {
                             <img src="images/lh3.jpg" alt="Breakfast"/>
                             </div>
                             <h3 className="titlecards">Recipe</h3>
-                            <ul className="list-unstyled list-inline text-left">
+                            <ul id ="iconrecipe" className="list-unstyled list-inline text-left">
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-users m-0"></span><span>Serves 2</span></li>
                                 <li id="icons-card"><span id="iconnutrition" className="fa fa-clock m-0"></span><span>45 Mins</span></li>
                                 </ul>

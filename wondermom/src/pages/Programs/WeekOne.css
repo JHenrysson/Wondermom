@@ -8,8 +8,8 @@ margin-right: 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
-    width: 100%;
+    height: auto;
+    width: auto;
     padding-top: 250px;
     position: relative;
 }
@@ -21,8 +21,15 @@ margin-right: 5%;
     font-size: 44px;
 }
 
-
-@media (min-width: 766px){
+@media (min-width: 1209px) {
+    #jumbotronWeekOne{
+        padding: 250px;
+    } 
+}
+@media (max-width: 700px) {
+    #jumbotronWeekOne{
+        padding: 100px;
+    } 
     #text4{
         font-size: 44px;
     }

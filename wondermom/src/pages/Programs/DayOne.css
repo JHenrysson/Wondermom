@@ -30,8 +30,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
-    width: 100%;
+    height: auto;
+    width: auto;
     padding-top: 250px;
     position: relative;
     margin-bottom: 40px;
@@ -135,3 +135,14 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+  @media (min-width: 1209px) {
+    #jumbotronDayOne{
+        padding: 250px;
+    } 
+}
+@media (max-width: 700px) {
+  #jumbotronDayOne{
+      padding: 100px;
+  } 
+}
+  

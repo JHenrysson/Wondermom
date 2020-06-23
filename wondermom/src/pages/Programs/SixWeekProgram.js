@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 import './SixWeekProgram.css';
 
 const weeks = [
@@ -97,7 +98,6 @@ class sixWeekProgram extends Component {
                         document.checkboxes[i].checked = databaseStatus[i];
                     }
                 }
-
                 document.countChecked();
             });
     }
@@ -133,7 +133,7 @@ class sixWeekProgram extends Component {
                             <div className="row">
                                 <div className="col">
                                     <div className="container pt-5">
-                                        <h1>Choose your next Challenge!</h1>
+                                        <h1>Start your new week!</h1>
 
                                     </div>
                                 </div>
@@ -150,8 +150,10 @@ class sixWeekProgram extends Component {
                                     <div className="card">
                                         <img src={weeks.img} className="card-img-top" alt={weeks.slug}/>
                                         <div className="card-body">
-                                            <a href="./weekOne" id="button" className="centerButton btn btn-info"
-                                               role="button">Start Now</a>
+
+                                            <Link to="weekOne" id="button" className="centerButton btn btn-info"
+                                 
+                                               role="button">Start Now</Link>
 
                                             <h4 className="card-title">{weeks.title}</h4>
                                             <p className="card-text"> {weeks.description} </p>

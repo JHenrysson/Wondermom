@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Login.css"
 import { Component } from 'react'
-import { Form, Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import {Link} from "react-router-dom";
 
 class Login extends Component {  
@@ -31,7 +31,7 @@ class Login extends Component {
       this.email,
       this.password
       ).then(() => {
-        window.location.href = '/home';
+        window.location.href = '/wondermom';
       }).catch(error => {
         const validation = { ...this.state.validation };
         validation.form.error = error.message;
@@ -96,9 +96,9 @@ validateForm() {
           </Form.Group>
 
           <div className="text-center">
-              <Button variant="primary btn-block" type="button" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
+              <Link className="primary btn-block" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
                 Log In
-              </Button>
+              </Link>
 
             <Link to="/signup" className="btn btn-block" id="signupButton1">Not a member yet? Sign up here!</Link>
 
