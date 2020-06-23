@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Nutrition.css';
+import { Link } from "react-router-dom";
 
 function Nutrition() {
     return (     
