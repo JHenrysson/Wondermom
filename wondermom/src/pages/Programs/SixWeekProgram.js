@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 import './SixWeekProgram.css';
 
 const weeks = [
@@ -63,8 +64,8 @@ class sixWeekProgram extends Component {
             databaseStatus.push(this.checkboxes[i].checked);
         }
 
-        let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
-            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+        let currentUser = this.props.getUser();
+        window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
                 let data = field.data();
 
                 if (data)
@@ -72,9 +73,8 @@ class sixWeekProgram extends Component {
                 else
                     data = {weeks: databaseStatus}
 
-                window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').set(data);
+                window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').set(data);
             });
-        });
 
         this.countChecked();
     }
@@ -88,8 +88,8 @@ class sixWeekProgram extends Component {
     }
 
     getCheckboxStatus = (document) => {
-        let currentUser = window.auth.onAuthStateChanged(function(currentUser) {
-            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+        let currentUser = this.props.getUser();
+        window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
                 let data = field.data();
 
                 if (data) {
@@ -98,20 +98,18 @@ class sixWeekProgram extends Component {
                         document.checkboxes[i].checked = databaseStatus[i];
                     }
                 }
-
                 document.countChecked();
             });
-        });
     }
 
     componentDidMount() {
         this.progressIndicator = document.querySelector('.progress-indicator');
         this.checkboxes = document.querySelectorAll("input[type='checkbox']");
-
-        this.getCheckboxStatus(this);
     }
 
     render() {
+        this.getCheckboxStatus(this);
+
         return (
             <div>
                 <div id="jumbotronSixWeek" className="jumbotron jumbotron-fluid">
@@ -152,8 +150,8 @@ class sixWeekProgram extends Component {
                                     <div className="card">
                                         <img src={weeks.img} className="card-img-top" alt={weeks.slug}/>
                                         <div className="card-body">
-                                            <a href="./weekOne" id="button" className="centerButton btn btn-info"
-                                               role="button">Start Now</a>
+                                            <Link to="/weekOne" id="button" className="centerButton btn btn-info"
+                                               role="button">Start Now</Link>
 
                                             <h4 className="card-title">{weeks.title}</h4>
                                             <p className="card-text"> {weeks.description} </p>

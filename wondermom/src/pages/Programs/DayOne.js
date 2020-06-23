@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 import './DayOne.css';
 
 const exercises = [
@@ -58,20 +59,23 @@ class dayOne extends Component {
         super(props);
     }
 
-    saveDay = () => {
-        window.auth.onAuthStateChanged(function(currentUser) {
-            window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
-                let data = field.data();
+    saveDay = (event) => {
+        event.preventDefault();
 
-                if (data) {
-                    if (data.days)
-                        data.days++;
-                    else
-                        data.days = 1;
-                } else
-                    data = {days: 1}
+        let currentUser = this.props.getUser();
+        window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').get().then(function (field) {
+            let data = field.data();
 
-                window.db.collection("progress").doc(currentUser ? '' + currentUser.uid : 'YY96Loo6X6SNZx5tvq1x').set(data);
+            if (data) {
+                if (data.days)
+                    data.days++;
+                else
+                    data.days = 1;
+            } else
+                data = {days: 1}
+
+            window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').set(data).then(function () {
+                window.location.href = 'WeekOne';
             });
         });
     }
@@ -114,7 +118,7 @@ class dayOne extends Component {
             }
         </div>
         <br />
-        <a id="completeWorkout" href="WeekOne" className="btn btn-lg centerButton card-link justify-content-center btn-lg" onClick={this.saveDay()}>Complete workout!</a>
+        <Link to ="" id="completeWorkout" className="btn btn-lg centerButton card-link justify-content-center btn-lg" onClick={this.saveDay}>Complete workout!</Link>
 
 
 

@@ -24,7 +24,7 @@ const footer = props => (
             </li>
             <li className="list-inline-item">
                 <h5>
-                    <Link to="program">Program</Link>
+                    <Link to="programs">Program</Link>
                 </h5>
             </li>
             <li className="list-inline-item">
