@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Signup.css"
 import { Component } from 'react'
-import { Form, Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import {Link} from "react-router-dom";
 
 class Signup extends Component {
@@ -108,7 +108,7 @@ class Signup extends Component {
 
                         <div className="text-center">
 
-                            <Link variant="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup} >
+                            <Link className="primary btn-block" type="button" id="signupButton" disabled={this.state.validation.form.disabled} onClick={this.signup} >
                             Sign Up
                             </Link>
                         </div>

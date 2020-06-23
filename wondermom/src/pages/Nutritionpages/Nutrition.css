@@ -9,7 +9,7 @@
     color: #18a5a7;
     padding: 1px 3px;
 }
-
+/**/
 .stars2{
     display: inline-block;
     color:gold;
@@ -117,7 +117,7 @@
     font-family:'Open Sans', sans-serif;
 }
 
-
+/*cards columns so it is 4 in big window*/
 .card-columns {
     column-count: 4;
 }
@@ -135,13 +135,13 @@
 
     }
 }
-
+/*size when big window*/
 @media (min-width: 1209px) {
     #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
         padding: 200px;
     } 
 }
-
+/*size when app/small window*/
 @media (max-width: 700px) {
     #img-jumbo-nutrition,#img-jumbo-breakfast,#img-jumbo-lunch, #img-jumbo-dinner, #img-jumbo-snacks{
         padding: 100px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Login.css"
 import { Component } from 'react'
-import { Form, Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import {Link} from "react-router-dom";
 
 class Login extends Component {  
@@ -96,7 +96,7 @@ validateForm() {
           </Form.Group>
 
           <div className="text-center">
-              <Link variant="primary btn-block" type="button" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
+              <Link className="primary btn-block" id="loginButton" disabled={this.state.validation.form.disabled} onClick={this.login}>
                 Log In
               </Link>
 
