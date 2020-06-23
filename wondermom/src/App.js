@@ -100,7 +100,7 @@ class App extends Component {
 
             <div style={{height: '100%'}}>
             <Toolbar getUser={ this.getUser } drawerClickHandler ={this.drawerToogleClickHandler}/>
-              <SideDrawer show={this.state.sideDrawerOpen}/>
+              <SideDrawer getUser={ this.getUser } show={this.state.sideDrawerOpen}/>
               {backdrop}
                 <main style={{marginTop: '64px'}}>
                 </main>
