@@ -29,15 +29,6 @@ i {
     margin-top: 20px;
 }
 
-.about1 p {
-    font-size: 18px;
-   
-}
-
-.about1 h3 {
-    font-size: 35px;
-    padding-bottom: 10px;
-}
 
 #home-extra {
     position: relative;
@@ -121,13 +112,6 @@ i {
         font-size: 50px;
     }
 
-    .about1 h3 {
-        font-size: 30px;
-        padding-bottom: 5px;
-    
-    }
-
-
 
 }
 
@@ -141,13 +125,6 @@ i {
         margin-top: -50px;
  
     }
-
-    .about1 h3 {
-        font-size: 25px;
-        padding-bottom: 5px;
-    
-    }
-
 }
 
 @media (max-width: 1000px) {
@@ -160,13 +137,6 @@ i {
         margin-top: -50px;
  
     }
-
-    .about1 h3 {
-        font-size: 25px;
-        padding-bottom: 5px;
-    
-    }
-
 }
 
 @media (max-width: 890px) {
@@ -179,13 +149,6 @@ i {
         margin-top: -50px;
  
     }
-
-    .about1 h3 {
-        font-size: 25px;
-        padding-bottom: 5px;
-    
-    }
-
 }
 
 @media (max-width: 820px) {
@@ -198,13 +161,6 @@ i {
         margin-top: -50px;
  
     }
-
-    .about1 h3 {
-        font-size: 25px;
-        padding-bottom: 5px;
-    
-    }
-
 
 
 }
@@ -221,10 +177,10 @@ i {
         margin-top: -50px; 
     }
 
-    .about1 h3 {
-        font-size: 25px;
-        padding-bottom: 5px;
-    
+    #showcase {
+        min-height: 300px;
+     
+        
     }
 
     #ready{
