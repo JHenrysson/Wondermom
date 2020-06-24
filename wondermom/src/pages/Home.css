@@ -13,7 +13,7 @@ body {
 #topjumbotron {
     background-image: url("/wondermom/images/yoga2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 30%;
     background-attachment: fixed;
     position: relative;
     padding: 250px;
@@ -32,15 +32,6 @@ i {
     margin-top: 20px;
 }
 
-.about1 p {
-    font-size: 18px;
-   
-}
-
-.about1 h3 {
-    font-size: 35px;
-    padding-bottom: 10px;
-}
 
 #home-extra {
     position: relative;
