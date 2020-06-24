@@ -74,9 +74,9 @@ class dayOne extends Component {
                     data.days = 1;
             } else
                 data = {days: 1}
-// saves the data to firebase and redirects to weekone page
+// saves the data to firebase
             window.db.collection("progress").doc(currentUser ? '' + currentUser : 'YY96Loo6X6SNZx5tvq1x').set(data).then(function () {
-                window.location.href = 'WeekOne';
+                this.props.history.push('weekOne');
             });
         });
     }
